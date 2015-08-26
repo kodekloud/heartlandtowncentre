@@ -37,59 +37,5 @@
     </head>
     <body>
         {{yield}}
-        
-        
-        
-        
-       <div class="line_break">&nbsp;</div>
-<!--Bottom Nav Dynamic-->
-<div class="bottom_nav hidden-phone">
-	<div class="container-fluid trim_screen">
-		<div class="row-fluid" align="left">
-			{% for menu_item in site.menu_items_array %}			            
-                <div class="span2">
-                    <table>
-                        <tr>
-							<td align="left" class="bottom_nav_header">
-                            {% if menu_item["sub_menu_items"] and menu_item["sub_menu_items"].size > 0 %}
-								{{ menu_item["title_code"] }}
-                            {% else %}
-                            <a href="{{menu_item['url']}}">{{menu_item["title_code"]}}</a>                                
-                            {% endif %}
-							</td>
-						</tr>
-						{% for sub_menu_item in menu_item["sub_menu_items"] %}
-							<tr>
-								<td align="left" class="bottom_nav_list">
-									<a href='{{sub_menu_item["url"] }}' target='{{sub_menu_item["target"] }}'>{{sub_menu_item["title_code"]}}</a>
-								</td>
-							</tr>
-						{%endfor%}
-					</table>
-				</div>					
-            {%endfor%}
-		</div>
-	</div>
-</div>    
-<!--Footer -->
-<div class="footer hidden-phone">
-	<div class="container-fluid trim_screen">
-		<div class="row-fluid">
-		  	<div class="span12">
-              <p class="footer_text">
-              &copy; 2013 Oakville Place All rights reserved | <a href="/pages/oakville-privacy-policy">Privacy Policy</a> | <a href="http://www.riocan.com/ ">RIOCAN</a> | Powered by <a href="http://www.mobilefringe.com/">Mobile Fringe</a> 
-              </p>
-            </div>				
-		</div>
-	</div>
-</div>
-<div class="footer visible-phone" style="padding-top: 10px;">
-	<div class="container-fluid trim_screen">
-	    <center class="row-fluid">
-            &copy; 2013 Oakville Place All rights reserved | <a href="/pages/oakville-privacy-policy">Privacy Policy</a> | <a href="http://www.riocan.com/ ">RIOCAN</a> | Powered by <a href="http://www.mobilefringe.com/">Mobile Fringe</a> 
-        </center>
-	</div>
-</div>
-
     </body>
 </html>
