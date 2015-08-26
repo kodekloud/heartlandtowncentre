@@ -37,5 +37,27 @@
     </head>
     <body>
         {{yield}}
+        
+        
+        
+        
+        <div class="footer hidden-phone">
+        	<div class="container-fluid trim_screen">
+        		<div class="row-fluid">
+        		  	<div class="span12">
+                      <p class="footer_text">
+                      &copy; 2013 Oakville Place All rights reserved | <a href="/pages/oakville-privacy-policy">Privacy Policy</a> | <a href="http://www.riocan.com/ ">RIOCAN</a> | Powered by <a href="http://www.mobilefringe.com/">Mobile Fringe</a> 
+                      </p>
+                    </div>				
+        		</div>
+        	</div>
+        </div>
+        <div class="footer visible-phone" style="padding-top: 10px;">
+        	<div class="container-fluid trim_screen">
+        	    <center class="row-fluid">
+                    &copy; 2013 Oakville Place All rights reserved | <a href="/pages/oakville-privacy-policy">Privacy Policy</a> | <a href="http://www.riocan.com/ ">RIOCAN</a> | Powered by <a href="http://www.mobilefringe.com/">Mobile Fringe</a> 
+                </center>
+        	</div>
+        </div>
     </body>
 </html>
