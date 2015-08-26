@@ -9,7 +9,8 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/flexslider.css" rel="stylesheet">
         <link rel="stylesheet" href="/application.css">
-        
+          <link href="http://cdn.mallmaverick.com/assets/application-924aed308e27243c3199ff5e5981462f.css" media="all" rel="stylesheet" type="text/css" />
+  <script src="http://cdn.mallmaverick.com/assets/application-7d60ebdd7939bc0d257ee0f3cef9b384.js" type="text/javascript"></script>
         <!-- js -->
         <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.2/jquery.xdomainrequest.min.js"></script>
