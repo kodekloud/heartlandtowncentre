@@ -30,7 +30,7 @@
 	  	<div class="container-fluid trim_screen">              
 		  	<div class="row-fluid" id="site_nav">  
                 <a id="centre_logo" href="/">
-                    <img src="{{site.logo_image_path}}" style="max-width:95%" />
+                    <img src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/9432bbb10a171c3a4e82f955b1996b68/logo.png" style="max-width:95%" />
                 </a>
                 <ul class="span8">
 		  	    {% for menu_item in site.menu_items_array  %}                 
