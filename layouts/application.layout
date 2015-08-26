@@ -21,7 +21,7 @@
             </ul>
         </li>
         <a id="mobile_logo" href="/">
-            <img src="{{site.logo_image_path}}" />
+            <img src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/9432bbb10a171c3a4e82f955b1996b68/logo.png" />
         </a>
     </div>
     <!-- iphone header END -->
