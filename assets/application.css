@@ -39,7 +39,7 @@ p, ol, ul, td{
     font-size: 12pt;
 }
 
-.trim_screen {
+.trim_screen, page_content {
     margin-right: auto;
     margin-left: auto;
     max-width: 960px;
@@ -107,6 +107,8 @@ p, ol, ul, td{
     min-width:120px;
     cursor:pointer;
 }
+
+
 
 .right_block{
     width:218px;
