@@ -129,7 +129,7 @@ p, ol, ul, td{
     right:0;
 }
 .hidden_search{
-    /*display:none;*/
+    display:none;
     width:312.625px;
     background:#2E2E2E;
     padding-left:15px
