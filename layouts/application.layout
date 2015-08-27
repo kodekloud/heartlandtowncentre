@@ -291,7 +291,7 @@
             var propertyDetails = getPropertyDetails();
             renderPageData("#logo_container", "#header_template", propertyDetails, "property")
             
-            var featureList = getFeatureList().reverse();
+            var featureList = getFeatureList();
             renderPageData("#right_block_container", "#right_block_template", featureList, "right_block")
         }
         loadMallDataCached(renderAll);  
