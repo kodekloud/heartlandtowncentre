@@ -156,6 +156,7 @@ p, ol, ul, td{
     border:none;
     color:white;
     display:inline-block;
+    vertical-align:middle;
 }
 
 .news_btn{
