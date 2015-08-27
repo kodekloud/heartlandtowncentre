@@ -1,7 +1,26 @@
 /*Created 2015-08-26  by Andy*/
 
-    function show_results(id){
     
+    function load_slider(slider){
+        $('.'+slider).flexslider({
+            animation: "slide",
+            controlNav: false,
+            directionNav: true,    
+            animationLoop: true,
+            slideshow: true,
+            minItems: 3,
+            maxItems: 3,
+            prevText: "",
+            nextText: ""
+        });
+    }
+    
+    
+    
+    
+    
+    function show_results(id){
+        call
         if ( $("#"+id+"_results").is(":visible")){
             $("#"+id+"_results").slideUp();
             $("#"+id+"_arrow").removeClass("fa-chevron-down", 1000);
