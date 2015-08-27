@@ -109,7 +109,17 @@
                             <input type='text' placeholder='Type here to search'/>
                             <button>X</button>
                         </div>
-                        
+                        <div class="visible_icons">
+                            <button class="fb_btn"></button>
+                            <button class="tw_btn"></button>
+                            <button class="search_btn"></button>
+                            <form id="newsletter_form">
+                                <button class="news_btn" type="submit"></button>
+                                <input type="text" placeholder="Enter to Subscribe"/>
+                            </form>
+                            
+                            
+                        </div>
                         
                     </div>
                 
