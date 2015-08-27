@@ -110,7 +110,7 @@
                             <button>X</button>
                         </div>
                         <div class="visible_icons">
-                            <button class="fb_btn"></button>
+                            <button class="fb_btn"><img src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/d176980d290439f71a1d5e812c71b290/fb.png" class="" alt=""></button>
                             <button class="tw_btn"></button>
                             <button class="search_btn"></button>
                             <form id="newsletter_form">
