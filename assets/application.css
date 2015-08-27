@@ -54,14 +54,14 @@ p, ol, ul, td{
     margin-top:15px;
 }
 .desktop_menu{
-    
+    display:inline-block;
 }
 
 .desktop_menu_ul{
     
 }
 .desktop_menu_ul li{
-   
+   display:inline-block;
 }
 
 .desktop_menu_ul li button{
