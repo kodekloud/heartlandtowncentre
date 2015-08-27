@@ -20,7 +20,9 @@
             $.each( item_list , function( key, val ) {
                 var rendered = Mustache.render(template_html,val);
                 if (type == 'right_block'){
-                    console.log(key)
+                    if (key >= 2){
+                        item_rendered.push(rendered);    
+                    }
                 } else {
                     item_rendered.push(rendered);    
                 }
