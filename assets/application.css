@@ -214,10 +214,7 @@ p, ol, ul, td{
     display:inline-block;
     vertical-align:top;
 }
-.bottom_nav_column table td a{
-    height:100%;
-    width:100%;
-}
+
 
 .bottom_nav_column table td{
     color:white;
