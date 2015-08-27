@@ -40,7 +40,7 @@
         <div class='header_container' id='header'>
             <script id="header_template" type="x-tmpl-mustache/text">
                 <div class='trim_screen'>
-                    <img class='store_logo' src='{{site_logo}}'/>
+                    <img class='site_logo' src='{{site_logo}}'/>
                 </div>
             </script>
         </div>
