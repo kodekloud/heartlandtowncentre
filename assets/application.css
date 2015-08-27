@@ -46,6 +46,10 @@ p, ol, ul, td{
     position:relative;
 }
 
+.page_content{
+    padding-top:20px;
+}
+
 #logo_container{
     display:inline-block;
 }
@@ -69,7 +73,7 @@ p, ol, ul, td{
    display:inline-block;
    margin-left:35px;
    list-style:none;
-}
+} 
 
 .desktop_menu_ul li button{
     color: white;
