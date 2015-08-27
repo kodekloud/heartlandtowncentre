@@ -197,11 +197,11 @@ p, ol, ul, td{
     height:35px;
     width:34px;
 }
-.bottom_nav_table th{
+.bottom_nav_column_header{
     font-size:20px;
     font-weight:lighter
 }
-.bottom_nav_table{
+.bottom_nav_column{
     color:white;
     font-size:13px;
 }
