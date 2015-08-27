@@ -182,6 +182,7 @@ p, ol, ul, td{
 }
 .trim_left, .trim_right{
     display:inline-block;
+    font-size:13px;
 }
 .trim_screen a{
     color:white;
