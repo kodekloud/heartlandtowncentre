@@ -98,4 +98,5 @@ p, ol, ul, td{
     list-style:none;
     text-align:center;
     margin:0;
+    padding-left:15px;
 }
