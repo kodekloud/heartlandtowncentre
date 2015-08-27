@@ -91,5 +91,5 @@ p, ol, ul, td{
     color: white;
 }
 .submenu li{
-    
+    list-style:none;
 }
