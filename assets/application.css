@@ -14,3 +14,12 @@ p, ol, ul, td{
 .maven{
     font-family: Maven pro, sans-serif;
 }
+
+.header{
+    height:90px;
+    background:black;
+}
+
+.footer{
+    
+}
