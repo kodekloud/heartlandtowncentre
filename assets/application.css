@@ -113,7 +113,9 @@ p, ol, ul, td{
     cursor:pointer;
 }
 
-
+.right_block img{
+    margin-bottom:15px;
+}
 
 .right_block{
     width:218px;
