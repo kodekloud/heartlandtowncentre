@@ -28,7 +28,11 @@
     }
     
     function toggle_menu(id){
-        console.log(id)
+        if ($("#"+id).is(":visible")){
+            
+        } else {
+            $("#"+id).slideDown();
+        }
     }
    
     
