@@ -141,6 +141,7 @@ p, ol, ul, td{
     width:34px;
     background:#2E2E2E;
     border:none;
+    display:inline-block;
 }
 
 .tw_btn{
