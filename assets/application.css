@@ -181,7 +181,10 @@ p, ol, ul, td{
     
 }
 .trim_left, .trim_right{
-    display:inline-blockl;
+    display:inline-block;
+}
+.trim_screen p {
+    color:#979797;
 }
 
 .news_btn{
