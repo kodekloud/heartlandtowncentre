@@ -114,7 +114,7 @@
                             <button class="tw_btn"><img src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/d176980d290439f71a1d5e812c71b290/twitter.png" class="" alt=""></button>
                             <button class="search_btn"><img src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/d176980d290439f71a1d5e812c71b290/search.png" class="" alt=""></button>
                             <form id="newsletter_form">
-                                <button class="news_btn" type="submit"></button>
+                                <button class="news_btn" type="submit"><img src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/d176980d290439f71a1d5e812c71b290/newsletter.png" class="" alt=""></button>
                                 <input type="text" placeholder="Enter to Subscribe"/>
                             </form>
                         </div>
