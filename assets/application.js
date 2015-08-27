@@ -25,6 +25,10 @@
             $(container).show();
             $(container).html(item_rendered.join(''));
             
-        }
+    }
+    
+    function toggle_menu(id){
+        
+    }
    
     
