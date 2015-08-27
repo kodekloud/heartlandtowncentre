@@ -29,7 +29,7 @@
     
     function toggle_menu(id){
         if ($("#"+id).is(":visible")){
-            
+            $("#"+id).slideUp();
         } else {
             $("#"+id).slideDown();
         }
