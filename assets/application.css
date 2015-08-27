@@ -204,4 +204,8 @@ p, ol, ul, td{
 .bottom_nav_column{
     color:white;
     font-size:13px;
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+    margin-right: 40px;
 }
