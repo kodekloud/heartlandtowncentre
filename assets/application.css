@@ -134,6 +134,11 @@ p, ol, ul, td{
     background:#2E2E2E;
 }
 
+.hidden_search input, .hidden_search button{
+    background:transparent;
+    border:none;
+}
+
 .visible_icons{
     
 }
