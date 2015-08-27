@@ -103,6 +103,16 @@
         <div class='header_container' >
             
                 <div class='trim_screen'>
+                
+                    <div class='top_links'>
+                        <div class='hidden_search'>
+                            <input type='text' placeholder='Type here to search'/>
+                            <button>X</button>
+                        </div>
+                        
+                        
+                    </div>
+                
                     <div id='logo_container'>
                         <script id="header_template" type="x-tmpl-mustache/text">
                             {% raw %}<a href='/home'><img class='site_logo' src='{{site_logo}}'/></a>{% endraw %}
