@@ -40,7 +40,7 @@
     $(document).click(function(event) { 
         if(!$(event.target).closest('.desktop_menu_ul li button').length) {
             if($('.submenu').is(":visible")) {
-                $('.submenu').hide()
+                $('.submenu').slideUp()
             }
         }        
     })
