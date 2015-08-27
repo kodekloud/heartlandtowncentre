@@ -214,13 +214,3 @@ p, ol, ul, td{
     display:inline-block;
     vertical-align:top;
 }
-.bottom_nav_column ul{
-    padding: 0;
-    margin: 0;
-    width: 135px;
-}
-.bottom_nav_column ul li {
-    list-style:none;
-    display:inline;
-    margin-right:80px;
-}
