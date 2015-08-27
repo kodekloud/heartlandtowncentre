@@ -164,7 +164,7 @@
                 </div>
         </div>
         <div class='page_content'>
-            {{yield}} 
+            <div class='main_content'>{{yield}} </div>
             <div class="right_block" id="right_block_container">
                 <script id="right_block_template" type="x-tmpl-mustache/text">
                     {% raw %}
