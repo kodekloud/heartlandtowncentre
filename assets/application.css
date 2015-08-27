@@ -132,6 +132,12 @@ p, ol, ul, td{
     /*display:none;*/
     width:312.625px;
     background:#2E2E2E;
+    padding-left:15px
+    ;
+}
+
+.hidden_search input{
+    width:85%;
 }
 
 .hidden_search input, .hidden_search button{
