@@ -144,11 +144,11 @@ p, ol, ul, td{
 }
 
 .tw_btn{
-    
+    margin-right: -4px;
 }
 
 .search_btn{
-    
+    margin-right: -5px;
 }
 
 #newsletter_form, #newsletter_form input{
