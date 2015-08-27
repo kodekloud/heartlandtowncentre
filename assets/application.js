@@ -31,6 +31,7 @@
         if ($("#"+id).is(":visible")){
             $("#"+id).slideUp();
         } else {
+            $(".submenu").slideUp();
             $("#"+id).slideDown();
         }
     }
