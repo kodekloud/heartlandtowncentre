@@ -37,7 +37,9 @@
     </head>
     <body>
         <div class='header_container'>
-            
+            <div class='trim_screen'>
+                
+            </div>
         </div>
         <div class='page_content'>
             {{yield}}    
