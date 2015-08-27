@@ -180,6 +180,9 @@ p, ol, ul, td{
     display:inline-block;
     
 }
+.trim_left, .trim_right{
+    display:inline-blockl;
+}
 
 .news_btn{
     background:transparent;
