@@ -176,32 +176,11 @@
         </div>
         <div class='bottom_nav'>
             <div class='trim_screen'>
-                <table class="bottom_nav_table">
-                    <tr>
-                        <th>About Us</th>
-                        <th>Location</th>
-                        <th>Explore</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>Heartland Town Centre, one of Canada’s largest and most successful Power Centres offers over 163 stores and services for the ultimate shopping experience.</p>
-                        </td>
-                        <td>
-                            <img src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/d176980d290439f71a1d5e812c71b290/map25 copy.png" class="" alt="">
-                            <p>6075 Mavis Road,<br>Mississauga, ON L5R 4G6</p>
-                        </td>
-                        <td>
-                            <ul>
-                                <li>Directory</li>
-                                <li>Centre Map</li>
-                                <li>Promotions</li>
-                                <li>Location</li>
-                                <li>Leasing</li>
-                                <li>Contact</li>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
+                
+                <div class='bottom_nav_column'>
+                    <p class="bottom_nav_column_header"></p>
+                    <p>Heartland Town Centre, one of Canada’s largest and most successful Power Centres offers over 163 stores and services for the ultimate shopping experience.</p>
+                </div>
             </div>
         </div>    
         <div class='footer_container'>
