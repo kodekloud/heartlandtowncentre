@@ -39,7 +39,7 @@ p, ol, ul, td{
     font-size: 12pt;
 }
 
-.trim_screen, page_content {
+.trim_screen, .page_content {
     margin-right: auto;
     margin-left: auto;
     max-width: 960px;
