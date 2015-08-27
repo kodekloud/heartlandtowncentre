@@ -55,13 +55,13 @@
                                 </ul>
                             </li>
                             <li>
-                                <button>centre map</button>
+                                <button onclick="window.location.href='/map'">centre map</button>
                             </li>
                             <li>
-                                <button>promotions</button>
+                                <button onclick="window.location.href='/promotions'">promotions </button>
                             </li>
                             <li>
-                                <button>location</button>
+                                <button onclick='toggle_menu("loc")'>location</button>
                                 <ul class="submenu" id='loc'>
                                     <li>Gift Cards</li>
                                     <li>services</li>
@@ -70,7 +70,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <button>about us</button>
+                                <button onclick='toggle_menu("about")'>about us</button>
                                 <ul class="submenu" id='about'>
                                     <li>Leasing</li>
                                     <li>Contact Us</li>
