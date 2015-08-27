@@ -71,6 +71,10 @@
                             </li>
                             <li>
                                 <button>about us</button>
+                                <ul class="submenu">
+                                    <li>Leasing</li>
+                                    <li>Contact Us</li>
+                                </ul>
                             </li>
                          
                         </ul>
