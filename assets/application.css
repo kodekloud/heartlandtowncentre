@@ -89,6 +89,7 @@ p, ol, ul, td{
     position: absolute;
     background-color: black;
     color: white;
+    text-transform:uppercase;
 }
 .submenu li{
     list-style:none;
