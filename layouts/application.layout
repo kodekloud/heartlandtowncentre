@@ -36,6 +36,15 @@
         <script src="/application.js"></script>
     </head>
     <body>
-        {{yield}}
+        <div class='header'>
+            
+        </div>
+        <div class='page_content'>
+            {{yield}}    
+        </div>
+            
+        <div class='footer'>
+            
+        </div>
     </body>
 </html>
