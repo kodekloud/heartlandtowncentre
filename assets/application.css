@@ -97,4 +97,6 @@ p, ol, ul, td{
 .submenu li{
     list-style:none;
     text-align:center;
+    margin:0
+    ;
 }
