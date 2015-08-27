@@ -131,6 +131,7 @@ p, ol, ul, td{
 .hidden_search{
     display:none;
     width:312.625px;
+    background:#2E2E2E;
 }
 
 .visible_icons{
