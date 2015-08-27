@@ -204,6 +204,6 @@ p, ol, ul, td{
     font-weight:lighter
 }
 .bottom_nav_table{
-    color:white;
+    color:white !important;
     font-size:13px;
 }
