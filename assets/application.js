@@ -44,7 +44,12 @@
     }
    
    function toggle_search(){
-       
+       if($(".hidden_search").is(":visible")){
+           $(".hidden_search").slideUp();
+           $(".visible_icons").slideDown();
+       } else {
+           
+       }
    }
     
     $(document).click(function(event) { 
