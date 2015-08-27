@@ -43,6 +43,9 @@
         }
     }
    
+   function toggle_search(){
+       
+   }
     
     $(document).click(function(event) { 
         if(!$(event.target).closest('.desktop_menu_ul li button').length) {
