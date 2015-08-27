@@ -71,4 +71,9 @@ p, ol, ul, td{
     font-weight: lighter;
     border:none;
     text-transform:uppercase;
+    padding-left:10px;
+    padding-right:10px;
+    margin:0;
+    text-align:center;
+    font-size:11pt;
 }
