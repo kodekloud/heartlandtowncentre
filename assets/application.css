@@ -64,4 +64,5 @@ p, ol, ul, td{
     background: none;
     height: 52px;
     font-weight: lighter;
+    border:none;
 }
