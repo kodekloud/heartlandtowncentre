@@ -28,7 +28,7 @@
     }
     
     function toggle_menu(id){
-        
+        console.log(id)
     }
    
     
