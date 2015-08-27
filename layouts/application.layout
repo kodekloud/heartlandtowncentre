@@ -62,6 +62,12 @@
                             </li>
                             <li>
                                 <button>location</button>
+                                <ul class="submenu">
+                                    <li>Gift Cards</li>
+                                    <li>services</li>
+                                    <li>shopping hours</li>
+                                    <li>contact us</li>
+                                </ul>
                             </li>
                             <li>
                                 <button>about us</button>
