@@ -140,6 +140,7 @@ p, ol, ul, td{
     height:35px;
     width:34px;
     background:#2E2E2E;
+    border:none;
 }
 
 .tw_btn{
