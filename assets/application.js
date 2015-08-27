@@ -11,6 +11,8 @@
             
             if (type == 'property'){
                 item_list.push(collection);    
+            } else {
+                item_list = collection
             }
                 
             
