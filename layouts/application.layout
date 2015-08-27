@@ -181,6 +181,11 @@
                     <p class="bottom_nav_column_header">About Us</p>
                     <p>Heartland Town Centre, one of Canada’s largest and most successful Power Centres offers over 163 stores and services for the ultimate shopping experience.</p>
                 </div>
+                <div class='bottom_nav_column'>
+                    <p class="bottom_nav_column_header">Location</p>
+                    <img class='bottom_nav_pin' src=''
+                    <p class="bottom_nav_address"></p>
+                </div>
             </div>
         </div>    
         <div class='footer_container'>
