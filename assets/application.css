@@ -214,9 +214,11 @@ p, ol, ul, td{
     display:inline-block;
     vertical-align:top;
 }
-
-..bottom_nav_column table td{
+.bottom_nav_column table{
     color:white;
     font-size:13px;
-    margin-right:80px;
+}
+
+..bottom_nav_column table td{
+    
 }
