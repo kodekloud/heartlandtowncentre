@@ -191,7 +191,7 @@
                     <p class="bottom_nav_column_header">Explore</p>
                     <table>
                         <tr>
-                            <td>Directory</td>
+                            <td><a href='/stores'>Directory</a></td>
                             <td>Location</td>
                         </tr>
                         <tr>
