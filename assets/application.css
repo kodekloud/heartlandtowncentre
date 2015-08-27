@@ -123,3 +123,7 @@ p, ol, ul, td{
     right: 0;
     top: 15px;
 }
+
+.hidden_search{
+    display:none;
+}
