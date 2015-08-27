@@ -117,4 +117,7 @@ p, ol, ul, td{
 
 .right_block{
     width:218px;
+    position: absolute;
+    right: 0;
+    top: 15px;
 }
