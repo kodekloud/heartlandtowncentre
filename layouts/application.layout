@@ -175,7 +175,9 @@
             <div class='main_content'>{{yield}}</div>
         </div>
         <div class='bottom_nav'>
-            
+            <div class='trim_screen'>
+                
+            </div>
         </div>    
         <div class='footer_container'>
             <div class='trim_screen'>
