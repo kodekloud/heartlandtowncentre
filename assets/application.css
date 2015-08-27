@@ -46,7 +46,7 @@ p, ol, ul, td{
     position:relative;
 }
 
-.logo_container{
+#logo_container{
     display:inline-block;
 }
 
