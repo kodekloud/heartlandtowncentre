@@ -107,3 +107,7 @@ p, ol, ul, td{
     min-width:120px;
     cursor:pointer;
 }
+
+.right_block{
+    width:218px;
+}
