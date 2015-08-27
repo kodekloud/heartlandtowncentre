@@ -1,3 +1,16 @@
 /*Created 2015-08-26 by Andy*/
 
 
+body{
+    font-family: Maven Pro, sans-serif;
+    font-size: 12pt;
+    color:black;
+    background-color:white;
+}
+
+p, ol, ul, td{
+    font-family: Maven pro, sans-serif;
+}
+.maven{
+    font-family: Maven pro, sans-serif;
+}
