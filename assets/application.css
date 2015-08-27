@@ -199,7 +199,9 @@ p, ol, ul, td{
     height:35px;
     width:34px;
 }
-
+.bottom_nav_table{
+    font-size:20px;
+}
 .bottom_nav_table{
     color:white;
 }
