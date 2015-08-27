@@ -86,7 +86,9 @@
             {{yield}} 
             <div class="right_block" id="right_block_container">
                 <script id="right_block_template" type="x-tmpl-mustache/text">
-                    {% raw %}{% endraw %}
+                    {% raw %}
+                        <img src='{{image_url}}'/>
+                    {% endraw %}
                 </script>
             </div>
         </div>
