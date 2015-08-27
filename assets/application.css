@@ -105,4 +105,5 @@ p, ol, ul, td{
     padding-right:15px;
     padding-bottom:10px;
     min-width:120px;
+    cursor:pointer;
 }
