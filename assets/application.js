@@ -25,7 +25,7 @@
             
             $(container).show();
             $(container).html(item_rendered.join(''));
-            
+            console.log(item_rendered)
             
         }
    
