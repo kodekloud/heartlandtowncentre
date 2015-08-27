@@ -45,10 +45,18 @@
                             {% raw %}<img class='site_logo' src='{{site_logo}}'/>{% endraw %}
                         </script>
                     </div>
+                    
+                    <div class="desktop_menu">
+                        <ul class="desktop_menu_ul">
+                            <li>directory</li>
+                            <li>centre map</li>
+                            <li>promotions</li>
+                            <li>location</li>
+                            <li>about us</li>
+                        </ul>
+                    </div>
+                    
                 </div>
-            
-            directory
-            centre map
         </div>
         <div class='page_content'>
             {{yield}}    
