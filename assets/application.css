@@ -156,6 +156,8 @@ p, ol, ul, td{
 }
 
 .news_btn{
-    background:transparent
-    ;
+    background:transparent;
+    border:none;
+    height:35px;
+    width:34px;
 }
