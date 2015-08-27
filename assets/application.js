@@ -16,7 +16,7 @@
             
             
             $.each( collection , function( key, val ) {
-                console.log(val)
+                console.log(val.site_logo)
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
             });
