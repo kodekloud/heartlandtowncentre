@@ -29,5 +29,19 @@ p, ol, ul, td{
     height:30px;
 }
 .bottom_nav{
-    
+    border-top: solid;
+    border-top-color: #333333;
+    border-top-width: 1px;
+    min-height: 154px;
+    padding-top: 42px;
+    padding-bottom: 48px;
+    color: #fff;
+    background-color: #151515;
+    font-size: 12pt;
+}
+
+.trim_screen {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
 }
