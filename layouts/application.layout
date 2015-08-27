@@ -50,7 +50,7 @@
                         <ul class="desktop_menu_ul">
                             <li>
                                 <button>directory</button>
-                                <ul class="submenu">
+                                <ul class="submenu" id='dir'>
                                     <li>store directory</li>
                                 </ul>
                             </li>
@@ -62,7 +62,7 @@
                             </li>
                             <li>
                                 <button>location</button>
-                                <ul class="submenu">
+                                <ul class="submenu" id='loc'>
                                     <li>Gift Cards</li>
                                     <li>services</li>
                                     <li>shopping hours</li>
@@ -71,7 +71,7 @@
                             </li>
                             <li>
                                 <button>about us</button>
-                                <ul class="submenu">
+                                <ul class="submenu" id='about'>
                                     <li>Leasing</li>
                                     <li>Contact Us</li>
                                 </ul>
