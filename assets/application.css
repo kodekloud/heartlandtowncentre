@@ -15,11 +15,11 @@ p, ol, ul, td{
     font-family: Maven pro, sans-serif;
 }
 
-.header{
+.header_container{
     height:90px;
     background:black;
 }
 
-.footer{
+.footer_container{
     
 }
