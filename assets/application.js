@@ -10,7 +10,7 @@
             Mustache.parse(template_html);   // optional, speeds up future uses
             
             if (type == 'property'){
-                item_list.push(collection);    
+                // item_list.push(collection);    
             }
                 
             
