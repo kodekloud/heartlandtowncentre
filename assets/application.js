@@ -48,7 +48,8 @@
            $(".hidden_search").slideUp();
            $(".visible_icons").slideDown();
        } else {
-           
+           $(".hidden_search").slideDown();
+           $(".visible_icons").slideUp();
        }
    }
     
