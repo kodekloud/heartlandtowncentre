@@ -103,4 +103,5 @@ p, ol, ul, td{
     padding-left:15px;
     padding-right:15px;
     padding-bottom:10px;
+    min-width:120px;
 }
