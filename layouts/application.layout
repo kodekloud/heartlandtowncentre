@@ -43,6 +43,8 @@
                      {% raw %}<img class='site_logo' src='{{site_logo}}'/>{% endraw %}
                 </div>
             </script>
+            directory
+            centre map
         </div>
         <div class='page_content'>
             {{yield}}    
