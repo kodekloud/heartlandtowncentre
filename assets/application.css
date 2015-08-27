@@ -70,4 +70,5 @@ p, ol, ul, td{
     height: 52px;
     font-weight: lighter;
     border:none;
+    text-transform:uppercase;
 }
