@@ -37,7 +37,7 @@
         <script src="/application.js"></script>
     </head>
     <body>
-        <div class='header_container' id='header'>
+        <div class='header_container' id='header_container'>
             <script id="header_template" type="x-tmpl-mustache/text">
                 <div class='trim_screen'>
                     <img class='site_logo' src='{{site_logo}}'/>
