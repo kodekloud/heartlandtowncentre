@@ -151,7 +151,7 @@ p, ol, ul, td{
     
 }
 
-#newsletter_form{
+#newsletter_form, #newsletter_form input{
     background:#2E2E2E;
 }
 
