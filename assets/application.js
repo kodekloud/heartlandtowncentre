@@ -17,15 +17,7 @@
         
     }
     
-    $('#search_input').keyup(function(e){
-        console.log("ROOLLLLL")
-        showSearchResults();
-    });
-
-    $('#search_input').on('input', function() {
-        console.log("ROOLLLLL")
-        showSearchResults();
-    });
+    
 
 
     function showSearchResults(){
