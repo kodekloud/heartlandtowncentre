@@ -16,15 +16,15 @@
 
 
 <script>
-    $('.flexslider').flexslider({
-            animation: "slide",
-            controlNav: false,
-            directionNav: true,    
-            animationLoop: true,
-            slideshow: true,
-            minItems: 3,
-            maxItems: 3,
-            prevText: "",
-            nextText: ""
-        });
+    
+    $(document).ready(function() {
+        function render_page_details(){
+            var banners = getBanners();
+            renderPageData("#banner_slider_ul", "#banner_slider_template", banners, "banners")
+            load_slider("flexslider");
+        }
+        
+        
+        loadMallData(render_page_details); 
+    })
 </script>
