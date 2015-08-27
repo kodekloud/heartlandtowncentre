@@ -49,7 +49,7 @@
                     <div class="desktop_menu">
                         <ul class="desktop_menu_ul">
                             <li>
-                                <button>directory</button>
+                                <button onclick='toggle_menu("dir")'>directory</button>
                                 <ul class="submenu" id='dir'>
                                     <li>store directory</li>
                                 </ul>
