@@ -58,6 +58,9 @@ p, ol, ul, td{
 }
 
 .desktop_menu_ul{
+    padding:0;
+    position:absolute;
+    right:0;
     
 }
 .desktop_menu_ul li{
