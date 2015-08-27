@@ -1,1 +1,31 @@
-home page content
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+
+<div class="flexslider" id="">
+    <ul class="banner_slider_ul slides" id="banner_slider_ul">
+        <script id="banner_slider_template" type="x-tmpl-mustache/text">
+            <li class="item">
+                <a href="{{url}}">
+                    <img class="banner_slide_img" src="{{image_url}}" alt="banner"/>
+                </a>
+            </li>
+        </script>
+    </ul>
+</div>
+
+
+
+<script>
+    
+    $('.flexslider').flexslider({
+            animation: "slide",
+            controlNav: false,
+            directionNav: true,    
+            animationLoop: true,
+            slideshow: true,
+            minItems: 3,
+            maxItems: 3,
+            prevText: "",
+            nextText: ""
+        });
+</script>
