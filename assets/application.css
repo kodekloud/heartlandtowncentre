@@ -130,6 +130,7 @@ p, ol, ul, td{
 }
 .hidden_search{
     display:none;
+    width:312.625;
 }
 
 .visible_icons{
