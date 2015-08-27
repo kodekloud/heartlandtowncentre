@@ -19,7 +19,12 @@
             
             $.each( item_list , function( key, val ) {
                 var rendered = Mustache.render(template_html,val);
-                item_rendered.push(rendered);
+                if (type == 'right_block'){
+                    console.log(key)
+                } else {
+                    item_rendered.push(rendered);    
+                }
+                
             });
             
             $(container).show();
