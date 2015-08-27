@@ -221,4 +221,6 @@ p, ol, ul, td{
 }
 .bottom_nav_column ul li {
     list-style:none;
+    display:inline;
+    margin-right:80px;
 }
