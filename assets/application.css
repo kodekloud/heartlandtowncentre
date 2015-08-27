@@ -30,7 +30,6 @@ p, ol, ul, td{
 }
 .bottom_nav{
     border-top: solid;
-    border-top-color: #333333;
     border-top-width: 1px;
     min-height: 154px;
     padding-top: 42px;
