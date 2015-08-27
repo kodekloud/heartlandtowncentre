@@ -137,6 +137,7 @@ p, ol, ul, td{
 .hidden_search input, .hidden_search button{
     background:transparent;
     border:none;
+    color:white;
 }
 
 .visible_icons{
