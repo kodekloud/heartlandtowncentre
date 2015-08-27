@@ -46,6 +46,10 @@ p, ol, ul, td{
     position:relative;
 }
 
+.logo_container{
+    display:inline-block;
+}
+
 .site_logo{
     margin-top:15px;
 }
