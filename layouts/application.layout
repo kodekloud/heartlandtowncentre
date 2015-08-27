@@ -294,6 +294,6 @@
             var featureList = getFeatureList().reverse();
             renderPageData("#right_block_container", "#right_block_template", featureList, "right_block")
         }
-        loadMallDataCached(renderAll);  
+        loadMallData(renderAll);  
    })
 </script>
