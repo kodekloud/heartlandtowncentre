@@ -189,14 +189,20 @@
                 
                 <div class='bottom_nav_column'>
                     <p class="bottom_nav_column_header">Explore</p>
-                    <ul>
-                        <li>Directory</li>
-                        <li>Centre Map</li>
-                        <li>Promotions</li>
-                        <li>Location</li>
-                        <li>Leasing</li>
-                        <li>Contact</li>
-                    </ul>
+                    <table>
+                        <tr>
+                            <td>Directory</td>
+                            <td>Location</td>
+                        </tr>
+                        <tr>
+                            <td>Centre Map</td>
+                            <td>Leasing</td>
+                        </tr>
+                        <tr>
+                            <td>Promotions</td>
+                            <td>Contact</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>    
