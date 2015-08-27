@@ -142,6 +142,7 @@ p, ol, ul, td{
     background:#2E2E2E;
     border:none;
     background:url(http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/d176980d290439f71a1d5e812c71b290/fb.png);
+    background-repeat:none;
 }
 
 .tw_btn{
