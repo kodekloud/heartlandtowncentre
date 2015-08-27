@@ -37,3 +37,10 @@
     }
    
     
+    $(document).click(function(event) { 
+        if(!$(event.target).closest('.submenu').length) {
+            if($('.submenu').is(":visible")) {
+                $('.submenu').hide()
+            }
+        }        
+    })
