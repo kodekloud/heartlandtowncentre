@@ -21,7 +21,6 @@
 
 
     function showSearchResults(){
-        console.log("ROOLLLLL")
             $('#search_results').show();
             if($('#search_input').val().length === 0){
                 $('#search_results').hide();
