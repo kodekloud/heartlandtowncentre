@@ -40,7 +40,7 @@
         <div class='header_container' id='header_container'>
             <script id="header_template" type="x-tmpl-mustache/text">
                 <div class='trim_screen'>
-                    <img class='site_logo' src='{{site_logo}}'/>
+                     {% raw %}<img class='site_logo' src='{{site_logo}}'/>{% endraw %}
                 </div>
             </script>
         </div>
