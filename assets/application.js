@@ -1,6 +1,21 @@
 /*Created 2015-08-26  by Andy*/
 
-
+    function show_results(id){
+    
+        if ( $("#"+id+"_results").is(":visible")){
+            $("#"+id+"_results").slideUp();
+            $("#"+id+"_arrow").removeClass("fa-chevron-down", 1000);
+            $("#"+id+"_arrow").addClass("fa-chevron-right", 1000);
+        } else {
+            $(".results_div").slideUp();
+            $(".search_arrow").removeClass("fa-chevron-down", 1000);
+            $(".search_arrow").addClass("fa-chevron-right", 1000);
+            $("#"+id+"_results").slideDown();   
+            $("#"+id+"_arrow").removeClass("fa-chevron-right", 1000);
+            $("#"+id+"_arrow").addClass("fa-chevron-down", 1000);
+        }
+        
+    }
 
     function renderPageData(container, template, collection, type){
             
