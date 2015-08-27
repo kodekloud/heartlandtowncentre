@@ -36,10 +36,12 @@
         <script src="/application.js"></script>
     </head>
     <body>
-        <div class='header_container'>
-            <div class='trim_screen'>
-                
-            </div>
+        <div class='header_container' id='header'>
+            <script id="header_template" type="x-tmpl-mustache/text">
+                <div class='trim_screen'>
+                    
+                </div>
+            </script>
         </div>
         <div class='page_content'>
             {{yield}}    
