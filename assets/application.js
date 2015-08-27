@@ -28,7 +28,7 @@
 
     function showSearchResults(){
             $('#search_results').show();
-            if($('#search_input').val().length == 0){
+            if($('#search_input').val().length === 0){
                 $('#search_results').hide();
             }else{
                 var search_results = getSearchResults($('#search_input').val(),10,100);
