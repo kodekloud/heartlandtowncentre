@@ -57,5 +57,11 @@
 </html>
 
 <script>
-    test_me();
+   $(document).ready(function() {
+        function renderAll(){
+            var propertyDetails = getPropertyDetails();
+            renderPageData("#header", "#header_template", propertyDetails, "property")
+        }
+        loadMallDataCached(renderAll);  
+   })
 </script>
