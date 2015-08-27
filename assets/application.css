@@ -209,3 +209,7 @@ p, ol, ul, td{
     vertical-align: top;
     margin-right: 40px;
 }
+.bottom_nav_address, .bottom_nav_pin{
+    display:inline-block;
+    vertical-align:top;
+}
