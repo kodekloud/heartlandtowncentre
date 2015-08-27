@@ -65,6 +65,7 @@ p, ol, ul, td{
 }
 .desktop_menu_ul li{
    display:inline-block;
+   margin-left:35px;
 }
 
 .desktop_menu_ul li button{
