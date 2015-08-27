@@ -108,6 +108,68 @@
                         <div class='hidden_search'>
                             <input type='text' id='search_input' placeholder='Type here to search'/>
                             <button onclick="toggle_search()">X</button>
+                            
+                            <div class="search-results" id="search_results" style="display:none">
+                                <!-- START MUSTACHE TEMPLATE FOR EVENT ITEM WITH AN IMAGE-->
+                                <script id="search_results_template" type="x-tmpl-mustache/text">{% raw %}
+                                    <small><h4 class="list-group-item search-results-count" id="store_results_header" style="display:none;#4d4d4f:gray;margin-top:2px;font-size:14px" data-i18n="nav.stores" onclick="javascript:show_results('store')"></h4></small>
+                                    <div class="results_div" id="store_results">
+                                        {{#stores}}
+                                        <a href="/stores/{{slug}}" class="list-group-item">
+                                        <div class="result_container">
+                                        <div class="name">{{name}}</div>
+                                        <div class="description">{{description_trim}}</div>
+                                        <div class="phone">{{phone}}</div>
+                                        </div>
+                                        </a>
+                                        {{/stores}}
+                                        </div>
+                                        <h4 class="list-group-item search-results-count" id="promotions_results_header" style="display:none;color:#4d4d4f;margin-top:2px;font-size:14px" data-i18n="nav.promotions" onclick="javascript:show_results('promo')"></h4>
+                                        <div class="results_div" id="promo_results">
+                                        {{#promotions}}
+                                        <a href="/promotions/{{slug}}" class="list-group-item">
+                                        <div class="result_container">
+                                        <div class="name">{{name}}</div>
+                                        <div class="description">{{description_trim}}</div>
+                                        </div>
+                                        </a>
+                                        {{/promotions}}
+                                        </div>
+                                        <h4 class="list-group-item search-results-count" id="events_results_header" style="display:none;color:#4d4d4f;margin-top:2px;font-size:14px" data-i18n="nav.events" onclick="javascript:show_results('event')"></h4>
+                                        <div class="results_div" id="event_results">
+                                        {{#events}}
+                                        <a href="/events/{{slug}}" class="list-group-item">
+                                        <div class="result_container">
+                                        <div class="name">{{name}}</div>
+                                        <div class="description">{{description_trim}}</div>
+                                        </div>
+                                        </a>
+                                        {{/events}}
+                                    </div>
+                                </script>{% endraw %}
+                                
+                                <ul class="list-group" >
+                                
+                                <li>
+                                <a  class="close-search list-group-item" style="color:#4d4d4f;font-weight:bold">
+                                <small>
+                                <span class="search-results-count">{{count}} results found.</span>&nbsp;<span data-i18n="general.results"></span> 
+                                </small>
+                                </a>
+                                </li>
+                                <li>
+                                <div id="search_results_items" class="search-results-items" style="">
+                                <!--RENDERED BY renderSearchResultsTemplate(..) -->
+                                </div>
+                                </li>
+                                </ul>
+                                </div>
+                            
+                            </div>
+                            
+                            
+                            
+                            
                         </div>
                         <div class="visible_icons">
                             <button class="fb_btn"><img src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/d176980d290439f71a1d5e812c71b290/fb.png" class="" alt=""></button>
