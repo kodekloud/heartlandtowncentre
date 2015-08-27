@@ -60,5 +60,8 @@ p, ol, ul, td{
 }
 
 .desktop_menu_ul li button{
-    
+    color: white;
+    background: none;
+    height: 52px;
+    font-weight: lighter;
 }
