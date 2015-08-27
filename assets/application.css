@@ -21,7 +21,11 @@ p, ol, ul, td{
 }
 
 .footer_container{
-    
+    background-color:black; 
+	color:#FFFFFF;
+    padding: 10px 0 5px;
+    position:relative;
+    border:none;
 }
 .bottom_nav{
     
