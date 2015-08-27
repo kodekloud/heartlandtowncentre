@@ -16,6 +16,14 @@
         }
         
     }
+    
+    $('#search_input').keyup(function(e){
+        showSearchResults();
+    });
+
+    $('#search_input').on('input', function() {
+        showSearchResults();
+    });
 
     function renderPageData(container, template, collection, type){
             
