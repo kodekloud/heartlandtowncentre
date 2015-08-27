@@ -184,13 +184,14 @@ p, ol, ul, td{
     display:inline-block;
     font-size:13px;
     margin-top:10px;
+    color:#979797;
 }
 .trim_screen a{
     color:white;
 }
 
 .trim_screen p {
-    color:#979797;
+    
 }
 
 .news_btn{
