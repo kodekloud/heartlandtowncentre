@@ -42,7 +42,9 @@
         <div class='page_content'>
             {{yield}}    
         </div>
+        <div class='bottom_nav'>
             
+        </div>    
         <div class='footer_container'>
             
         </div>
