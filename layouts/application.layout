@@ -50,6 +50,9 @@
                         <ul class="desktop_menu_ul">
                             <li>
                                 <button>directory</button>
+                                <ul class="submenu">
+                                    <li>store directory</li>
+                                </ul>
                             </li>
                             <li>
                                 <button>centre map</button>
