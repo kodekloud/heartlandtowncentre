@@ -177,7 +177,9 @@
             
         </div>    
         <div class='footer_container'>
-            
+            <div class='trim_screen'>
+                &copy; 2015 Heartland Town Centre All rights reserved | <a href="/pages/oakville-privacy-policy">Privacy Policy</a> | <a href="http://www.riocan.com/ ">RIOCAN</a> | Powered by <a href="http://www.mobilefringe.com/">Mobile Fringe</a> 
+            </div>
         </div>
     </body>
 </html>
