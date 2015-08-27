@@ -48,11 +48,22 @@
                     
                     <div class="desktop_menu">
                         <ul class="desktop_menu_ul">
-                            <li>directory</li>
-                            <li>centre map</li>
-                            <li>promotions</li>
-                            <li>location</li>
-                            <li>about us</li>
+                            <li>
+                                <button>directory</button>
+                            </li>
+                            <li>
+                                <button>directory</button>
+                            </li>
+                            <li>
+                                <button>directory</button>
+                            </li>
+                            <li>
+                                <button>directory</button>
+                            </li>
+                            <li>
+                                <button>directory</button>
+                            </li>
+                         
                         </ul>
                     </div>
                     
