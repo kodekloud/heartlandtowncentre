@@ -60,7 +60,7 @@
    $(document).ready(function() {
         function renderAll(){
             var propertyDetails = getPropertyDetails();
-            renderPageData("#header", "#header_template", propertyDetails, "property")
+            renderPageData("#header_container", "#header_template", propertyDetails, "property")
         }
         loadMallDataCached(renderAll);  
    })
