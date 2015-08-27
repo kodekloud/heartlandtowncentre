@@ -40,7 +40,9 @@
         <script src="http://mallmaverick.kodekloud.io/mustache_mallmaverick.js?v=0.3"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-        
+        <!--jReject is used to warn users certain browsers aren't compatible with this site-->
+<script src="//cdn.jsdelivr.net/jquery.jreject/1.0.2/js/jquery.reject.js"></script>
+<link href="//cdn.jsdelivr.net/jquery.jreject/1.0.2/css/jquery.reject.css" rel="stylesheet" type="text/css">
         <script>
             $(document).ready(function() {
                 $.reject({  
