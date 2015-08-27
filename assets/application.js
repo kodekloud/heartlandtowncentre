@@ -84,7 +84,7 @@
             $.each( item_list , function( key, val ) {
                 var rendered = Mustache.render(template_html,val);
                 if (type == 'right_block'){
-                    if (key >= 2){
+                    if (key >= 1){
                         item_rendered.push(rendered);    
                     }
                 } else {
