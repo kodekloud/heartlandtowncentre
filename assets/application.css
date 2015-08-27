@@ -137,7 +137,9 @@ p, ol, ul, td{
 }
 
 .fb_btn{
-    
+    height:35px;
+    width:34px;
+    background:#2E2E2E;
 }
 
 .tw_btn{
