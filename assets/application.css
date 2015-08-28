@@ -402,7 +402,11 @@ p, ol, ul, td{
     }
     
     .mobile_menu_footer_icons button{
-        
+        height: 40px;
+        width: 40px;
+        display: inline-block;
+        background-color: #2E2E2E;
+        border: none;
     }
      
      
