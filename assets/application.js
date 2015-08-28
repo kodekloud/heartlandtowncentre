@@ -142,6 +142,19 @@
         }
     }
    
+   
+   function toggle_mobile_menu(id){
+        console.log(this)
+        if ($("#"+id).is(":visible")){
+            $("#"+id).slideUp();
+        } else {
+            $(".mobile_submenu").slideUp();
+            $("#"+id).slideDown();
+        }
+    }
+   
+   
+   
    function toggle_search(){
        if($(".hidden_search").is(":visible")){
            $(".hidden_search").slideUp();
