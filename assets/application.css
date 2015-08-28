@@ -68,6 +68,7 @@ p, ol, ul, td{
     right:-85px;
     bottom:-38px;
     margin:0;
+    z-index:2;
     
 }
 .desktop_menu_ul li{
