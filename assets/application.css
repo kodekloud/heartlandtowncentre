@@ -19,6 +19,9 @@ h1{
     font-size:33px;
     line-height:39px;
 }
+h2 {
+    margin-top:0;
+}
 .header_container{
     height:90px;
     background:black;
