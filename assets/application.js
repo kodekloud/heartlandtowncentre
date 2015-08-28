@@ -129,7 +129,6 @@
        if($(".hidden_search").is(":visible")){
            $(".hidden_search").slideUp();
            $(".visible_icons").slideDown();
-           $("#search_input").val("")
        } else {
            $(".hidden_search").slideDown();
            $(".visible_icons").slideUp();
