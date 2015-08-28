@@ -3,6 +3,9 @@
     .main_content{
         height:415px;
     }
+    .bottom_block{
+        display:block;
+    }
 </style>
 
 <div class="flexslider" id="">
