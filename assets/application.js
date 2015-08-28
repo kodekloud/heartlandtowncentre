@@ -82,6 +82,11 @@
         $('.close-search').click(function(){
             $('#search_results').hide();
         });
+        
+        
+    function toggle_mobile_menu(){
+        
+    }    
 
 
     function renderPageData(container, template, collection, type){
