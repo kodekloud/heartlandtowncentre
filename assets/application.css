@@ -130,6 +130,7 @@ p, ol, ul, td{
 .top_links{
     position:absolute;
     right:0;
+    z-index:3;
 }
 .hidden_search{
     display:none;
