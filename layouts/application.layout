@@ -104,6 +104,44 @@
             
                 <div class='trim_screen'>
                 
+                
+                 <div class="desktop_menu">
+                        <ul class="desktop_menu_ul">
+                            <li>
+                                <button onclick='toggle_menu("dir")'>directory</button>
+                                <ul class="submenu" id='dir'>
+                                    <li>store directory</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button onclick="window.location.href='/map'">centre map</button>
+                            </li>
+                            <li>
+                                <button onclick="window.location.href='/promotions'">promotions </button>
+                            </li>
+                            <li>
+                                <button onclick='toggle_menu("loc")'>location</button>
+                                <ul class="submenu" id='loc'>
+                                    <li>Gift Cards</li>
+                                    <li>services</li>
+                                    <li>shopping hours</li>
+                                    <li>contact us</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button onclick='toggle_menu("about")'>about us</button>
+                                <ul class="submenu" id='about'>
+                                    <li>Leasing</li>
+                                    <li>Contact Us</li>
+                                </ul>
+                            </li>
+                         
+                        </ul>
+                    </div>
+                
+                
+                
+                
                     <div class='top_links'>
                         <div class='hidden_search'>
                             <input type='text' id='search_input' placeholder='Type here to search'/>
@@ -189,39 +227,7 @@
                         </script>
                     </div>
                     
-                    <div class="desktop_menu">
-                        <ul class="desktop_menu_ul">
-                            <li>
-                                <button onclick='toggle_menu("dir")'>directory</button>
-                                <ul class="submenu" id='dir'>
-                                    <li>store directory</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <button onclick="window.location.href='/map'">centre map</button>
-                            </li>
-                            <li>
-                                <button onclick="window.location.href='/promotions'">promotions </button>
-                            </li>
-                            <li>
-                                <button onclick='toggle_menu("loc")'>location</button>
-                                <ul class="submenu" id='loc'>
-                                    <li>Gift Cards</li>
-                                    <li>services</li>
-                                    <li>shopping hours</li>
-                                    <li>contact us</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <button onclick='toggle_menu("about")'>about us</button>
-                                <ul class="submenu" id='about'>
-                                    <li>Leasing</li>
-                                    <li>Contact Us</li>
-                                </ul>
-                            </li>
-                         
-                        </ul>
-                    </div>
+                   
                     
                 </div>
         </div>
