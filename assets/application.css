@@ -240,6 +240,7 @@ p, ol, ul, td{
 .search-results-count{
     background:transparent;
     border:none;
+    color:white;
 }
 
 
