@@ -147,6 +147,7 @@
        
         if ($("#"+id).is(":visible")){
             $("#"+id).slideUp();
+            $("#"+id+"_icon").removeClass("fa-plus")
         } else {
             $(".mobile_submenu").slideUp();
             $("#"+id).slideDown();
