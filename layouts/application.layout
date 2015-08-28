@@ -303,6 +303,7 @@
             
             var featureList = getFeatureList();
             renderPageData("#right_block_container", "#right_block_template", featureList, "right_block")
+            renderPageData("#bottom_block_container", "#bottom_block_template", featureList, "bottom_block")
         }
         loadMallDataCached(renderAll);  
    })
