@@ -324,6 +324,11 @@ p, ol, ul, td{
         
     }
     
+    .mobile_menu_ul{
+        padding-bottom:20px;
+        border-bottom:1px solid white;
+    }
+    
     .mobile_menu_ul li{
         list-style:none;
         text-transform:uppercase;
