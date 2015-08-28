@@ -331,6 +331,7 @@ p, ol, ul, td{
         margin-left: auto;
         margin-right: auto;
         margin-bottom:15px;
+        display:block;
     }
     
     .right_block img {
