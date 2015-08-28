@@ -151,14 +151,14 @@
                                 <ul class="list-group" >
                                 
                                 <li>
-                                <a  class="close-search list-group-item" style="color:#4d4d4f;font-weight:bold">
+                                <a  class="close-search list-group-item">
                                 <small>
                                 <span class="search-results-count">{{count}} results found.</span>&nbsp;<span data-i18n="general.results"></span> 
                                 </small>
                                 </a>
                                 </li>
                                 <li>
-                                <div id="search_results_items" class="search-results-items" style="">
+                                <div id="search_results_items" class="search-results-items" style=" display:none">
                                 <!--RENDERED BY renderSearchResultsTemplate(..) -->
                                 </div>
                                 </li>
