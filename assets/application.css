@@ -237,7 +237,7 @@ p, ol, ul, td{
     list-style:none;
 }
 
-.search-results-count, .close-search, .search-results-count:hover, .close-search:hover{
+.search-results-count, .close-search, .search-results ul li:hover{
     background:transparent;
     border:none;
     color:white;
