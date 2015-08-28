@@ -250,6 +250,9 @@ p, ol, ul, td{
     font-family: Maven pro, sans-serif !important;
 }
 
+.list-group{
+    padding-bottom:20px;
+}
 
 /*home page css*/
 .flexslider{
