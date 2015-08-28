@@ -20,7 +20,7 @@
     
     
     function show_results(id){
-        call
+        console.log("test")
         if ( $("#"+id+"_results").is(":visible")){
             $("#"+id+"_results").slideUp();
             $("#"+id+"_arrow").removeClass("fa-chevron-down", 1000);
