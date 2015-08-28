@@ -237,7 +237,7 @@ p, ol, ul, td{
 }
 
 .flex-control-paging li a.flex-active{
-    
+    background:lightgrey;
 }
 .flex-control-paging li a {
     height:14px;
