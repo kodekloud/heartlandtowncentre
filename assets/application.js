@@ -85,7 +85,11 @@
         
         
     function toggle_mobile_menu(){
-        alert("hi")
+        if ($(".mobile_menu").is(":visible")){
+            $(".mobile_menu").slideUp();
+        } else {
+            $(".mobile_menu").slideDown();
+        }
     }    
     
     function toggle_mobile_submenu(){
