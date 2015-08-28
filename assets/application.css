@@ -297,7 +297,9 @@ h2 {
     bottom:23px;
 }
 
-
+.scrolloff {
+        pointer-events: none;
+    }
 
 .bottom_block img:first-child{
     margin-right:15px;
