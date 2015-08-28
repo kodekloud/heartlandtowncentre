@@ -312,6 +312,11 @@ p, ol, ul, td{
     .trim_screen, .page_content{
         width:100%;
     }
+    
+    .main_content{
+        width:100%;
+        height:auto;
+    }
      
      
      
