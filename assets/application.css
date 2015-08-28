@@ -463,7 +463,7 @@ h2 {
     .basic_content_box img{
         display:none;
     }
-    .google_map_div{
+    .google_map_div, .basic_content_right{
         width:95%;
         margin-left:auto;
         margin-right:auto;
