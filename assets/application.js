@@ -147,10 +147,13 @@
        
         if ($("#"+id).is(":visible")){
             $("#"+id).slideUp();
-            $("#"+id+"_icon").removeClass("fa-plus")
+            $("#"+id+"_icon").addClass("fa-plus")
+            $("#"+id+"_icon").removeClass("fa-minus")
         } else {
             $(".mobile_submenu").slideUp();
             $("#"+id).slideDown();
+            $("#"+id+"_icon").removeClass("fa-plus")
+            $("#"+id+"_icon").addClass("fa-minus")
         }
     }
    
