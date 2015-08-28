@@ -237,7 +237,7 @@ p, ol, ul, td{
     list-style:none;
 }
 
-.search-results-count{
+.search-results-count, close-search{
     background:transparent;
     border:none;
     color:white;
