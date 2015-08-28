@@ -122,6 +122,7 @@ p, ol, ul, td{
     position: relative;
     right: 0;
     display:inline-block;
+    vertical-align:top;
 }
 
 .top_links{
