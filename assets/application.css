@@ -298,6 +298,9 @@ p, ol, ul, td{
     .visible_icons, .desktop_menu, .bottom_nav{
         display:none;
     }
+    .footer_container{
+        height:auto;
+    }
      
     .trim_screen, .page_content{
         width:100%;
