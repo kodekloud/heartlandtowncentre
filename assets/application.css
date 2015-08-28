@@ -243,7 +243,7 @@ p, ol, ul, td{
     color:white;
 }
 .search-results-count, .close-search, .result_container, .list-group-item, .list-group li:hover{
-    background:transparent;
+    background:transparent !important;
     border:none;
     color:white;
 }
