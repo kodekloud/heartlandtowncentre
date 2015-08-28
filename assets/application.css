@@ -225,6 +225,7 @@ p, ol, ul, td{
 
 .main_content{
     width:76%;
+    display:inline-block;
 }
 
 .search-results ul li{
