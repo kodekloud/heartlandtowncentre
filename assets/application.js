@@ -87,7 +87,10 @@
     function toggle_mobile_menu(){
         alert("hi")
     }    
-
+    
+    function toggle_mobile_submenu(){
+        
+    }
 
     function renderPageData(container, template, collection, type){
             
