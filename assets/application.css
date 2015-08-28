@@ -242,7 +242,7 @@ p, ol, ul, td{
     border:none;
     color:white;
 }
-.search-results-count, .close-search, .search-results ul li:hover{
+.search-results-count, .close-search, .result_container{
     background:transparent;
     border:none;
     color:white;
