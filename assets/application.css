@@ -295,10 +295,9 @@ p, ol, ul, td{
 
 
  @media (max-width: 767px) {
-    .visible_icons{
+    .visible_icons, .desktop_menu{
         display:none;
-    } 
-     
+    }
      
      
      
