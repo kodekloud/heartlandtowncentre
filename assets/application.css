@@ -237,12 +237,13 @@ p, ol, ul, td{
 }
 
 .flex-control-paging li a.flex-active{
-    background:lightgrey;
+    background:#626262;
+    opacity:50%;
 }
 .flex-control-paging li a {
     height:14px;
     width:14px;
-    background:white;
+    background:#626262;
 }    
 
 .flex-control-nav{
