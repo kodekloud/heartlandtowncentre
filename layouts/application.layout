@@ -237,6 +237,14 @@
                     {% endraw %}
                 </script>
             </div>
+            
+            <div class="bottom_block" id="bottom_block_container">
+                <script id="bottom_block_template" type="x-tmpl-mustache/text">
+                    {% raw %}
+                        <a href='{{url}}'><img src='{{image_url}}'/></a>
+                    {% endraw %}
+                </script>
+            </div>
         </div>
         <div class='bottom_nav'>
             <div class='trim_screen'>
