@@ -231,6 +231,7 @@ p, ol, ul, td{
     border:none;
     height:396px;
     width:720px;
+    z-index:-1;
 }
 .flexslider .slides img{
     height:396px;
