@@ -92,9 +92,6 @@
         }
     }    
     
-    function toggle_mobile_submenu(){
-        
-    }
 
     function renderPageData(container, template, collection, type){
             
