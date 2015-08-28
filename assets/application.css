@@ -238,7 +238,7 @@ p, ol, ul, td{
 }
 .results_div{
     display:none;
-     background:transparent;
+    background:transparent;
     border:none;
     color:white;
 }
