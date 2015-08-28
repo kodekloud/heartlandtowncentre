@@ -332,6 +332,11 @@ p, ol, ul, td{
         margin-right: auto;
         margin-bottom:15px;
     }
+    
+    .right_block img {
+        margin-bottom: 15px;
+        width: 100%;
+    }
      
     .flex-control-paging li a{
         height:7px;
