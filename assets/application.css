@@ -238,6 +238,9 @@ p, ol, ul, td{
 }
 .results_div{
     display:none;
+     background:transparent;
+    border:none;
+    color:white;
 }
 .search-results-count, .close-search, .search-results ul li:hover{
     background:transparent;
