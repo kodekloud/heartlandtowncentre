@@ -236,9 +236,13 @@ p, ol, ul, td{
     height:396px;
 }
 
+.flex-control-paging li a.flex-active{
+    
+}
 .flex-control-paging li a {
     height:14px;
     width:14px;
+    background:white;
 }    
 
 .flex-control-nav{
