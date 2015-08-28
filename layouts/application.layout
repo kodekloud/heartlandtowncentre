@@ -238,7 +238,7 @@
                                 <button onclick="window.location.href='/promotions'">promotions </button>
                             </li>
                             <li>
-                                <button onclick='toggle_mobile_submenu("location")'>location <i id='directory_icon' class="fa fa-plus"></i></button>
+                                <button onclick='toggle_mobile_submenu("location")'>location <i id='location_icon' class="fa fa-plus"></i></button>
                                 <ul class="mobile_submenu" id='location'>
                                     <li>Gift Cards</li>
                                     <li>services</li>
@@ -247,7 +247,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <button onclick='toggle_mobile_submenu("about2")'>about us <i id='directory_icon' class="fa fa-plus"></i></button>
+                                <button onclick='toggle_mobile_submenu("about2")'>about us <i id='about2_icon' class="fa fa-plus"></i></button>
                                 <ul class="mobile_submenu" id='about2'>
                                     <li>Leasing</li>
                                     <li>Contact Us</li>
