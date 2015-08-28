@@ -1,7 +1,7 @@
 <style>
     @media (max-width: 767px) {
         .right_block{
-            display:none;
+            display:none !important;
         }     
     }
     
