@@ -295,7 +295,7 @@ p, ol, ul, td{
 
 
  @media (max-width: 767px) {
-    .visible_icons, .desktop_menu{
+    .visible_icons, .desktop_menu, .bottom_nav{
         display:none;
     }
      
