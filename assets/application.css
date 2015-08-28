@@ -319,6 +319,7 @@ p, ol, ul, td{
     
     .flexslider{
         width:100%;
+        height:auto;
     }
      
      
