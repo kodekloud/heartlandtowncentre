@@ -4,7 +4,7 @@
     function load_slider(slider){
         $('.'+slider).flexslider({
             animation: "slide",
-            controlNav: false,
+            controlNav: true,
             directionNav: true,    
             animationLoop: true,
             slideshow: true,
