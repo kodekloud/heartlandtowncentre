@@ -308,7 +308,7 @@ p, ol, ul, td{
         top: 50%;
     }
     .mobile_menu{
-        
+        display:block;
         background-color: black;
         position: absolute;
         width: 100%;
