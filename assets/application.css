@@ -342,6 +342,9 @@ p, ol, ul, td{
         text-transform:uppercase;
         width:100%;
     }
+    .mobile_submenu{
+        display:none;
+    }
     .site_logo{
         margin-top:0;
         margin-left:10px;
