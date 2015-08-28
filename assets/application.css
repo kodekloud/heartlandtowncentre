@@ -415,6 +415,9 @@ p, ol, ul, td{
     #mobile_newsletter_form input{
         background:#2E2E2E;
         border:none;
+        width:72%;
+        height:40px;
+        font-size:10px;
     }
     .mobile_menu_footer_icons button{
         height: 40px;
