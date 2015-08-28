@@ -229,6 +229,8 @@ p, ol, ul, td{
 /*home page css*/
 .flexslider{
     border:none;
+    height:394px;
+    width:700px;
 }
     
 
