@@ -132,7 +132,7 @@
     }
     
     function toggle_menu(id){
-        console.log(this)
+     
         if ($("#"+id).is(":visible")){
             $("#"+id).slideUp();
         } else {
@@ -144,7 +144,7 @@
    
    
    function toggle_mobile_menu(id){
-        console.log(this)
+       
         if ($("#"+id).is(":visible")){
             $("#"+id).slideUp();
         } else {
