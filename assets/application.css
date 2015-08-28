@@ -460,6 +460,9 @@ h2 {
         border: none;
         vertical-align:top;
     }
+    .basic_content_box img{
+        display:none;
+    }
      
      
  }
