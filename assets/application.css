@@ -308,7 +308,11 @@ p, ol, ul, td{
         top: 50%;
     }
     .mobile_menu{
-        
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+        color: white;
     }
     .site_logo{
         margin-top:0;
