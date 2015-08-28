@@ -314,6 +314,7 @@ p, ol, ul, td{
         width: 100%;
         z-index: 2;
         color: white;
+        text-transform:uppercase;
     }
     
     .mobile_menu_ul, .mobile_submenu{
@@ -324,7 +325,7 @@ p, ol, ul, td{
     
     .mobile_menu_ul li{
         list-style:none;
-        text-transform:uppercase;
+        
     }
     
     .mobile_menu_ul li button{
