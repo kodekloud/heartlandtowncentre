@@ -316,7 +316,10 @@ p, ol, ul, td{
         color: white;
     }
     
-    .mobile_menu_ul
+    .mobile_menu_ul{
+        padding:0;
+        text-align:center;
+    }
     .site_logo{
         margin-top:0;
         margin-left:10px;
