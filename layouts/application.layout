@@ -135,7 +135,7 @@
                                         </a>
                                         {{/promotions}}
                                         </div>
-                                        <h4 class="list-group-item search-results-count" id="events_results_header" style="display:none;color:#4d4d4f;margin-top:2px;font-size:14px" data-i18n="nav.events" onclick="javascript:show_results('event')"></h4>
+                                        <h4 class="list-group-item search-results-count" id="events_results_header" data-i18n="nav.events" onclick="javascript:show_results('event')"></h4>
                                         <div class="results_div" id="event_results">
                                         {{#events}}
                                         <a href="/events/{{slug}}" class="list-group-item">
