@@ -123,6 +123,7 @@ p, ol, ul, td{
     right: 0;
     display:inline-block;
     vertical-align:top;
+    z-index:1;
 }
 
 .top_links{
@@ -227,6 +228,7 @@ p, ol, ul, td{
 .main_content{
     width:76%;
     display:inline-block;
+    z-index:1;
 }
 
 .search-results ul li{
