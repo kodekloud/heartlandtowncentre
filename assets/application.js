@@ -105,7 +105,13 @@
                     if (key <= 1){
                         item_rendered.push(rendered);    
                     }
-                } else {
+                } else if (type == 'bottom_block'){
+                    if (key >= 2){
+                        item_rendered.push(rendered);    
+                    }
+                } 
+                
+                else {
                     item_rendered.push(rendered);    
                 }
                 
