@@ -228,7 +228,7 @@ p, ol, ul, td{
 }
 
 .main_content{
-    width:76%;
+    width:75%;
     display:inline-block;
     z-index:1;
 }
@@ -258,7 +258,7 @@ p, ol, ul, td{
 .flexslider{
     border:none;
     height:396px;
-    width:720px;
+    width:700px;
     z-index:-1;
 }
 .flexslider .slides img{
