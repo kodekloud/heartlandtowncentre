@@ -195,6 +195,10 @@ p, ol, ul, td{
     color:white;
 }
 
+.trim_right{
+    margin-left:90px;
+}
+
 
 .news_btn{
     background:transparent;
