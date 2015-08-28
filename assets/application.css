@@ -227,6 +227,12 @@ p, ol, ul, td{
 .main_content{
     width:76%;
 }
+
+.search-results ul li{
+    list-style:none;
+}
+
+
 /*home page css*/
 .flexslider{
     border:none;
