@@ -304,9 +304,9 @@ p, ol, ul, td{
     
     .mobile_menu_btn{
         display:block;
-            position: absolute;
-    right: 15px;
-    top: 50%;
+        position: absolute;
+        right: 15px;
+        top: 50%;
     }
     
     .site_logo{
