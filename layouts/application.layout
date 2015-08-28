@@ -227,6 +227,9 @@
         </div>
         <div class='page_content'>
             
+            
+            <div class='main_content'>{{yield}}</div>
+            
             <div class="right_block" id="right_block_container">
                 <script id="right_block_template" type="x-tmpl-mustache/text">
                     {% raw %}
@@ -234,7 +237,6 @@
                     {% endraw %}
                 </script>
             </div>
-            <div class='main_content'>{{yield}}</div>
         </div>
         <div class='bottom_nav'>
             <div class='trim_screen'>
