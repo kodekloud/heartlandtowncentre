@@ -403,8 +403,8 @@ p, ol, ul, td{
     
     .mobile_menu_footer_icons{
         width: 95%;
-    margin-left: auto;
-    margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .mobile_menu_footer_icons button{
