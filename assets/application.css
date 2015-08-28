@@ -295,10 +295,9 @@ p, ol, ul, td{
     margin-right:15px;
 }
 
-.mobile_menu_btn{
+.mobile_menu_btn, .mobile_menu{
     display:none;
 }
-
 
  @media (max-width: 767px) {
     
