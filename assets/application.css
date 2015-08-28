@@ -321,6 +321,10 @@ p, ol, ul, td{
         text-align:center;
     }
     
+    .mobile_menu_ul li{
+        list-style:none;
+    }
+    
     .mobile_menu_ul li button{
         background:transparent;
         border:none;
