@@ -309,6 +309,10 @@ h1{
     margin-bottom:30px;
 }
 
+.basic_content_box img {
+    display:inline-blockl;
+}
+
 
  @media (max-width: 767px) {
     
