@@ -307,7 +307,9 @@ p, ol, ul, td{
         right: 15px;
         top: 50%;
     }
-    
+    .mobile_menu{
+        
+    }
     .site_logo{
         margin-top:0;
         margin-left:10px;
