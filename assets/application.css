@@ -325,12 +325,13 @@ p, ol, ul, td{
     
     .mobile_menu_ul li{
         list-style:none;
-        
+        text-transform:uppercase;
     }
     
     .mobile_menu_ul li button{
         background:transparent;
         border:none;
+        text-transform:uppercase;
     }
     .site_logo{
         margin-top:0;
