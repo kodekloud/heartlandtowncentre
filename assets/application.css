@@ -325,7 +325,7 @@ p, ol, ul, td{
         bottom:10px;
     }
     .flexslider{
-        margin-bottom:0;
+        margin-bottom:15;
     }
     .flexslider, .right_block, .bottom_block{
         width: 95%;
