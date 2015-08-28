@@ -290,3 +290,17 @@ p, ol, ul, td{
 .bottom_block img:first-child{
     margin-right:15px;
 }
+
+
+
+
+ @media (max-width: 767px) {
+    .visible_icons{
+        display:none;
+    } 
+     
+     
+     
+     
+     
+ }
