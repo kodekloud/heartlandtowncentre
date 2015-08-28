@@ -338,6 +338,7 @@ p, ol, ul, td{
         background:transparent;
         border:none;
         text-transform:uppercase;
+        width:100%;
     }
     .site_logo{
         margin-top:0;
