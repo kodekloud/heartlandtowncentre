@@ -299,6 +299,12 @@ p, ol, ul, td{
 
 
  @media (max-width: 767px) {
+    
+    .site_logo{
+        margin-top:0;
+        margin-left:10px;
+    }
+     
     .visible_icons, .desktop_menu, .bottom_nav{
         display:none;
     }
