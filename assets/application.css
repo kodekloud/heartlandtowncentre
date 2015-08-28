@@ -387,6 +387,7 @@ h2 {
     .footer_container{
         height:auto;
         text-align:center;
+        margin-top:20px;
     }
     .trim_right{
         margin-left:0;
