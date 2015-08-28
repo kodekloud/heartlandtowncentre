@@ -320,7 +320,7 @@ p, ol, ul, td{
     
     .flexslider{
         width: 95%;
-        height: 171px;
+        height: auto;
         margin-left: auto;
         margin-right: auto;
     }
