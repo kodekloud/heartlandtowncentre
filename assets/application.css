@@ -319,12 +319,12 @@ p, ol, ul, td{
     .mobile_menu_ul, .mobile_submenu{
         padding:0;
         text-align:center;
-        text-transform:uppercase;
+        
     }
     
     .mobile_menu_ul li{
         list-style:none;
-        
+        text-transform:uppercase;
     }
     
     .mobile_menu_ul li button{
