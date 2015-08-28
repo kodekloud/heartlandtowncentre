@@ -311,6 +311,7 @@ h1{
 
 .basic_content_box img {
     display:inline-block;
+    vertical-align:top;
 }
 
 .basic_content_right{
