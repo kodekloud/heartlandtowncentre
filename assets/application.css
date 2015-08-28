@@ -133,8 +133,8 @@ p, ol, ul, td{
     display:none;
     width:314px;
     background:#2E2E2E;
-    padding-left:15px
-    ;
+    padding-left:15px;
+    padding-right:15px;
 }
 
 .hidden_search input{
