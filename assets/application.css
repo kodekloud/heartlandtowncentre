@@ -330,6 +330,7 @@ p, ol, ul, td{
         height: auto;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom:15px;
     }
      
     .flex-control-paging li a{
