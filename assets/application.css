@@ -303,6 +303,12 @@ h1{
     display:none;
 }
 
+.google_map_div{
+    height:298px;
+    width:700px;
+}
+
+
  @media (max-width: 767px) {
     
     .mobile_menu_btn{
