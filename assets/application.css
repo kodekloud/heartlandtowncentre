@@ -401,6 +401,12 @@ p, ol, ul, td{
         margin-bottom:15px;
     }
     
+    .mobile_menu_footer_icons{
+        width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
     .mobile_menu_footer_icons button{
         height: 40px;
         width: 40px;
