@@ -119,10 +119,8 @@ p, ol, ul, td{
 
 .right_block{
     width:218px;
-    position: absolute;
+    position: relative;
     right: 0;
-    top: 20px;
-    z-index:-1;
 }
 
 .top_links{
