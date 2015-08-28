@@ -306,7 +306,9 @@ p, ol, ul, td{
         height:auto;
         text-align:center;
     }
-     
+    .trim_right{
+        margin-left:0;
+    }
     .trim_screen, .page_content{
         width:100%;
     }
