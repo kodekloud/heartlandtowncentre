@@ -12,3 +12,21 @@
         <p>Access to Heartland Town Centre is second to none with access from Highway 401 at both Highway 10 and Mavis Road with the Centre conveniently located on the four corners of Mavis and Britannia Roads.</p>
     </div>
 </div>
+
+<script>
+
+    $(document).ready(function() {
+        $('#getting_here_map').addClass('scrolloff'); // set the pointer events to none on doc ready
+        $('#canvas_1').on('click', function () {
+            $('#getting_here_map').removeClass('scrolloff'); // set the pointer events true on click
+        });
+
+        // you want to disable pointer events when the mouse leave the canvas area;
+
+        $("#getting_here_map").mouseleave(function () {
+            $('#getting_here_map').addClass('scrolloff'); // set the pointer events to none when mouse leaves the map area
+        });    
+    });
+     
+        
+</script>
