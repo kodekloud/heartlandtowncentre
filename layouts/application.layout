@@ -223,6 +223,41 @@
                         </ul>
                     </div>
                     
+                    <div class='mobile_menu'>
+                        <ul class='mobile_menu_ul'>
+                            <li>
+                                <button onclick='toggle_mobile_submenu("directory")'>directory</button>
+                                <ul class="mobile_submenu" id='directory'>
+                                    <li>store directory</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button onclick="window.location.href='/map'">centre map</button>
+                            </li>
+                            <li>
+                                <button onclick="window.location.href='/promotions'">promotions </button>
+                            </li>
+                            <li>
+                                <button onclick='toggle_mobile_submenu("location")'>location</button>
+                                <ul class="mobile_submenu" id='location'>
+                                    <li>Gift Cards</li>
+                                    <li>services</li>
+                                    <li>shopping hours</li>
+                                    <li>contact us</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button onclick='toggle_mobile_submenu("about2")'>about us</button>
+                                <ul class="mobile_submenu" id='about2'>
+                                    <li>Leasing</li>
+                                    <li>Contact Us</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    
+                    
                     <img class="mobile_menu_btn" src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/e4be771d6199b62e7e61a19dd287854c/mobilemenu.png" onclick="javascript:toggle_mobile_menu()"/>
                     
                     
