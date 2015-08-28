@@ -65,14 +65,14 @@ p, ol, ul, td{
 .desktop_menu_ul{
     padding:0;
     position:relative;
-    right:0;
+    right:-85;
     bottom:-38px;
     margin:0;
     
 }
 .desktop_menu_ul li{
    display:inline-block;
-   margin-left:35px;
+   margin-left:20px;
    list-style:none;
 } 
 
