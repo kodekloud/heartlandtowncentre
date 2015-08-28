@@ -237,6 +237,11 @@ p, ol, ul, td{
     list-style:none;
 }
 
+.search-results-count{
+    background:transparent;
+    border:none;
+}
+
 
 /*home page css*/
 .flexslider{
