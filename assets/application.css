@@ -304,6 +304,7 @@ p, ol, ul, td{
     }
     .footer_container{
         height:auto;
+        text-align:center;
     }
      
     .trim_screen, .page_content{
