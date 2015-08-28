@@ -143,7 +143,7 @@
     }
    
    
-   function toggle_mobile_menu(id){
+   function toggle_mobile_submenu(id){
        
         if ($("#"+id).is(":visible")){
             $("#"+id).slideUp();
