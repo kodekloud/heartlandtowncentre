@@ -121,6 +121,7 @@ p, ol, ul, td{
     width:218px;
     position: relative;
     right: 0;
+    display:inline-block;
 }
 
 .top_links{
