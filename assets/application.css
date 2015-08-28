@@ -311,7 +311,8 @@ p, ol, ul, td{
     }
     .trim_screen, .page_content{
         width:100%;
-        height:auto;
+        min-height:0;
+        padding-top:10px;
     }
     
     .main_content{
