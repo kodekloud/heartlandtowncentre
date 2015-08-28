@@ -315,7 +315,10 @@ p, ol, ul, td{
     
     .main_content{
         width:100%;
-        height:auto;
+    }
+    
+    .flexslider{
+        width:100%;
     }
      
      
