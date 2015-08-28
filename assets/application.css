@@ -236,7 +236,9 @@ p, ol, ul, td{
 .search-results ul li{
     list-style:none;
 }
-
+.results_div{
+    display:none;
+}
 .search-results-count, .close-search, .search-results ul li:hover{
     background:transparent;
     border:none;
