@@ -283,3 +283,7 @@ p, ol, ul, td{
 .flex-control-nav{
     bottom:23px;
 }
+
+.bottom_block img:first-child{
+    margin-right:15px;
+}
