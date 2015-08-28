@@ -328,6 +328,10 @@ p, ol, ul, td{
         margin-right: auto;
     }
      
+    .flex-control-paging li a{
+        height:7px;
+        width:7px;
+    }
      
      
  }
