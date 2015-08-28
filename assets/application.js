@@ -151,6 +151,8 @@
             $("#"+id+"_icon").removeClass("fa-minus")
         } else {
             $(".mobile_submenu").slideUp();
+            $(".mobile_menu_ul li button i").removeClass("fa-minus")
+            $(".mobile_menu_ul li button i").addClass("fa-plus")
             $("#"+id).slideDown();
             $("#"+id+"_icon").removeClass("fa-plus")
             $("#"+id+"_icon").addClass("fa-minus")
