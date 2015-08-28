@@ -15,6 +15,10 @@ p, ol, ul, td{
     font-family: Maven pro, sans-serif;
 }
 
+h1{
+    font-size:33px;
+    line-height:39px;
+}
 .header_container{
     height:90px;
     background:black;
