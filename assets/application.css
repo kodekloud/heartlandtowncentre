@@ -235,7 +235,11 @@ p, ol, ul, td{
 .flexslider .slides img{
     height:396px;
 }
-    
+
+.flex-control-paging li a {
+    height:14px;
+    width:14px;
+}    
 
 .flex-control-nav{
     bottom:15px;
