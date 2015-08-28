@@ -136,6 +136,7 @@
             $("#"+id).slideUp();
         } else {
             $(".submenu").slideUp();
+            $(".mobile_submenu").slideUp();
             $("#"+id).slideDown();
         }
     }
