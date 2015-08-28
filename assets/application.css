@@ -410,6 +410,7 @@ p, ol, ul, td{
     #mobile_newsletter_form{
         width:55%;
         display:inline-block;
+        margin-bottom:10px;
     }
     
     #mobile_newsletter_form input{
