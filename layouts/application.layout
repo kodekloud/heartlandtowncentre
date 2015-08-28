@@ -209,7 +209,7 @@
                                     <li>Gift Cards</li>
                                     <li>services</li>
                                     <li>shopping hours</li>
-                                    <li>contact us</li>
+                                    <a href='/location'><li>location</li></a>
                                 </ul>
                             </li>
                             <li>
