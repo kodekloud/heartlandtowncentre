@@ -226,7 +226,7 @@
                     <div class='mobile_menu'>
                         <ul class='mobile_menu_ul'>
                             <li>
-                                <button onclick='toggle_mobile_menu("directory")'>directory <i class="fa fa-plus"></i></button>
+                                <button onclick='toggle_mobile_menu("directory")'>directory </button>
                                 <ul class="mobile_submenu" id='directory'>
                                     <li>store directory</li>
                                 </ul>
