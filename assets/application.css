@@ -407,6 +407,10 @@ p, ol, ul, td{
         margin-right: auto;
     }
     
+    #mobile_newsletter_form{
+        width:55%;
+        display:inline-block;
+    }
     .mobile_menu_footer_icons button{
         height: 40px;
         width: 40px;
