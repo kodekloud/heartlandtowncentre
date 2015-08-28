@@ -4,6 +4,13 @@
         height:415px;
     }
    
+    @media (max-width: 767px) {
+        .main_content{
+            height:auto;
+        }  
+    }
+   
+   
 </style>
 
 <div class="flexslider" id="">
