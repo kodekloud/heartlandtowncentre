@@ -320,6 +320,9 @@ p, ol, ul, td{
     .flexslider .slides img{
         height:auto;
     }
+    .flex-control-nav{
+        bottom:10px;
+    }
     
     .flexslider{
         width: 95%;
