@@ -343,6 +343,10 @@ p, ol, ul, td{
         height:7px;
         width:7px;
     }
+    .bottom_block img{
+        margin-right:0;
+        width:100%;
+    }
      
      
  }
