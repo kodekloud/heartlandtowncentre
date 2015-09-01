@@ -300,6 +300,11 @@ textarea:focus, input:focus{
     width:700px;
     z-index:1;
 }
+
+.flex-direction-nav a:before{
+    color:white;
+    font-size:35px;
+}
 .flexslider .slides img{
     height:396px;
 }
