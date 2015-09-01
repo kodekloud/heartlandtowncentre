@@ -5,7 +5,7 @@
         $('.'+slider).flexslider({
             animation: "slide",
             controlNav: true,
-            directionNav: false,    
+            directionNav: true,    
             animationLoop: true,
             slideshow: true,
             minItems: 3,
