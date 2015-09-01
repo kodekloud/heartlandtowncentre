@@ -467,7 +467,7 @@ textarea:focus, input:focus{
         width:7px;
     }
     .bottom_block img{
-        margin-right:0;
+        margin-right:0 !important;
         width:100%;
         margin-bottom:15px;
     }
