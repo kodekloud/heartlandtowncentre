@@ -25,9 +25,15 @@ h2 {
 }
 
 
-.small_box{}
-.small_box_title{}
-.small_box_desc{}
+.small_box{
+    position:relative;
+}
+.small_box_title{
+    color:white;
+}
+.small_box_desc{
+    color:white;
+}
 
 .header_container{
     height:90px;
