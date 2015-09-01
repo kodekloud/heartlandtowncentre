@@ -460,6 +460,7 @@ textarea:focus, input:focus{
     .right_block img {
         margin-bottom: 15px;
         width: 100%;
+        height:188px;
     }
      
     .flex-control-paging li a{
