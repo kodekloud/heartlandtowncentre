@@ -176,6 +176,10 @@ h2 {
     margin-right: -4px;
 }
 
+textarea:focus, input:focus{
+    outline: 0;
+}
+
 .search_btn,.fb_btn{
     margin-right: -4px;
 }
