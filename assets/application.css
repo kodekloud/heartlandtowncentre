@@ -181,6 +181,7 @@ h2 {
 }
 #newsletter_form input{
     vertical-align:middle;
+    width:150px;
 }
 #newsletter_form{
     height:36px;
