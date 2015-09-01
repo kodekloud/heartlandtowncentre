@@ -25,6 +25,10 @@ h2 {
     font-size:20px;
 }
 
+.right_block img{
+    height:188px;
+    
+}
 
 /*.small_box{*/
 /*    position:relative;*/
@@ -471,7 +475,6 @@ textarea:focus, input:focus{
         margin-right:0 !important;
         width:100%;
         margin-bottom:15px;
-        height:188px;
     }
     
     .mobile_menu_footer_icons{
