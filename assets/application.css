@@ -460,7 +460,7 @@ textarea:focus, input:focus{
     .right_block img {
         margin-bottom: 15px;
         width: 100%;
-        height:188px;
+        
     }
      
     .flex-control-paging li a{
@@ -471,6 +471,7 @@ textarea:focus, input:focus{
         margin-right:0 !important;
         width:100%;
         margin-bottom:15px;
+        height:188px;
     }
     
     .mobile_menu_footer_icons{
