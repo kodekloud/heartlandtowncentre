@@ -25,23 +25,23 @@ h2 {
 }
 
 
-.small_box{
-    position:relative;
-    text-align:center;
-}
-.small_box_title{
-    color: white;
-    position: absolute;
-    top: 65px;
-    width: 100%;
-    font-size: 25px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-.small_box_desc{
-    color:white;
-    position:absolute;
-}
+/*.small_box{*/
+/*    position:relative;*/
+/*    text-align:center;*/
+/*}*/
+/*.small_box_title{*/
+/*    color: white;*/
+/*    position: absolute;*/
+/*    top: 65px;*/
+/*    width: 100%;*/
+/*    font-size: 25px;*/
+/*    letter-spacing: 2px;*/
+/*    text-transform: uppercase;*/
+/*}*/
+/*.small_box_desc{*/
+/*    color:white;*/
+/*    position:absolute;*/
+/*}*/
 
 .header_container{
     height:90px;
