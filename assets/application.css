@@ -258,7 +258,9 @@ textarea:focus, input:focus{
     vertical-align:top;
 }
 
-
+.bottom_nav_pin{
+    margin-top:3px;
+}
 .bottom_nav_column table td{
     color:white;
     font-size:13px;
