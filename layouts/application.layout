@@ -284,7 +284,7 @@
             <div class="right_block" id="right_block_container">
                 <script id="right_block_template" type="x-tmpl-mustache/text">
                     {% raw %}
-                        <div class="small_box"><a href='{{url}}'><img src='{{image_url}}'/></a></div>
+                        <div class="small_box"><a href='{{url}}'><img src='{{image_url}}'/></a><p class="small_box_title">{{name}}</p></div>
                     {% endraw %}
                 </script>
             </div>
