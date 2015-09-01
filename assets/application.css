@@ -367,8 +367,8 @@ textarea:focus, input:focus{
  @media (max-width: 767px) {
     
     body{
-        overflow-x:hidden;
-        max-width:100%;
+        /*overflow-x:hidden;*/
+        /*max-width:100%;*/
     }
     
     .mobile_menu_btn{
