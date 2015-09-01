@@ -467,6 +467,7 @@ textarea:focus, input:focus{
     .right_block img {
         margin-bottom: 15px;
         width: 100%;
+        height:auto;
         
     }
      
