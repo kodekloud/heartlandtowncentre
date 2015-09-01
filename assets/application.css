@@ -30,8 +30,11 @@ h2 {
     text-align:center;
 }
 .small_box_title{
-    color:white;
-    position:absolute;
+    color: white;
+    position: absolute;
+    top: 70px;
+    width: 50%;
+    right: 25%;
 }
 .small_box_desc{
     color:white;
