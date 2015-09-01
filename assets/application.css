@@ -298,7 +298,7 @@ textarea:focus, input:focus{
     border:none;
     height:396px;
     width:700px;
-    z-index:-1;
+    z-index:1;
 }
 .flexslider .slides img{
     height:396px;
