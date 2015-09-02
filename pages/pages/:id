@@ -13,7 +13,7 @@
 </div>
 
 
-<div id="404_msg">
+<div id="404_msg" style="display:none">
     404
 </div>
 
