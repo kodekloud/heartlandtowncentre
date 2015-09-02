@@ -520,5 +520,8 @@ textarea:focus, input:focus{
         display:block;
     }
      
+    .right_block{
+        display:none !important;
+    }    
      
  }
