@@ -1,8 +1,8 @@
 
-<h1>Location</h1>
+<h1 id="custom_page_header">Location</h1>
 
 <div class="google_map_div" id='canvas_1'>
-     <img id="page_img" src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/c45d1f82f06312f4794f92067bea0e8f/default_top.png" alt="default image">
+     <img id="custom_page_img" src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/c45d1f82f06312f4794f92067bea0e8f/default_top.png" alt="default image">
 </div>
 
 
