@@ -37,9 +37,8 @@ $(document).ready(function() {
             // console.log(data.body);
             
             document.title = data.title;
-            $("#active_breadcrumb").html(data.title)
             $("#page_title").html(data.title)
-            $('#mm_page_content').html(data.body);
+            $('#page_body').html(data.body);
         }).fail(function(jqXHR) {
             if (jqXHR.status == 404) {
                 $("#404_msg").fadeIn("fast");
