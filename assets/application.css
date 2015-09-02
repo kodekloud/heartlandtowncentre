@@ -513,7 +513,7 @@ textarea:focus, input:focus{
     .basic_content_box img{
         display:none;
     }
-    .google_map_div, .basic_content_right{
+    .google_map_div, .basic_content_right, #page_img{
         width:95%;
         margin-left:auto;
         margin-right:auto;
