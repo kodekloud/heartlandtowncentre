@@ -2,7 +2,7 @@
 <h1>Location</h1>
 
 <div class="google_map_div" id='canvas_1'>
-     <img src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/307bb19a2f979883e5614374003bfeb9/default.png" alt="default image">
+     <img id="page_img" src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/307bb19a2f979883e5614374003bfeb9/default.png" alt="default image">
 </div>
 
 
