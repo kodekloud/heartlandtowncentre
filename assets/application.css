@@ -379,6 +379,9 @@ textarea:focus, input:focus{
 
 /*STORE DIRECTORY CSS*/
 .tab_title{
+    display:inline-block;
+    background:#f3f3f3;
+    position:relative;
     
 }
 .tab_title:after, .tab_title::after{
