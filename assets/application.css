@@ -392,9 +392,9 @@ textarea:focus, input:focus{
     content: '';
     width: 0;
     height: 0;
-    border-top: solid 150px red;
-    border-left: solid 100px transparent;
-    border-right: solid 100px transparent;
+    border-top: solid 10px red;
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent;
 }
 
 
