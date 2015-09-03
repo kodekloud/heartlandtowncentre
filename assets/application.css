@@ -385,14 +385,10 @@ textarea:focus, input:focus{
     
 }
 .tab_title:after, .tab_title::after{
-    position: absolute;
-    right: 0;
-    content: '';
     width: 0;
-    height: 0;
-    border-top: solid 10px red;
-    border-left: solid 10px transparent;
-    border-right: solid 10px transparent;
+	height: 0;
+	border-bottom: 100px solid red;
+	border-right: 100px solid transparent;
 }
 
 
