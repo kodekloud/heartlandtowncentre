@@ -29,7 +29,8 @@
             console.log(full_cat_array)
             
         }
-        loadMallDataCached(renderAll);  
+        // loadMallDataCached(renderAll);  
+        loadMallData(renderAll);  
         
         
         function generateAlphaStoreList (collection){
