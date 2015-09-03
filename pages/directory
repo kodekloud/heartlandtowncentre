@@ -38,6 +38,8 @@
             
             renderPageData("#alpha_tab_title_content_container", "#alpha_tab_title_content_template", alpha_array, "alpha")
             renderPageData("#cat_tab_title_content_container", "#cat_tab_title_content_template", full_cat_array, "cats")
+            $("#tab_title_content").hide();
+            
             
         }
         loadMallDataCached(renderAll);  
