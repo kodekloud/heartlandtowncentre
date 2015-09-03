@@ -408,6 +408,7 @@ textarea:focus, input:focus{
 .tab_title_content a{
     color:black !important;
     margin-right:15px;
+    line-height:39px;
 }
 .tab_title_content{
     background:#f3f3f3;
