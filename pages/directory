@@ -8,7 +8,7 @@
         </div>
     </div>
     <div class="tab_title" id="cat_tab">
-        <p>Alphabetical</p>
+        <p>Categories</p>
         <div class="tab_title_content" id="cat_tab_title_content_container">
             <script id="cat_tab_title_content_template" type="x-tmpl-mustache/text">
                 {{name}}
