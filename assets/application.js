@@ -129,6 +129,10 @@
             $(container).show();
             $(container).html(item_rendered.join(''));
             
+            if (type == 'directory'){
+                $("#tab_title_content").hide();
+            }
+            
     }
     
     function toggle_menu(id){
