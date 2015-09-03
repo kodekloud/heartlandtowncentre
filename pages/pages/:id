@@ -38,16 +38,16 @@ $(document).ready(function() {
             $("#custom_page_header").html("Location")
             $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/c45d1f82f06312f4794f92067bea0e8f/default_top.png");
         } else if (slug == 'htc-leasing'){
-            $("#custom_page_header").html("Location")
+            $("#custom_page_header").html("Leasing")
             $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/c45d1f82f06312f4794f92067bea0e8f/default_top.png");
         } else if (slug == 'htc-services'){
-            $("#custom_page_header").html("Location")
+            $("#custom_page_header").html("Guest Services")
             $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/c45d1f82f06312f4794f92067bea0e8f/default_top.png");
         } else if (slug == 'htc-gift-cards'){
-            $("#custom_page_header").html("Location")
+            $("#custom_page_header").html("Gift Cards")
             $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/c45d1f82f06312f4794f92067bea0e8f/default_top.png");
         } else if (slug == 'htc-contact-us'){
-            $("#custom_page_header").html("Location")
+            $("#custom_page_header").html("Contact Us")
             $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/c45d1f82f06312f4794f92067bea0e8f/default_top.png");
         } else {
             $("#custom_page_header").html("Default")
