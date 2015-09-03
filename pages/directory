@@ -1,11 +1,11 @@
 <div class="tabs">
-    <div class="tab_title" id="alpha_tab">
+    <div class="tab_title" id="alpha_tab" onclick="javascript:toggle_tabs('alpha')">
         Alphabetical
     </div>
     <div class="tab_triangle" id="alpha_triangle">
         &nbsp;
     </div>
-    <div class="tab_title" id="cat_tab">
+    <div class="tab_title" id="cat_tab" onclick="javascript:toggle_tabs('cat')">
         Categories
     </div>
     <div class="tab_triangle" id="cat_triangle">
