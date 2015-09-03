@@ -392,7 +392,7 @@ textarea:focus, input:focus{
     width: 0;
 	height: 0;
 	content: '';
-	border-bottom: 39px solid inherit;
+	border-bottom: 39px solid #f3f3f3;
 	border-right: 39px solid transparent;
 	left:100%;
 }
