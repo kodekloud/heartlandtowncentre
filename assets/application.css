@@ -380,7 +380,7 @@ textarea:focus, input:focus{
 /*STORE DIRECTORY CSS*/
 .tab_title{
     display:inline-block;
-    background:#f3f3f3;
+    background:black;
     position:relative;
     width:111px;
     height:39px;
@@ -388,6 +388,7 @@ textarea:focus, input:focus{
     cursor:pointer;
     line-height:39px;
     padding-left:15px;
+    color:white;
     
 }
 .tab_title:after, .tab_title::after{
@@ -395,7 +396,7 @@ textarea:focus, input:focus{
     width: 0;
 	height: 0;
 	content: '';
-	border-bottom: 39px solid #f3f3f3;
+	border-bottom: 39px solid black;
 	border-right: 39px solid transparent;
 	left:100%;
 }
