@@ -381,7 +381,7 @@ textarea:focus, input:focus{
 .tab_title{
     
 }
-.tab_title:after{
+.tab_title:after, .tab_title::after{
     
 }
 
