@@ -44,6 +44,11 @@
         // loadMallData(renderAll);  
         
         
+        function switch_tabs(){
+            
+        }
+        
+        
         function generateAlphaStoreList (collection){
             alpha_list = new Array;
             alpha_array = new Array;
