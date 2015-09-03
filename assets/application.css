@@ -384,6 +384,7 @@ textarea:focus, input:focus{
     position:relative;
     width:111px;
     height:39px;
+    margin-right:34px;
     
 }
 .tab_title:after, .tab_title::after{
