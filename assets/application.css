@@ -394,6 +394,8 @@ textarea:focus, input:focus{
 }
 .tab_triangle{
     /*position:absolute;*/
+    display:inline-block
+    ;
     width: 0;
 	height: 0;
 	content: '';
