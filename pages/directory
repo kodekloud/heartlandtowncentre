@@ -1,7 +1,6 @@
 <div class="tabs">
     <div class="tab_title" id="alpha_tab">
         Alphabetical
-        
     </div>
     <div class="tab_title" id="cat_tab">
         Categories
