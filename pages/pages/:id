@@ -39,6 +39,7 @@ $(document).ready(function() {
             document.title = data.title;
             $("#page_title").html(data.title)
             $('#page_body').html(data.body);
+            $("#page_img").attr("src",data.image_url)
         }).fail(function(jqXHR) {
             if (jqXHR.status == 404) {
                 $("#404_msg").fadeIn("fast");
