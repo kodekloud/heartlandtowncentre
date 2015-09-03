@@ -131,7 +131,6 @@
             
             if (type == 'directory'){
                 $(container).hide();
-                console.log("test")
             }
             
     }
