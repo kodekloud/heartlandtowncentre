@@ -13,7 +13,7 @@
     </div>
     <div class="tab_title_content" id="alpha_tab_title_content_container">
         <script id="alpha_tab_title_content_template" type="x-tmpl-mustache/text">
-            {{id}}
+            <a href="#{{id}}">{{id}}</a>
         </script>
     </div>
     <div class="tab_title_content" id="cat_tab_title_content_container">
