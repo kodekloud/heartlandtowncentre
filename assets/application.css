@@ -393,7 +393,7 @@ textarea:focus, input:focus{
 	content: '';
 	border-bottom: 39px solid red;
 	border-right: 50px solid transparent;
-	left:0;
+	left:100%;
 }
 
 
