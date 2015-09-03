@@ -392,8 +392,8 @@ textarea:focus, input:focus{
     text-transform:uppercase;
     
 }
-.tab_title:after, .tab_title::after{
-    position:absolute;
+.tab_triangle{
+    /*position:absolute;*/
     width: 0;
 	height: 0;
 	content: '';
