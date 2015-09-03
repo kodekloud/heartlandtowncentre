@@ -5,7 +5,6 @@
     </div>
     <div class="tab_title" id="cat_tab">
         Categories
-        
     </div>
     <div class="tab_title_content" id="alpha_tab_title_content_container">
         <script id="alpha_tab_title_content_template" type="x-tmpl-mustache/text">
