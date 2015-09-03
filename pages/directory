@@ -22,7 +22,8 @@
 <script>
     $(document).ready(function() {
         function renderAll(){
-            
+            var alpha_stores = getStoresList();
+            var full_cat_array = getStoreCategories();
         }
         loadMallDataCached(renderAll);  
     })
