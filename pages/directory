@@ -28,7 +28,7 @@
 <script>
     
     $("#alpha_tab").css({"color":"black","background":"#f3f3f3"})
-    $("#alpha_tab:after, #alpha_tab::after").css("border-bottom","39px solid black")
+    $("#alpha_triangle").css("border-bottom","39px solid black")
     $(document).ready(function() {
         function renderAll(){
             
