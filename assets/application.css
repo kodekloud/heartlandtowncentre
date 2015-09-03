@@ -414,6 +414,8 @@ textarea:focus, input:focus{
     background:#f3f3f3;
     color:black !important;
     border:1px solid #e2e2e2;
+    padding-left:15px;
+    padding-right:15px;
 }
 
 
