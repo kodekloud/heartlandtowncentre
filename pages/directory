@@ -21,14 +21,14 @@
 
 
 <script>
-    var alpha_array = generateAlphaStoreList(alpha_stores);
+    
     $("#alpha_tab").css({"color":"black";"background":"#f3f3f3"})
     $(document).ready(function() {
         function renderAll(){
             
             var alpha_stores = getStoresList();
             var full_cat_array = getStoreCategories();
-            
+            var alpha_array = generateAlphaStoreList(alpha_stores);
             
             renderPageData("#alpha_tab_title_content_container", "#alpha_tab_title_content_template", alpha_array, "alpha")
             renderPageData("#cat_tab_title_content_container", "#cat_tab_title_content_template", full_cat_array, "cats")
