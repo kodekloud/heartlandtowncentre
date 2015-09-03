@@ -375,6 +375,18 @@ textarea:focus, input:focus{
     margin-left: 20px;
 }
 
+
+
+/*STORE DIRECTORY CSS*/
+.tab_title{
+    
+}
+.tab_title:after{
+    
+}
+
+
+
  @media (max-width: 767px) {
     
     body{
