@@ -387,7 +387,7 @@ textarea:focus, input:focus{
     margin-right:34px;
     cursor:pointer;
     line-height:39px;
-    padding-left:20px;
+    padding-left:15px;
     
 }
 .tab_title:after, .tab_title::after{
