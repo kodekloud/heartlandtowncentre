@@ -194,7 +194,7 @@
                             <li>
                                 <button onclick='toggle_menu("dir")'>directory</button>
                                 <ul class="submenu" id='dir'>
-                                    <li>store directory</li>
+                                    <a href='/directory'><li>store directory</li></a>
                                 </ul>
                             </li>
                             <li>
@@ -228,7 +228,7 @@
                             <li>
                                 <button onclick='toggle_mobile_submenu("directory")'>directory <i id='directory_icon' class="fa fa-plus"></i></button>
                                 <ul class="mobile_submenu" id='directory'>
-                                    <li>store directory</li>
+                                    <a href='/directory'><li>store directory</li></a>
                                 </ul>
                             </li>
                             <li>
