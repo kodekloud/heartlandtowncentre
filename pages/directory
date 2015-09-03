@@ -30,14 +30,14 @@
     $("#alpha_tab").css({"color":"black","background":"#f3f3f3"})
     $("#alpha_triangle").css("border-bottom","39px solid #f3f3f3")
     function toggle_tabs(id){
-            if (id == 'alpha') {
-                $("#cat_tab_title_content_container").hide()
-                $("#alpha_tab_title_content_container").show()
-            } else {
-                $("#cat_tab_title_content_container").show()
-                $("#alpha_tab_title_content_container").hide()
-            }
+        if (id == 'alpha') {
+            $("#cat_tab_title_content_container").hide()
+            $("#alpha_tab_title_content_container").show()
+        } else {
+            $("#cat_tab_title_content_container").show()
+            $("#alpha_tab_title_content_container").hide()
         }
+    }
     $(document).ready(function() {
         function renderAll(){
             
