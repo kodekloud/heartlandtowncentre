@@ -389,6 +389,7 @@ textarea:focus, input:focus{
     line-height:39px;
     padding-left:15px;
     color:white;
+    text-transform:uppercase;
     
 }
 .tab_title:after, .tab_title::after{
