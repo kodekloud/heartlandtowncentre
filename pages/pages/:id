@@ -53,17 +53,9 @@ $(document).ready(function() {
             $("#custom_page_header").html("Default")
             $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/c45d1f82f06312f4794f92067bea0e8f/default_top.png");
         }
-        
-        
-        
-        
-        
-        
-        
+
+
         $.getJSON(pages_json).done(function(data) {
-            //var pages_data = JSON.parse(data);
-            // console.log(data.body);
-            
             document.title = data.title;
             $("#page_title").html(data.title)
             $('#page_body').html(data.body);
