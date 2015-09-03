@@ -405,7 +405,9 @@ textarea:focus, input:focus{
 	margin-right:-5px;
 }
 
-
+..tab_title_content a{
+    color:black;
+}
 .tab_title_content{
     background:#f3f3f3;
     color:black !important;
