@@ -22,7 +22,7 @@
 
 <script>
     
-    $("#alpha_tab").css({"color":"black";"background":"#f3f3f3"})
+    $("#alpha_tab").css({"color":"black","background":"#f3f3f3"})
     $(document).ready(function() {
         function renderAll(){
             
