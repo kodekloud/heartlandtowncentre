@@ -209,7 +209,7 @@
                                     <li>Gift Cards</li>
                                     <li>services</li>
                                     <li>shopping hours</li>
-                                    <a href='/location'><li>location</li></a>
+                                    <a href='/pages/htc-centre-information'><li>location</li></a>
                                 </ul>
                             </li>
                             <li>
@@ -243,7 +243,7 @@
                                     <li>Gift Cards</li>
                                     <li>services</li>
                                     <li>shopping hours</li>
-                                    <a href='/location'><li>location</li></a>
+                                    <a href='/pages/htc-centre-information'><li>location</li></a>
                                 </ul>
                             </li>
                             <li>
