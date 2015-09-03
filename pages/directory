@@ -47,7 +47,13 @@
         
         
         function toggle_tabs(id){
-            
+            if (id == 'alpha') {
+                $("#cat_tab_title_content_container").hide()
+                $("#alpha_tab_title_content_container").show()
+            } else {
+                $("#cat_tab_title_content_container").show()
+                $("#alpha_tab_title_content_container").hide()
+            }
         }
         
         
