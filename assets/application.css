@@ -388,6 +388,7 @@ textarea:focus, input:focus{
     position:absolute;
     width: 10px;
 	height: 10px;
+	content: '';
 	border-bottom: 100px solid red;
 	border-right: 100px solid transparent;
 }
