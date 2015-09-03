@@ -131,6 +131,7 @@
             
             if (type == 'directory'){
                 $("#tab_title_content").hide();
+                console.log("test")
             }
             
     }
