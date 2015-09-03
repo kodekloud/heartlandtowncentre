@@ -416,6 +416,7 @@ textarea:focus, input:focus{
     border:1px solid #e2e2e2;
     padding-left:15px;
     padding-right:15px;
+    display:none;
 }
 
 
