@@ -130,7 +130,7 @@
             $(container).html(item_rendered.join(''));
             
             if (type == 'directory'){
-                $("#tab_title_content").hide();
+                $(container).hide();
                 console.log("test")
             }
             
