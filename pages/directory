@@ -1,19 +1,21 @@
 <div class="tabs">
     <div class="tab_title" id="alpha_tab">
-        <p>Alphabetical</p>
-        <div class="tab_title_content" id="alpha_tab_title_content_container">
-            <script id="alpha_tab_title_content_template" type="x-tmpl-mustache/text">
-                {{id}}
-            </script>
-        </div>
+        Alphabetical
+        
     </div>
     <div class="tab_title" id="cat_tab">
-        <p>Categories</p>
-        <div class="tab_title_content" id="cat_tab_title_content_container">
-            <script id="cat_tab_title_content_template" type="x-tmpl-mustache/text">
-                {{name}}
-            </script>
-        </div>
+        Categories
+        
+    </div>
+    <div class="tab_title_content" id="alpha_tab_title_content_container">
+        <script id="alpha_tab_title_content_template" type="x-tmpl-mustache/text">
+            {{id}}
+        </script>
+    </div>
+    <div class="tab_title_content" id="cat_tab_title_content_container">
+        <script id="cat_tab_title_content_template" type="x-tmpl-mustache/text">
+            {{name}}
+        </script>
     </div>
 </div>
 
