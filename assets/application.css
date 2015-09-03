@@ -401,6 +401,8 @@ textarea:focus, input:focus{
 	border-bottom: 39px solid black;
 	border-right: 39px solid transparent;
 	vertical-align:top;
+	margin-left:-5px;
+	margin-right:-5px;
 }
 
 
