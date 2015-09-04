@@ -473,6 +473,9 @@ textarea:focus, input:focus{
         margin-left:auto;
         margin-right:auto;
     }
+    .dir_phone p{
+        display:none;
+    }
      
     
     body{
