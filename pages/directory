@@ -103,8 +103,8 @@
                      obj = {};
                      
                      if (first_letter == '*'){
-                        obj.name = '#'
-                        obj.id = '#'
+                        obj.name = '0'
+                        obj.id = '0'
                      } else {
                         obj.name = first_letter
                         obj.id = first_letter   
