@@ -439,7 +439,7 @@ textarea:focus, input:focus{
     width: 200px;
 }
 .phone_icon{
-    
+    margin-right:10px;
 }
 
  @media (max-width: 767px) {
