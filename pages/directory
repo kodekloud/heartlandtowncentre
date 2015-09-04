@@ -31,7 +31,7 @@
 <div class='tab_content' id='alpha_content'>
     <script id="alpha_content_template" type="x-tmpl-mustache/text">
         <div class='alpha_content_header' id='{{id}}'>
-            <p class='content_header'>{{id}}<i class="fa fa-arrow-up pull right"></i></p>
+            <p class='content_header'>{{id}}<i class="fa fa-arrow-up pull-right"></i></p>
             <table class='content_table' id='{{id}}_table'>
             </table>
         </div>
