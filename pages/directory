@@ -73,8 +73,8 @@
             $("#alpha_tab_title_content_container").show();
             $("#alpha_content").show();
         }
-        loadMallDataCached(renderAll);  
-        // loadMallData(renderAll);  
+        // loadMallDataCached(renderAll);  
+        loadMallData(renderAll);  
         
         
         
