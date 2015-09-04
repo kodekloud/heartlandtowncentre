@@ -81,7 +81,7 @@
         
         function add_stores_to_table(collection, type){
             $.each( collection , function( key, val ) {
-                console.log(val)
+                console.log(val.promotions)
                 if (type == 'alpha'){
                     first_letter = (val.name).charAt(0)
                     $("#"+first_letter+'_table').append('<tr><td class="dir_store_name">'+val.name+'</td></tr>')
