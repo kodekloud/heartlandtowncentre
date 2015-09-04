@@ -465,6 +465,7 @@ textarea:focus, input:focus{
 .up_arrow{
     float:right;
     line-height:36px;
+    color:white !important;
 }
  @media (max-width: 767px) {
      
