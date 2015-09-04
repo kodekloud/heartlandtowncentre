@@ -84,6 +84,7 @@
                 console.log(val.store_ids)
                 $.each( val.store_ids , function( key2, val2 ) {
                     storeDetail = getStoreDetailsByID(val2)
+                    console.log(storeDetail)
                 })
             })
         }
