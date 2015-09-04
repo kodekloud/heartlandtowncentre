@@ -120,7 +120,7 @@
                     first_letter = id
                 }
                 
-                $("#"+first_letter+'_table').append('<tr><td class="dir_store_name">'+val.name+'</td><td class="icon_td">'+promo_icon+'</td><td class="dir_phone">'+phone+'</td></tr>')
+                $("#"+first_letter+'_table').append('<tr><td class="dir_store_name"><a href="/directory/'+val.slug+'">'+val.name+'</a></td><td class="icon_td">'+promo_icon+'</td><td class="dir_phone">'+phone+'</td></tr>')
                 
               
             })
