@@ -424,7 +424,13 @@ textarea:focus, input:focus{
     
 }
 .content_header{
-    
+    color: white;
+    background-color: black;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
 .content_table{
     
