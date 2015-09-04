@@ -86,9 +86,15 @@
                 } else {
                     promo_icon = ''
                 }
+                
+                if (val.phone){
+                    phone = '<a href="tel:'+val.phone+'"><img src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/e2dc42990b2c6c3e7e2b3340558a00c6/telephone66 2.png" class="" alt="phone_icon">'+val.phone+'</a>'
+                } else {
+                    phone = ''
+                }
                 if (type == 'alpha'){
                     first_letter = (val.name).charAt(0)
-                    $("#"+first_letter+'_table').append('<tr><td class="dir_store_name">'+val.name+'</td><td class="icon_td">'+promo_icon+'</td><td class="dir_phone"><a href="tel:'+val.phone+'"><img src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/e2dc42990b2c6c3e7e2b3340558a00c6/telephone66 2.png" class="" alt="phone_icon">'+val.phone+'</a></td></tr>')
+                    $("#"+first_letter+'_table').append('<tr><td class="dir_store_name">'+val.name+'</td><td class="icon_td">'+promo_icon+'</td><td class="dir_phone"></td></tr>')
                 }
                 
               
