@@ -100,7 +100,6 @@
                      obj = {};
                      
                      if (first_letter == '*'){
-                        first_letter = '#'
                         obj.name = '#'
                         obj.id = '#'
                      } else {
