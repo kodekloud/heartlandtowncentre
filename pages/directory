@@ -60,8 +60,6 @@
             renderPageData("#alpha_tab_title_content_container", "#alpha_tab_title_content_template", alpha_array, "directory")
             renderPageData("#cat_tab_title_content_container", "#cat_tab_title_content_template", full_cat_array, "directory")
             $("#alpha_tab_title_content_container").show();
-            
-            
         }
         loadMallDataCached(renderAll);  
         // loadMallData(renderAll);  
