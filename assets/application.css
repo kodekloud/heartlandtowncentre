@@ -443,6 +443,9 @@ textarea:focus, input:focus{
     width: 500px;
     padding-left:15px;
 }
+.dir_store_name a {
+    width:100%;
+}
 .icon_td{
     width: 75px;
 }
