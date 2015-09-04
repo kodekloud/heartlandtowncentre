@@ -458,7 +458,10 @@ textarea:focus, input:focus{
 .phone_icon{
     margin-right:10px;
 }
-
+.dir_phone p {
+    display:inine-block;
+    margin:0;
+}
  @media (max-width: 767px) {
      
     .main_content{
