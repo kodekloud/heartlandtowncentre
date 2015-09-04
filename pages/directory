@@ -88,7 +88,8 @@
             renderPageData("#cat_tab_title_content_container", "#cat_tab_title_content_template", full_cat_array, "directory")
             renderPageData("#cat_content", "#cat_content_template", full_cat_array, "directory")
             $.each( full_cat_array , function( key, val ) {
-                getStoreDetailArrayByIDs(val.store_ids)
+                store_array = getStoreDetailArrayByIDs(val.store_ids)
+                add_stores_to_table(store_array, 'cats', val.id)
             })
             $("#alpha_tab_title_content_container").show();
             $("#alpha_content").show();
