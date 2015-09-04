@@ -485,7 +485,9 @@ textarea:focus, input:focus{
     .tab_title{
         width:37%;
     }
-     
+    .tab_triangle{
+        margin-left:-7px;
+    }
     
     body{
         /*overflow-x:hidden;*/
