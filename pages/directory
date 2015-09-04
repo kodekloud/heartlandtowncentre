@@ -83,6 +83,9 @@
             $.each( collection , function( key, val ) {
                 if (type == 'alpha'){
                     first_letter = (val.name).charAt(0)
+                    if (first_letter == '*'){
+                        first_letter = '#'
+                    }
                     $("#"+first_letter+'_table').append('<tr><td>'+val.name+'</td></tr>')
                 }
                 
