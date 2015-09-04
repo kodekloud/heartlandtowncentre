@@ -459,7 +459,7 @@ textarea:focus, input:focus{
     margin-right:10px;
 }
 .dir_phone p {
-    display:inine-block;
+    display:inline-block;
     margin:0;
 }
  @media (max-width: 767px) {
