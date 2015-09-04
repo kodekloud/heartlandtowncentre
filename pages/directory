@@ -82,7 +82,9 @@
         function add_stores_to_table(collection, type){
             $.each( collection , function( key, val ) {
                 if(val.promotions.length > 0 ){
-                    console.log("jhjhjhjh")
+                    promo_icon = '<img src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/e2dc42990b2c6c3e7e2b3340558a00c6/tag32.png" class="" alt="promo_icon">'
+                } else {
+                    promo_icon = ''
                 }
                 if (type == 'alpha'){
                     first_letter = (val.name).charAt(0)
