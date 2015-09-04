@@ -94,7 +94,7 @@
                 }
                 if (type == 'alpha'){
                     first_letter = (val.name).charAt(0)
-                    $("#"+first_letter+'_table').append('<tr><td class="dir_store_name">'+val.name+'</td><td class="icon_td">'+promo_icon+'</td><td class="dir_phone">'phone'</td></tr>')
+                    $("#"+first_letter+'_table').append('<tr><td class="dir_store_name">'+val.name+'</td><td class="icon_td">'+promo_icon+'</td><td class="dir_phone">'+phone+'</td></tr>')
                 }
                 
               
