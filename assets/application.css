@@ -437,6 +437,7 @@ textarea:focus, input:focus{
 }
 .dir_store_name{
     width: 500px;
+    padding-left:15px;
 }
 .icon_td{
     width: 75px;
