@@ -124,9 +124,13 @@
         open_time = convert_hour(open_time);
         close_time = convert_hour(close_time);
         if (is_closed == true){
-            hour_string = day+ "        Closed"
+            hour_string = "Closed"
         } else {
-            hour_string = day+"         "+open_time + " - " + close_time
+  
+            hour_string = {};
+            hour_string["day"] = day
+            hour_string["detail"] = open_time + " - " + close_time
+                    
         }
         return hour_string;
         
