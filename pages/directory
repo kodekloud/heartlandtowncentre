@@ -32,6 +32,8 @@
     <script id="alpha_content_template" type="x-tmpl-mustache/text">
         <div class='alpha_content_header' id='{{id}}'>
             <p class='content_header'>{{id}}</p>
+            <table class='content_table' id='{{id}}_table'>
+            </table>
         </div>
     </script>
 </div>
