@@ -467,6 +467,23 @@ textarea:focus, input:focus{
     line-height:36px;
     color:white !important;
 }
+
+
+.loading_overlay{
+    position:absolute;
+    height:100%;
+    width:100%;
+    background:white;
+    z-index:999999999999999999999999999999;
+}
+
+.loading_overlay img{
+    margin-top:300px;
+    height:75px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
  @media (max-width: 767px) {
      
     .main_content{
