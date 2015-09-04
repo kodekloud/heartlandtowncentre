@@ -97,25 +97,25 @@
     function get_hour_string(day_of_week, open_time, close_time, is_closed){
         switch(day_of_week) {
             case 0:
-                val.day = "Sunday"
+                day = "Sunday"
                 break;
             case 1:
-                val.day = "Monday"
+                day = "Monday"
                 break;
             case 2:
-                val.day = "Tuesday"
+                day = "Tuesday"
                 break;
             case 3:
-                val.day = "Wednesday"
+                day = "Wednesday"
                 break;
             case 4:
-                val.day = "Thursday"
+                day = "Thursday"
                 break;
             case 5:
-                val.day = "Friday"
+                day = "Friday"
                 break;
             case 6:
-                val.day = "Saturday"
+                day = "Saturday"
                 break;
             
         }
@@ -124,9 +124,9 @@
         open_time = convert_hour(open_time);
         close_time = convert_hour(close_time);
         if (is_closed == true){
-            hour_string = "Closed"
+            hour_string = day+ "        Closed"
         } else {
-            hour_string = open_time + " - " + close_time
+            hour_string = day+"         "+open_time + " - " + close_time
         }
         return hour_string;
         
