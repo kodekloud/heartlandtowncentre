@@ -100,7 +100,7 @@
             var template_html = $(template).html();
             Mustache.parse(template_html);   // optional, speeds up future uses
             
-            if (type == 'property'){
+            if (type == 'property' || type == 'store_details'){
                 item_list.push(collection);    
             } else {
                 item_list = collection;
