@@ -461,8 +461,9 @@ textarea:focus, input:focus{
 
  @media (max-width: 767px) {
      
-    .tabs{
-        
+    .main_content{
+        padding:0;
+        margin-top:10px;
     } 
      
     
