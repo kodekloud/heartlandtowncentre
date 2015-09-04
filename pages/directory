@@ -33,7 +33,6 @@
         <div class='alpha_content_header' id='{{id}}'>
             {{id}}
         </div>
-        
     </script>
 </div>
 
