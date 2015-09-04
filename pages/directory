@@ -82,7 +82,7 @@
         function add_stores_to_table(collection, type){
             $.each( collection , function( key, val ) {
                 if(val.promotions.length > 0 ){
-                    
+                    console.log("jhjhjhjh")
                 }
                 if (type == 'alpha'){
                     first_letter = (val.name).charAt(0)
