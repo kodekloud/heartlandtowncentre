@@ -133,6 +133,32 @@
     }
     
     
+    function convert_hour(d){
+            var h = addZero(d.getUTCHours());
+            var m = addZero(d.getUTCMinutes());
+            var s = addZero(d.getUTCSeconds());
+            if (h >= 12) {
+                if ( h != 12) {
+                    h = h - 12;    
+                }
+                
+                i = "PM"
+            } else {
+                i = "AM"
+            }
+            return h+":"+m+" "+i;
+        }
+        
+        
+        
+        function addZero(i) {
+            if (i < 10) {
+                i = "0" + i;
+            }
+            return i;
+        }
+    
+    
 
     function renderPageData(container, template, collection, type){
             
