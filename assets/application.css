@@ -482,6 +482,9 @@ textarea:focus, input:focus{
     .dir_phone{
         width:5%;
     }
+    .tab_title{
+        width:37%;
+    }
      
     
     body{
