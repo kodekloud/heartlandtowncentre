@@ -432,7 +432,8 @@ textarea:focus, input:focus{
     padding-right: 15px;
     margin:0;
 }
-.content_table tr{
+.content_table{
+    padding-top:30px;
     
 }
 .dir_store_name{
