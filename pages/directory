@@ -100,7 +100,7 @@
                      obj = {};
                      
                      if (first_letter == '*'){
-                         console.log(first_letter)
+                        first_letter = '#'
                         obj.name = '#'
                         obj.id = '#'
                      } else {
