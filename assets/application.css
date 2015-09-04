@@ -476,6 +476,12 @@ textarea:focus, input:focus{
     .dir_phone p{
         display:none;
     }
+    .icon_td{
+        width:10%;
+    }
+    .dir_phone{
+        width:5%;
+    }
      
     
     body{
