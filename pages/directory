@@ -41,6 +41,8 @@
             $("#alpha_tab_title_content_container").show()
             $("#alpha_tab").css({"color":"black","background":"#f3f3f3"})
             $("#alpha_triangle").css("border-bottom","39px solid #f3f3f3")
+            $("#cat_tab").css({"color":"white","background":"black"})
+            $("#cat_triangle").css("border-bottom","39px solid black")
         } else {
             $("#cat_tab_title_content_container").show()
             $("#alpha_tab_title_content_container").hide()
