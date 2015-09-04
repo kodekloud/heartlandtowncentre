@@ -25,6 +25,7 @@
 $(document).ready(function() {
     function renderAll (){
         renderpageHTML()
+        $(".loading_overlay").hide();
     }
     
     function renderpageHTML(){
