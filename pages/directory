@@ -83,9 +83,6 @@
             $.each( collection , function( key, val ) {
                 if (type == 'alpha'){
                     first_letter = (val.name).charAt(0)
-                    if (first_letter == '*'){
-                        first_letter = '0'
-                    }
                     $("#"+first_letter+'_table').append('<tr><td>'+val.name+'</td></tr>')
                 }
                 
@@ -100,18 +97,11 @@
              $.each( collection , function( key, val ) {
                  first_letter = (val.name).charAt(0)
                  if (jQuery.inArray(first_letter, alpha_list)== -1){
-                     obj = {};
-                     
-                     if (first_letter == '*'){
-                        obj.name = '0'
-                        obj.id = '0'
-                     } else {
-                        obj.name = first_letter
-                        obj.id = first_letter   
-                     }
-                     
-                     alpha_array.push(obj);
-                     alpha_list.push(first_letter)
+                    obj = {};
+                    obj.name = first_letter
+                    obj.id = first_letter   
+                    alpha_array.push(obj);
+                    alpha_list.push(first_letter)
                  } else {
                      
                  }
