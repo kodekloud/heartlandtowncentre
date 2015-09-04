@@ -1,6 +1,7 @@
 <style>
     .main_content{
         padding-right:15px;
+        margin-top:20px;
     }
 </style>
 <div class="tabs">
