@@ -123,12 +123,13 @@
         var close_time = new Date (close_time)
         open_time = convert_hour(open_time);
         close_time = convert_hour(close_time);
+        hour_string = {};
+        hour_string["day"] = day
         if (is_closed == true){
-            hour_string = "Closed"
+            hour_string["detail"] = "Closed"
         } else {
   
-            hour_string = {};
-            hour_string["day"] = day
+            
             hour_string["detail"] = open_time + " - " + close_time
                     
         }
