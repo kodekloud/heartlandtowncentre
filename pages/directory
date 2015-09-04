@@ -28,6 +28,9 @@
         </script>
     </div>
 </div>
+<div class='tab_content'>
+    
+</div>
 
 
 
@@ -63,6 +66,8 @@
         }
         loadMallDataCached(renderAll);  
         // loadMallData(renderAll);  
+        
+        
         
         
         
