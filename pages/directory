@@ -1,3 +1,8 @@
+<style>
+    .main_content{
+        padding-right:15px;
+    }
+</style>
 <div class="tabs">
     <div class="tab_title" id="alpha_tab" onclick="javascript:toggle_tabs('alpha')">
         Alphabetical
