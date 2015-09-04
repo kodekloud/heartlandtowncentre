@@ -39,9 +39,13 @@
         if (id == 'alpha') {
             $("#cat_tab_title_content_container").hide()
             $("#alpha_tab_title_content_container").show()
+            $("#alpha_tab").css({"color":"black","background":"#f3f3f3"})
+            $("#alpha_triangle").css("border-bottom","39px solid #f3f3f3")
         } else {
             $("#cat_tab_title_content_container").show()
             $("#alpha_tab_title_content_container").hide()
+            $("#cat_tab").css({"color":"black","background":"#f3f3f3"})
+            $("#cat_triangle").css("border-bottom","39px solid #f3f3f3")
         }
     }
     $(document).ready(function() {
