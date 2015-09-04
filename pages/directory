@@ -81,7 +81,7 @@
         
         function add_stores_to_table(collection){
             $.each( collection , function( key, val ) {
-                console.log(val)
+                console.log(val.store_ids)
             })
         }
         
