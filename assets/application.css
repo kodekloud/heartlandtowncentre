@@ -462,6 +462,10 @@ textarea:focus, input:focus{
     display:inline-block;
     margin:0;
 }
+.up_arrow{
+    float:right;
+    line-height:36px;
+}
  @media (max-width: 767px) {
      
     .main_content{
