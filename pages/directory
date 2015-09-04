@@ -80,7 +80,9 @@
         
         
         function add_stores_to_table(collection){
-            console.log(collection)
+            $.each( collection , function( key, val ) {
+                console.log(key)
+            })
         }
         
         
