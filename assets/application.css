@@ -430,13 +430,13 @@ textarea:focus, input:focus{
     
 }
 .dir_store_name{
-    
+    width: 500px;
 }
 .icon_td{
-    
+    width: 75px;
 }
 .dir_phone{
-    
+    width: 200px;
 }
 
  @media (max-width: 767px) {
