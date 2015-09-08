@@ -64,7 +64,7 @@
             
             
             
-            if (store_promos.length > 0){
+            if (promo_array.length > 0){
                 renderPageData("#promo_container", "#promo_template", promo_array, "all_promos")
             } else {
                 $(".no_promos").show();
