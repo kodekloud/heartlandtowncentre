@@ -535,6 +535,28 @@ textarea:focus, input:focus{
     background:lightgrey;
     margin-bottom:60px;
 }
+
+.promo_left_block{
+    
+}
+.promo_left_block img {
+    
+}
+.promo_right_block{
+    
+}
+.promo_name{
+    
+}
+.promotionable_name{
+    
+}
+.promo_date_string{
+    
+}
+.promo_desc_short{
+    
+}
  @media (max-width: 767px) {
      
     .main_content{
