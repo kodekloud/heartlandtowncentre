@@ -496,6 +496,10 @@ textarea:focus, input:focus{
     
 }
 
+.desc_block{
+    
+}
+
 .detail_left_block button{
     background:black;
     color:white;
