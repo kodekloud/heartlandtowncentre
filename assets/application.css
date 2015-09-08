@@ -547,13 +547,14 @@ textarea:focus, input:focus{
     display:inline-block;
     vertical-align:top;
     position:relative;
+    border:1px solid #e2e2e2;
 }
 .promo_left_block img {
     position: absolute;
     top: 0;
     bottom: 0;
     margin: auto;
-    width: 162px;
+    width: 160px;
     
 }
 .promo_right_block{
