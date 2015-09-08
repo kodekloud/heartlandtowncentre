@@ -50,7 +50,7 @@
                  if (today >= webDate) {
                     
                     val.date_string = get_date_string(val.start_date, val.end_date)
-                    closing_date = val.date_string.split('-')
+                    var closing_date = val.date_string.split('-')
                     console.log(closing_date)
                     if (val.jobable_type == 'Store'){
                         var store_details = getStoreDetailsByID(val.jobable_id)
