@@ -605,6 +605,17 @@ textarea:focus, input:focus{
         line-height:53px;
         
     }
+    
+    .detail_right_block {
+        display: block;
+        width: 95%;
+        vertical-align: top;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+    }
+    
+    
         
     
     .main_content{
