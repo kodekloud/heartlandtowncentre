@@ -89,8 +89,8 @@
         }
         
         
-        loadMallDataCached(renderAll); 
-        // loadMallData(renderAll); 
+        // loadMallDataCached(renderAll); 
+        loadMallData(renderAll); 
         
     })
 </script>
