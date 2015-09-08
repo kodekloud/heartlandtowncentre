@@ -484,6 +484,22 @@ textarea:focus, input:focus{
     margin-left:auto;
     margin-right:auto;
 }
+
+#main_detail_container{
+    
+}
+
+.left_block{
+    
+}
+
+.left_block img{
+    
+}
+
+.left_block button{
+    
+}
  @media (max-width: 767px) {
      
     .main_content{
