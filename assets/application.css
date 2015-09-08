@@ -501,6 +501,7 @@ textarea:focus, input:focus{
     background:black;
     color:white;
     text-transform:uppercase;
+    border:none;
 }
  @media (max-width: 767px) {
      
