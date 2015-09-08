@@ -505,7 +505,7 @@ textarea:focus, input:focus{
     border:none;
     width:100%;
 }
-.desc_block{
+.detail_right_block{
     display: inline-block;
     width: 507px;
     vertical-align: top;
