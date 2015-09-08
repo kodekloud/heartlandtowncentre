@@ -436,7 +436,7 @@ textarea:focus, input:focus{
     margin-top:30px;
     
 }
-.content_table a{
+.content_table a, h1 h1{
     color:black !important;
 }
 .dir_store_name, .icon_td, .dir_phone{
