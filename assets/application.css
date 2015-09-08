@@ -497,6 +497,7 @@ textarea:focus, input:focus{
 
 .detail_left_block img{
     margin-bottom:10px;
+    max-width:100%;
 }
 
 .desc_block{
