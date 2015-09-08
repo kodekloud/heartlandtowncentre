@@ -55,6 +55,7 @@
                 responsive:true,
                 zoomLimit: [0,10]
             });
+        }
             
         
         loadMallDataCached(renderAll);  
