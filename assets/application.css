@@ -489,16 +489,16 @@ textarea:focus, input:focus{
     
 }
 
-.left_block{
+.detail_left_block{
     width:162px;
     display:inline-block;
 }
 
-.left_block img{
+.detail_left_block img{
     
 }
 
-.left_block button{
+.detail_left_block button{
     background:black;
     color:white;
     text-transform:uppercase;
