@@ -499,6 +499,7 @@ textarea:focus, input:focus{
 .desc_block{
     font-size:15px;
     color:#4A4A4A;
+    border-bottom:1px solid #979797;
 }
 
 .detail_left_block button{
