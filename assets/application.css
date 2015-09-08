@@ -526,9 +526,7 @@ textarea:focus, input:focus{
     width:120px;
     padding-bottom:5px;
 }
-.detail{
-    
-}
+
  @media (max-width: 767px) {
      
     .main_content{
