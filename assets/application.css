@@ -554,8 +554,9 @@ textarea:focus, input:focus{
 .promo_right_block{
     display:inline-block;
 }
-.promo_name{
-    
+.promo_name, .promotionable_name{
+    color:black !important;
+    font-size:20px;
 }
 .promotionable_name{
     
