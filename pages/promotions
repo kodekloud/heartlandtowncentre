@@ -30,6 +30,10 @@
     </script>
 </div>
 
+<div class="no_promos">
+    There are currently no promotions. Please check back at a later date!
+</div>
+
 
 <script>
     $(document).ready(function() {
