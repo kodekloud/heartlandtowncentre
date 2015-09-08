@@ -565,6 +565,9 @@ textarea:focus, input:focus{
     font-size:20px;
     
 }
+#job_header{
+    margin-top:50px;
+}
 .promotionable_name{
     margin-top:10px;
     margin-bottom:10px;
