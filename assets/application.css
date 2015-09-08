@@ -503,6 +503,21 @@ textarea:focus, input:focus{
     text-transform:uppercase;
     border:none;
 }
+.desc_block{
+    
+}
+.hours_container{
+    
+}
+.hours_table{
+    
+}
+.day{
+    
+}
+.detail{
+    
+}
  @media (max-width: 767px) {
      
     .main_content{
