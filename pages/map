@@ -37,6 +37,26 @@
             load_map(regions)
         }
         
+        function load_map(reg){
+            map = $('#mapsvg').mapSvg({
+                source: getSVGMapURL(),    // Path to SVG map
+                colors: {stroke: '#aaaaaa', selected: -20, hover: "#38949d"},
+                // viewBox: [3000,0,6000,6000],
+                disableAll: true,
+                height:800,
+                width:1193,
+                regions: reg,
+                tooltipsMode:'custom',
+                loadingText: "loading...",
+                zoom: true,
+                zoomButtons: {'show': true,'location': 'left' },
+                pan:true,
+                cursor:'pointer',
+                responsive:true,
+                zoomLimit: [0,10]
+            });
+            
+        
         loadMallDataCached(renderAll);  
     })
     
