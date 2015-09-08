@@ -546,7 +546,7 @@ textarea:focus, input:focus{
     width: 162px;
 }
 .promo_right_block{
-    
+    display:inline-block;
 }
 .promo_name{
     
