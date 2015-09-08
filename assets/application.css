@@ -598,6 +598,13 @@ textarea:focus, input:focus{
         margin-top: 0;
     }
         
+    .detail_left_block a p{
+        
+        height:53px;
+      
+        line-height:53px;
+        
+    }
         
     
     .main_content{
