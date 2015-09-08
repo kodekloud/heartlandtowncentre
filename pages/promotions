@@ -57,7 +57,11 @@
             
             
             
-            
+            if (store_promos.length > 0){
+                renderPageData("#promo_container", "#promo_template", store_promos, "store_promos")
+            } else {
+                $(".no_promos").show();
+            }
             
             
             $(".loading_overlay").hide();    
