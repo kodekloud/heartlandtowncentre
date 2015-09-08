@@ -4,8 +4,6 @@
             <option value='{{svgmap_region}}/{{slug}}'>{{name}}</option>
         </script>
     </select>
-    
-    <button class="gray_pill download_map" onclick="window.open('http://assets.kodekloud.io/sites/556628266e6f640eb3000000/9139ccc768ba41d0bd66888dd51af047/TBC-StoreMapprintcopyAugust282015.pdf')">Printable PDF Map</button>
 </div>
 
 
