@@ -255,7 +255,7 @@
             var template_html = $(template).html();
             Mustache.parse(template_html);   // optional, speeds up future uses
             
-            if (type == 'property' || type == 'store_details'){
+            if (type == 'property' || type == 'store_details' || type=='promo_details'){
                 item_list.push(collection);    
             } else {
                 item_list = collection;
