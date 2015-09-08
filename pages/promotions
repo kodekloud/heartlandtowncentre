@@ -1,0 +1,19 @@
+<h1 id="promo_header">Promotions</h1>
+<div id='promo_container'>
+    <script id="promo_template" type="x-tmpl-mustache/text">
+        <div class='promo_div'>
+            <div class='promo_left_block'>
+                <a href="{{promo_img}}" target="_blank" rel="lightbox">
+                    <img alt="photo_{{name}}" src="{{promo_img}}"/>
+                </a>
+                
+            </div>
+            <div class="promo_right_block">
+                <a class='promo_name' href='promotions/{{slug}}'>{{name}}</a>
+                <p class='promotionable_name'>{{store_name}}</p>
+                <p class='promo_date_string'>{{date_string}}</p>
+                <p class='promo_desc_short'>{{description}}</p>
+            </div>
+        </div>
+    </script>
+</div>
