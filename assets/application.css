@@ -33,6 +33,10 @@ h2 {
     height:197px;
 }
 
+a:hover{
+    text-decoration:none;
+}
+
 /*.small_box{*/
 /*    position:relative;*/
 /*    text-align:center;*/
