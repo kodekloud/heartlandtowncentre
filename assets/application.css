@@ -539,7 +539,7 @@ textarea:focus, input:focus{
 .promo_div{
     margin-top:20px;
     padding-bottom:20px;
-    border-bottom:1px solid #979797;
+    border-bottom:1px solid #e2e2e2;
 }
 .promo_left_block{
     height: 162px;
