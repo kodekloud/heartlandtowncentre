@@ -529,6 +529,7 @@ textarea:focus, input:focus{
 .map_div{
     width:700px;
     height:432px;
+    background:lightgrey;
 }
  @media (max-width: 767px) {
      
