@@ -511,6 +511,8 @@ textarea:focus, input:focus{
     border:none;
     width:100%;
     height:28px;
+    text-align:center;
+    line-height:28px;
 }
 .detail_right_block{
     display: inline-block;
