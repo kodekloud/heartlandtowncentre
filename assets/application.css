@@ -678,6 +678,10 @@ textarea:focus, input:focus{
         /*max-width:100%;*/
     }
     
+    h1{
+        font-size:25px;
+    }
+    
     .mobile_menu_btn{
         display:block;
         position: absolute;
