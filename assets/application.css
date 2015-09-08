@@ -509,6 +509,7 @@ textarea:focus, input:focus{
     display: inline-block;
     width: 507px;
     vertical-align: top;
+    margin-left:15px;
 }
 #hours_container{
     
