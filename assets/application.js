@@ -11,7 +11,7 @@
         
         map.setMarks([{ xy: [coords["x"] - 25 + x_offset, coords["y"] - 65 + y_offset],
                   attrs: {
-                            src:  'http://assets.kodekloud.io/sites/556628266e6f640eb3000000/103b482360f9f2e6f9c50b2426af6d61/pin_baycentre.png'     // image for marker
+                            src:  'http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/74651acfd9dc025696c5056ab3a75698/pin.png'     // image for marker
                           }
                 }
                 ])
