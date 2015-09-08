@@ -1,6 +1,25 @@
 /*Created 2015-08-26  by Andy*/
 
     
+    function drop_pin(id){
+
+        var coords = map.get_coords(id);
+        var height = parseInt(coords["height"])
+        var width = parseInt(coords["width"])
+        var x_offset = (parseInt(width) / 2);
+        var y_offset = (parseInt(height) /2);
+        
+        map.setMarks([{ xy: [coords["x"] - 25 + x_offset, coords["y"] - 65 + y_offset],
+                  attrs: {
+                            src:  'http://assets.kodekloud.io/sites/556628266e6f640eb3000000/103b482360f9f2e6f9c50b2426af6d61/pin_baycentre.png'     // image for marker
+                          }
+                }
+                ])
+    }
+    
+    
+    
+    
     function load_slider(slider){
         $('.'+slider).flexslider({
             animation: "slide",
