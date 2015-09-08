@@ -498,7 +498,8 @@ textarea:focus, input:focus{
 }
 
 .left_block button{
-    
+    background:black;
+    color:white;
 }
  @media (max-width: 767px) {
      
