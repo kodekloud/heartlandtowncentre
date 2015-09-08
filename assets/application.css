@@ -592,6 +592,7 @@ textarea:focus, input:focus{
     .promo_left_block img{
         width:100%;
         height:auto;
+        margin-bottom:20px;
     }
     .detail_left_block, #name_block {
         width: 95%;
