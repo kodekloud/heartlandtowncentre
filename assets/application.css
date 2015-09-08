@@ -491,6 +491,7 @@ textarea:focus, input:focus{
 
 .left_block{
     width:162px;
+    display:inline-block;
 }
 
 .left_block img{
