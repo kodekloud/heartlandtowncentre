@@ -598,6 +598,7 @@ textarea:focus, input:focus{
     }
     
     .promo_left_block img{
+        position:relative;
         width:100%;
         height:auto;
         margin-bottom:20px;
