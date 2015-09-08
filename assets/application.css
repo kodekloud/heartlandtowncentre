@@ -504,7 +504,7 @@ textarea:focus, input:focus{
     margin-bottom:15px;
 }
 
-.detail_left_block a{
+.detail_left_block a p{
     background:black;
     color:white;
     text-transform:uppercase;
