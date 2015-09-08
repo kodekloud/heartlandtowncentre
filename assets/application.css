@@ -510,7 +510,7 @@ textarea:focus, input:focus{
     width: 507px;
     vertical-align: top;
 }
-.hours_container{
+#hours_container{
     
 }
 .hours_table{
