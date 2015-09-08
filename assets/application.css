@@ -500,6 +500,7 @@ textarea:focus, input:focus{
 .left_block button{
     background:black;
     color:white;
+    text-transform:uppercase;
 }
  @media (max-width: 767px) {
      
