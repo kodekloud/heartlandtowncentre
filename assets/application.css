@@ -582,7 +582,7 @@ textarea:focus, input:focus{
  @media (max-width: 767px) {
     
     
-    .detail_left_block {
+    .detail_left_block, #name_block {
         width: 95%;
         display: block;
         margin-left: auto;
