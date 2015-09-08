@@ -581,6 +581,13 @@ textarea:focus, input:focus{
 #promo_container, #job_container{
     padding-right:15px;
 }
+
+
+.no_promos{
+    padding-top:20px;
+    padding-bottom:20px;
+    text-align:center;
+}
  @media (max-width: 767px) {
     
     .promo_left_block, .promo_right_block{
