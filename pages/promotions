@@ -37,6 +37,7 @@
                     if (val.promotionable_type == 'Store'){
                         var store_details = getStoreDetailsByID(val.promotionable_id)
                         val.store_slug = store_details.slug
+                        val.store_name = store_details.name
                         
                     } else {
                         val.store_name = "Heartland Town Centre"
