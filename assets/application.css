@@ -544,6 +544,7 @@ textarea:focus, input:focus{
 .promo_left_block img {
     height: 162px;
     width: 162px;
+    vertical-align:top;
 }
 .promo_right_block{
     display:inline-block;
