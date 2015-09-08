@@ -506,7 +506,9 @@ textarea:focus, input:focus{
     width:100%;
 }
 .desc_block{
-    
+    display: inline-block;
+    width: 507px;
+    vertical-align: top;
 }
 .hours_container{
     
