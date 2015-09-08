@@ -537,10 +537,13 @@ textarea:focus, input:focus{
 }
 
 .promo_left_block{
-    
+    height: 162px;
+    width: 162px;
+    display:inline-block;
 }
 .promo_left_block img {
-    
+    height: 162px;
+    width: 162px;
 }
 .promo_right_block{
     
