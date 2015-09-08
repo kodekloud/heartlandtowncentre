@@ -588,6 +588,9 @@ textarea:focus, input:focus{
         display:block;
         height:auto;
     }
+    #job_header {
+    margin-top: 30px;
+}
     
     .promo_left_block img{
         width:100%;
