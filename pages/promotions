@@ -71,7 +71,7 @@
                         val.promo_img = 'http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/26b24c22c6eefc98170d368721d95a80/htc_default.png'
                     }
                            
-                    } 
+                     
                     
                      promo_array.push(val)
                  } 
