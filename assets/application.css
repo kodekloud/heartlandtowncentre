@@ -524,6 +524,7 @@ textarea:focus, input:focus{
 
 .day{
     width:120px;
+    padding-bottom:5px;
 }
 .detail{
     
