@@ -556,9 +556,6 @@ textarea:focus, input:focus{
     width: 70%;
     margin-left: 15px;
 }
-#lbCenter{
-    top:50% !important;
-}
 
 .promo_name:hover{
     text-decoration:none;
