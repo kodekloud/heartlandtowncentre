@@ -35,6 +35,29 @@
     }
     
     
+    function get_date_string(start_date, end_date){
+        start = new Date (start_date);
+        end = new Date (end_date);
+        start.setDate(start.getDate()+1);
+        end.setDate(end.getDate()+1);
+
+        if (start.toDateString() == end.toDateString()) {
+            start_month = get_month(start.getMonth())
+            start_day = start.getDate()
+            
+            date_string = start_month + " " + start_day
+            
+            
+        } else {
+            start_month =get_month(start.getMonth())
+            start_day = start.getDate() 
+            end_month = get_month(end.getMonth())
+            end_day = end.getDate()
+            date_string = start_month + " " + start_day + " - " + end_month + " " +  end_day
+        }
+        return date_string
+    }
+    
     
     
     
