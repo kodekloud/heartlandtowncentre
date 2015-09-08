@@ -38,7 +38,7 @@
 <script>
     $(document).ready(function() {
         function renderAll(){
-            all_promos = getPromotionsList();
+            all_promos = getJobsList();
             all_promos = all_promos.reverse();
             promo_array = []
              $.each( all_promos , function( key, val ){
