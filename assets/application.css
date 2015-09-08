@@ -535,7 +535,9 @@ textarea:focus, input:focus{
     background:lightgrey;
     margin-bottom:60px;
 }
-
+.promo_div{
+    margin-top:20px;
+}
 .promo_left_block{
     height: 162px;
     width: 162px;
