@@ -493,7 +493,7 @@ textarea:focus, input:focus{
 }
 
 .detail_left_block img{
-    
+    margin-bottom:10px;
 }
 
 .desc_block{
