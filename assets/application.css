@@ -485,7 +485,9 @@ textarea:focus, input:focus{
     margin-right:auto;
 }
 
-
+.main_container{
+    margin-bottom:80px;
+}
 
 .detail_left_block{
     width:162px;
