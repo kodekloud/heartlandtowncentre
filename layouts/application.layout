@@ -118,7 +118,7 @@
                                     <small><h4 class="list-group-item search-results-count" id="store_results_header" style="display:none;" data-i18n="nav.stores" onclick="javascript:show_results('store')"></h4></small>
                                     <div class="results_div" id="store_results">
                                         {{#stores}}
-                                        <a href="/stores/{{slug}}" class="list-group-item">
+                                        <a href="/directory/{{slug}}" class="list-group-item">
                                         <div class="result_container">
                                         <div class="name">{{name}}</div>
                                         <div class="description">{{description_trim}}</div>
