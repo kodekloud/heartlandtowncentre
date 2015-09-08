@@ -516,7 +516,7 @@ textarea:focus, input:focus{
     height:28px;
     text-align:center;
     line-height:28px;
-    font-size:15px;
+    font-size:12px;
 }
 .detail_right_block{
     display: inline-block;
