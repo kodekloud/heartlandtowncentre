@@ -1,3 +1,15 @@
+<style>
+     @media (max-width: 767px) {
+         #promo_header{
+             width:95%;
+             margin-left:auto;
+             margin-right:auto;
+         }
+     }
+</style>
+
+
+
 <h1 id="promo_header">Promotions</h1>
 <div id='promo_container'>
     <script id="promo_template" type="x-tmpl-mustache/text">
