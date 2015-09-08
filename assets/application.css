@@ -585,6 +585,7 @@ textarea:focus, input:focus{
         width:95%;
         margin-left:auto;
         margin-right:auto;
+        display:block;
     }
     .detail_left_block, #name_block {
         width: 95%;
