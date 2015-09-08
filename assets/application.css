@@ -502,6 +502,7 @@ textarea:focus, input:focus{
     color:white;
     text-transform:uppercase;
     border:none;
+    width:100%;
 }
 .desc_block{
     
