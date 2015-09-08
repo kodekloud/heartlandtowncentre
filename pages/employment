@@ -50,6 +50,7 @@
                  if (today >= webDate) {
                     
                     val.date_string = get_date_string(val.start_date, val.end_date)
+                    closing_date = val.date_string.split('-')
                     if (val.jobable_type == 'Store'){
                         var store_details = getStoreDetailsByID(val.jobable_id)
                         val.store_slug = 'directory/'+store_details.slug
