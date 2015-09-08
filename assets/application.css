@@ -573,11 +573,8 @@ textarea:focus, input:focus{
     margin-top:10px;
     margin-bottom:10px;
 }
-.promo_date_string{
-    
-}
-.promo_desc_short{
-    
+#promo_container{
+    padding-right:15px;
 }
  @media (max-width: 767px) {
     
