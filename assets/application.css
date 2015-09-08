@@ -593,7 +593,11 @@ textarea:focus, input:focus{
         width:100%;
     }
     
-    
+    .main_container {
+        margin-bottom: 40px;
+        margin-top: 0;
+    }
+        
         
     
     .main_content{
