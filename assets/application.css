@@ -587,6 +587,10 @@ textarea:focus, input:focus{
         margin-right:auto;
         display:block;
     }
+    
+    .promo_left_block img{
+        width:100%;
+    }
     .detail_left_block, #name_block {
         width: 95%;
         display: block;
