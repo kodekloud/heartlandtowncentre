@@ -553,6 +553,8 @@ textarea:focus, input:focus{
 }
 .promo_right_block{
     display:inline-block;
+    width: 70%;
+    margin-left: 15px;
 }
 
 .promo_name:hover{
