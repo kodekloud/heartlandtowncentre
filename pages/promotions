@@ -17,3 +17,18 @@
         </div>
     </script>
 </div>
+
+
+<script>
+    $(document).ready(function() {
+        function renderAll(){
+        
+            $(".loading_overlay").hide();    
+        }
+        
+        
+        loadMallDataCached(renderAll); 
+        // loadMallData(renderAll); 
+        
+    })
+</script>
