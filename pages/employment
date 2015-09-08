@@ -51,7 +51,7 @@
                     
                     val.date_string = get_date_string(val.start_date, val.end_date)
                     if (val.jobable_type == 'Store'){
-                        var store_details = getStoreDetailsByID(val.promotionable_id)
+                        var store_details = getStoreDetailsByID(val.jobable_id)
                         val.store_slug = 'directory/'+store_details.slug
                         val.store_name = store_details.name
                         
@@ -59,7 +59,7 @@
                         val.store_name = "Heartland Town Centre"
                         val.store_slug = 'home'
                     }
-                    if (!val.promo_image_url_abs ||  val.promo_image_url_abs.indexOf('missing.png') > -1 || val.promo_image_url_abs.length === 0){
+        
                         if (val.promotionable_type == 'Store'){
                            if(!store_details.store_front_url ||  store_details.store_front_url.indexOf('missing.png') > -1 || store_details.store_front_url.length === 0){
                             val.promo_img = 'http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/307bb19a2f979883e5614374003bfeb9/default.png'
@@ -71,9 +71,7 @@
                             val.promo_img = 'http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/307bb19a2f979883e5614374003bfeb9/default.png'
                         }
                            
-                    } else {
-                        val.promo_img = val.promo_image_url_abs
-                    }
+               
                     
                      promo_array.push(val)
                  } 
