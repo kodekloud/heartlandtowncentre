@@ -96,7 +96,7 @@
     
     function get_hour_string(day_of_week, open_time, close_time, is_closed){
         switch(day_of_week) {
-            case 0:
+            case 7:
                 day = "Sunday"
                 break;
             case 1:
