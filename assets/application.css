@@ -554,6 +554,10 @@ textarea:focus, input:focus{
 .promo_right_block{
     display:inline-block;
 }
+
+.promo_name:hover{
+    text-decoration:none;
+}
 .promo_name, .promotionable_name{
     color:black !important;
     font-size:20px;
