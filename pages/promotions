@@ -22,7 +22,44 @@
 <script>
     $(document).ready(function() {
         function renderAll(){
-        
+            all_promos = getPromotionsList();
+            all_promos = all_promos.reverse();
+            promo_array = []
+             $.each( all_promos , function( key, val ){
+                if (val.description.length > 110) {
+                   val.description =  val.description.substring(0,100)+'...';
+                } 
+                 today = new Date();
+                 webDate = new Date(val.show_on_web_date);
+                 if (today >= webDate) {
+                    
+                    val.date_string = get_date_string(val.start_date, val.end_date)
+    
+                    if (!val.promo_image_url_abs ||  val.promo_image_url_abs.indexOf('missing.png') > -1 || val.promo_image_url_abs.length === 0){
+                        if (val.promotionable_type == 'Store'){
+                        var store_details = getStoreDetailsByID(val.promotionable_id)
+                           if(!store_details.store_front_url ||  store_details.store_front_url.indexOf('missing.png') > -1 || store_details.store_front_url.length === 0){
+                            val.promo_img = 'http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/307bb19a2f979883e5614374003bfeb9/default.png'
+                            } else {
+                                val.promo_img = store_details.store_front_url
+                            }   
+                        } else {
+                            val.promo_img = 'http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/307bb19a2f979883e5614374003bfeb9/default.png'
+                        }
+                           
+                    } else {
+                        val.promo_img = val.promo_image_url_abs
+                    }
+                    
+                     promo_array.push(val)
+                 } 
+             });
+            
+            
+            
+            
+            
+            
             $(".loading_overlay").hide();    
         }
         
