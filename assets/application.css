@@ -573,7 +573,7 @@ textarea:focus, input:focus{
     margin-top:10px;
     margin-bottom:10px;
 }
-#promo_container{
+#promo_container, #job_container{
     padding-right:15px;
 }
  @media (max-width: 767px) {
@@ -587,6 +587,10 @@ textarea:focus, input:focus{
     }
     #job_header {
         margin-top: 30px;
+    }
+    
+    #promo_container, #job_container{
+        padding-right:0;
     }
     
     .promo_left_block img{
