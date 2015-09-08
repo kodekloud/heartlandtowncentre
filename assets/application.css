@@ -561,7 +561,7 @@ textarea:focus, input:focus{
 .promo_name:hover{
     text-decoration:none;
 }
-.promo_name, .promotionable_name{
+.promo_name, .promotionable_name, .promotionable_name a{
     color:black !important;
     font-size:20px;
     
