@@ -62,7 +62,7 @@
                         val.store_slug = 'home'
                     }
         
-                        if (val.promotionable_type == 'Store'){
+                        if (val.jobable_type == 'Store'){
                            if(!store_details.store_front_url ||  store_details.store_front_url.indexOf('missing.png') > -1 || store_details.store_front_url.length === 0){
                             val.promo_img = 'http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/307bb19a2f979883e5614374003bfeb9/default.png'
                             } else {
