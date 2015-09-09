@@ -15,7 +15,7 @@
             holiday_hours = []
             $.each( hours , function( key, val ) {
                 if (val.day_of_week == 0){
-                    val.day_of_week = 7
+                    val.day_of_week = 7;
                 }
                 val.hour_string = get_hour_string(val.day_of_week, val.open_time, val.close_time, val.is_closed)
                 if (val.store_id == null && val.is_holiday == false){
