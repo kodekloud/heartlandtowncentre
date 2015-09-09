@@ -18,7 +18,7 @@
             <td class='hour_col day_col'>
                 {{day}}
             </td>
-            <td class='hour_col'>
+            <td class='hour_col time_col'>
                 {{hour_string}}
             </td>
             <td class='hour_col'>
@@ -39,7 +39,7 @@
             <td class='hour_col hol_col'>
                 {{hol}}
             </td>
-            <td class='hour_col'>
+            <td class='hour_col time_col'>
                 {{hour_string}}
             </td>
         </tr>
