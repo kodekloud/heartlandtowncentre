@@ -596,6 +596,10 @@ textarea:focus, input:focus{
     display:none;
 }
 
+#reg_table tr, #hol_table tr{
+    
+}
+
 .hour_col{
     width:300px;
 }
