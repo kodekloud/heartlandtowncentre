@@ -222,7 +222,7 @@
     
     
     function convert_hour(d){
-            var h = addZero(d.getUTCHours());
+            // var h = addZero(d.getUTCHours());
             var m = addZero(d.getUTCMinutes());
             var s = addZero(d.getUTCSeconds());
             console.log(h)
