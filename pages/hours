@@ -1,0 +1,10 @@
+<script>
+    $(document).ready(function() {
+        function renderAll(){}
+        
+        
+        loadMallDataCached(renderAll); 
+        // loadMallData(renderAll); 
+    });
+    
+</script>
