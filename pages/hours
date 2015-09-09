@@ -6,7 +6,7 @@
     <script id="reg_template" type="x-tmpl-mustache/text">
         <tr>
             <td>
-                {{day_of_week}}
+                {{day}}
             </td>
             <td>
                 {{hour_string}}
@@ -31,7 +31,7 @@
                 if (val.day_of_week == 0){
                     val.day_of_week = 7;
                 }
-                val.hour_string = get_hour_string(val.day_of_week, val.open_time, val.close_time, val.is_closed)
+                val.hour_string = get_hour_string(val.day_of_week, val.open_time, val.close_time, val.is_closed)[1]
                 if (val.store_id == null && val.is_holiday == false){
                     reg_hours.push(val)
                 }
