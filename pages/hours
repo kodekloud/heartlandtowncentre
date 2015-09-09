@@ -41,6 +41,7 @@
                     val.hol = (get_month(hol.getMonth()))+" "+(hol.getDate());   
                     holiday_hours.push(val)
                 }
+                console.log(val)
             })
             renderPageData("#reg_table", "#reg_template", reg_hours, "hours")
             
