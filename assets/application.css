@@ -610,10 +610,10 @@ textarea:focus, input:focus{
         margin-right:auto;
     }
     .day_col{
-        width:50%;
+        width:45%;
     }
-    .hour_col{
-        
+    .time_col{
+        width:55%;
     }
     .hol_col{
         display:none;
