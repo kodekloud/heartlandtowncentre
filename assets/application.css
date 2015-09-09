@@ -604,6 +604,11 @@ textarea:focus, input:focus{
     padding-bottom:5px;
 }
  @media (max-width: 767px) {
+    #reg_table, #hol_table{
+        width:95%;
+        margin-left:auto;
+        margin-right:auto;
+    }
     .hour_col{
         width:50%;
     }
