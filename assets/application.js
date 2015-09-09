@@ -225,6 +225,7 @@
             var h = addZero(d.getUTCHours());
             var m = addZero(d.getUTCMinutes());
             var s = addZero(d.getUTCSeconds());
+            console.log(h)
             if (h >= 12) {
                 if ( h != 12) {
                     h = h - 12;    
