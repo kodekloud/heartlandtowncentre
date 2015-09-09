@@ -596,12 +596,12 @@ textarea:focus, input:focus{
     display:none;
 }
 
-#reg_table tr, #hol_table tr{
-    
-}
+
 
 .hour_col{
     width:300px;
+    padding-top:5px;
+    padding-bottom"5px"
 }
  @media (max-width: 767px) {
     
