@@ -612,6 +612,9 @@ textarea:focus, input:focus{
     .day_col{
         width:50%;
     }
+    .hour_col{
+        
+    }
     .hol_col{
         display:none;
     }
