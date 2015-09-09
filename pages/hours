@@ -25,6 +25,8 @@
                     holiday_hours.push(val)
                 }
             })
+            console.log(reg_hours)
+            console.log(holiday_hours)
             
             $(".loading_overlay").hide();
         }
