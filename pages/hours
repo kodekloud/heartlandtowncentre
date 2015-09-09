@@ -2,7 +2,21 @@
 <br>
 
 <h2>Regular Hours</h2>
-
+<table id="reg_table">
+    <script id="reg_template" type="x-tmpl-mustache/text">
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    </script>
+</table>
 
 
 
