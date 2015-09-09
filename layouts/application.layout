@@ -47,7 +47,7 @@
             $(document).ready(function() {
                 $.reject({  
                     reject: { all: false, msie: 9 },  
-                    header: 'Thanks for visiting The Bay Centre', // Header Text  
+                    header: 'Thanks for visiting Heartland Town Centre', // Header Text  
                     paragraph1: 'Unfortunately your browser is not officially supported with our site', // Paragraph 1  
                     paragraph2: 'For the best experience please install one of the many optional browsers below to proceed',  
                     closeMessage: 'You may continue using the site however certain features and content may not be accessible. Thank you.',
