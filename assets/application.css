@@ -595,6 +595,10 @@ textarea:focus, input:focus{
     font-size:30px;
     display:none;
 }
+
+.hour_col{
+    width:30%;
+}
  @media (max-width: 767px) {
     
     .promo_left_block, .promo_right_block{
