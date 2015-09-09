@@ -23,13 +23,13 @@
 <table id="hol_table">
     <script id="hol_template" type="x-tmpl-mustache/text">
         <tr>
-            <td class='hour_col_1'>
+            <td class='hour_col'>
                 {{holiday_name}}
             </td>
-            <td class='hour_col_2'>
+            <td class='hour_col'>
                 {{hol}}
             </td>
-            <td class='hour_col_3'>
+            <td class='hour_col'>
                 {{hour_string}}
             </td>
         </tr>
