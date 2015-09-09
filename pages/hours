@@ -10,7 +10,17 @@
 <script>
     $(document).ready(function() {
         function renderAll(){
-            
+            var hours = getPropertyHours();
+            reg_hours = []
+            holiday_hours = []
+            $.each( hours , function( key, val ) {
+                if (val.store_id == null && val.is_holiday == false){
+                    reg_hours.push(val)
+                }
+                if (val.store_id == null && val.is_holiday == true){
+                    holiday_hours.push(val)
+                }
+            })
             
             $(".loading_overlay").hide();
         }
