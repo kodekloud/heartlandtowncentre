@@ -604,6 +604,12 @@ textarea:focus, input:focus{
     padding-bottom:5px;
 }
  @media (max-width: 767px) {
+    .hour_col{
+        width:50%;
+    }
+    .hol_col{
+        display:none;
+    }
     
     .promo_left_block, .promo_right_block{
         width:95%;
