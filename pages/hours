@@ -6,7 +6,7 @@
     <script id="reg_template" type="x-tmpl-mustache/text">
         <tr>
             <td>
-                {{day}}
+                {{day_of_week}}
             </td>
             <td>
                 {{hour_string}}
