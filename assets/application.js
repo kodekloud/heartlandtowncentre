@@ -245,7 +245,6 @@
                 i = "0" + i;
             }
             return i;
-            console.log(i)
         }
     
     
