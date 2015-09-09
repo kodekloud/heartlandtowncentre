@@ -1,3 +1,10 @@
+<h1>Shopping Hours</h1>
+
+
+
+
+
+
 <script>
     $(document).ready(function() {
         function renderAll(){
