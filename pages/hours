@@ -5,13 +5,13 @@
 <table id="reg_table">
     <script id="reg_template" type="x-tmpl-mustache/text">
         <tr>
-            <td class='hour_col_1'>
+            <td class='hour_col'>
                 {{day}}
             </td>
-            <td class='hour_col_2'>
+            <td class='hour_col'>
                 {{hour_string}}
             </td>
-            <td class='hour_col_3'>
+            <td class='hour_col'>
                 
             </td>
         </tr>
