@@ -597,7 +597,7 @@ textarea:focus, input:focus{
 }
 
 .hour_col{
-    width:200px;
+    width:300px;
 }
  @media (max-width: 767px) {
     
