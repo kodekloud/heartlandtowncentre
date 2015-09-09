@@ -19,6 +19,9 @@
                     reg_hours.push(val)
                 }
                 if (val.store_id == null && val.is_holiday == true){
+                    hol = new Date (val.holiday_date);
+                    hol.setDate(hol.getDate()+1);
+                    val.hol = (get_month(hol.getMonth()))+" "+(hol.getDate());   
                     holiday_hours.push(val)
                 }
             })
