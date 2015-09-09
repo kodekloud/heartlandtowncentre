@@ -63,7 +63,7 @@
                 }
             })
             renderPageData("#reg_table", "#reg_template", reg_hours, "hours")
-            
+            renderPageData("#hol_table", "#hol_template", holiday_hours, "hours")
             $(".loading_overlay").hide();
         }
         
