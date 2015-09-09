@@ -225,9 +225,7 @@
             var h = (d.getUTCHours());
             var m = addZero(d.getUTCMinutes());
             var s = addZero(d.getUTCSeconds());
-            if (h == 0){
-                h = 12;
-            }
+            
             if (h >= 12) {
                 if ( h != 12) {
                     h = h - 12;    
@@ -236,6 +234,10 @@
                 i = "PM"
             } else {
                 i = "AM"
+            }
+            
+            if (h == 0){
+                h = 12;
             }
             return h+":"+m+" "+i;
         }
