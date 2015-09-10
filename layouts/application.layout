@@ -288,6 +288,10 @@
                     <form>
                         <label for="fieldEmail">Email</label>
                         <input id="fieldEmail" name="cm-dljtlh-dljtlh" type="email" required />
+                        <span>
+                        <label for="agree_terms" style="display:none">Agree Terms</label>
+                        <input type="checkbox" class="info_check" id="agree_terms" style="margin-left:-15px; width:15px" required/>&nbsp;I agree to receive emails from 10 Dundas East
+                        </span>
                     </form>
                 </div>    
                 
