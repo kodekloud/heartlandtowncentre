@@ -53,6 +53,7 @@ a:hover{
 #popup_form label{
     margin-left:10px;
     margin-bottom:10px;
+    font-weight:lighter;
 }
 
 #popup_form button{
