@@ -362,7 +362,10 @@
 
     $( "#newsletter_form" ).submit(function( e ) {
       e.preventDefault();
-      $(".newsletter_popup").slideDown()
+      if (check_email(this.id) == true){
+        $(".newsletter_popup").slideDown()  
+      }
+      
     });
     
     $( "#mobile_newsletter_form" ).submit(function( e ) {
