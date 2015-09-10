@@ -29,7 +29,7 @@
                         val.store_front_url = 'http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/26b24c22c6eefc98170d368721d95a80/htc_default.png'
                     } 
                     obj = {};
-                    obj["popover"] = "<img src='"+val.store_front_url+"'/><p class='tooltip_name'>"+val.name+"</p>"
+                    obj["popover"] = "<img src='"+val.store_front_url+"'/><p class='tooltip_name'>"+val.name+"</p> <a href=''>View Details</a>"
                     obj["attr"] = {}
                     // obj["attr"]["href"] = "/directory/"+val.slug
                     regions[val.svgmap_region] = obj
