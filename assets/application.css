@@ -686,6 +686,9 @@ textarea:focus, input:focus{
         width:90%;
         height:230px;
     }
+    #popup_form label{
+        
+    }
     #reg_table, #hol_table{
         width:95%;
         margin-left:auto;
