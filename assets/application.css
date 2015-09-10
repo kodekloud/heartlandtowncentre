@@ -50,6 +50,10 @@ a:hover{
     text-align:center;
 }
 
+#fieldEmail{
+    width:200px;
+}
+
 #popup_form label{
     margin-left:10px;
     margin-bottom:10px;
