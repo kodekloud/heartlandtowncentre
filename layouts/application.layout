@@ -299,8 +299,6 @@
                 <div class='thank_you_div'>
                     Thank you for signing up!
                 </div>
-                
-                
             </div>
             
             <div class='main_content'>{{yield}}</div>
