@@ -363,6 +363,14 @@
 <script>
 
 
+    $('.checkbox').click (function(){
+      var thisCheck = $(this);
+    
+      if ( thischeck.is(':checked') ) {
+        // Do stuff
+      }
+    });
+
 
     $( "#newsletter_form" ).submit(function( e ) {
       e.preventDefault();
