@@ -365,7 +365,6 @@
 
     $('#agree_terms').click (function(){
       var thisCheck = $(this);
-    
       if ( thisCheck.is(':checked') ) {
         $("#form_sub").prop('disabled', false);
       } else {
