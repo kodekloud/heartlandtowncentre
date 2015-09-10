@@ -61,7 +61,7 @@ a:hover{
 }
 
 #popup_form button:disabled{
-    background:grey;
+    background:gray;
 }
 
 #popup_form button{
