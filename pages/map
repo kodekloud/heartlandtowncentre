@@ -45,7 +45,7 @@
         function load_map(reg){
             map = $('#mapsvg').mapSvg({
                 source: getSVGMapURL(),    // Path to SVG map
-                colors: {stroke: '#aaaaaa', selected: -20, hover: "#CC00CC"},
+                colors: {stroke: '#aaaaaa', selected: "#CC00CC", hover: "#CC00CC"},
                 // viewBox: [3000,0,6000,6000],
                 disableAll: true,
                 height:800,
