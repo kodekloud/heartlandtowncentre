@@ -39,11 +39,11 @@ a:hover{
 
 .newsletter_popup{
     /*display:none;*/
-    position: absolute;
-    height: 300px;
-    background-color: lightgray;
-    z-index: 9;
-    width: 600px;
+    position:absolute;
+    height:100%;
+    width:100%;
+    background:white;
+    z-index:999999999999999999999999999999;
 }
 
 /*.small_box{*/
