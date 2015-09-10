@@ -368,6 +368,8 @@
     
       if ( thisCheck.is(':checked') ) {
         console.log("checked")
+      } else {
+          
       }
     });
 
