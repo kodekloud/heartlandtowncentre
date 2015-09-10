@@ -28,7 +28,7 @@
                     obj = {};
                     obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name'>"+val.name+"</p></div>"
                     obj["attr"] = {}
-                    obj["attr"]["href"] = "/stores/"+val.slug
+                    obj["attr"]["href"] = "/directory/"+val.slug
                     regions[val.svgmap_region] = obj
                 }
             });
