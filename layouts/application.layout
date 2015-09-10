@@ -367,6 +367,8 @@
       if (check_email("desktop_email") == true){
          $("#fieldEmail").val($("#desktop_email").val());
         $(".newsletter_popup").slideDown();  
+      } else {
+          alert("Please enter a valid email address")
       }
       
     });
