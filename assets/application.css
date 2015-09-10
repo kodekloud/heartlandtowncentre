@@ -690,6 +690,10 @@ textarea:focus, input:focus{
         width:80%;
         margin-left:0;
     }
+    #agree_terms{
+        margin-top: 5px;
+        width: 15px;
+    }
     #reg_table, #hol_table{
         width:95%;
         margin-left:auto;
