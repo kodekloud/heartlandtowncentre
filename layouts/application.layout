@@ -378,7 +378,6 @@
                     } else {
                         $(".form_div").hide();
                         $(".thank_you_div").fadeIn();
-                        close_form();
                     }
             }); 
         } else {
