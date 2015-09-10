@@ -282,8 +282,8 @@
         <div class='page_content'>
             
             <div class="newsletter_popup">
-                
-                    form div
+                <p class='close_form' onclick="javascript:close_form()">X</p>
+                    
                 
             </div>
             
