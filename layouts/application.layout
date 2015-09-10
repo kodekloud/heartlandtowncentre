@@ -365,8 +365,8 @@
     $( "#newsletter_form" ).submit(function( e ) {
       e.preventDefault();
       if (check_email("desktop_email") == true){
-         $("#fieldEmail").val($("#desktop_email").val())
-        $(".newsletter_popup").slideDown()  
+         $("#fieldEmail").val($("#desktop_email").val());
+        $(".newsletter_popup").slideDown();  
       }
       
     });
