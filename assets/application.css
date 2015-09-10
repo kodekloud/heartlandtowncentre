@@ -37,6 +37,10 @@ a:hover{
     text-decoration:none;
 }
 
+.newsletter_popup{
+    display:none;
+}
+
 /*.small_box{*/
 /*    position:relative;*/
 /*    text-align:center;*/
