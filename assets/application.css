@@ -44,6 +44,7 @@ a:hover{
     width:100%;
     background:white;
     z-index:999999999999999999999999999999;
+    opacity:0.8;
 }
 
 /*.small_box{*/
