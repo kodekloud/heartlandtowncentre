@@ -38,7 +38,7 @@ a:hover{
 }
 
 .newsletter_popup{
-    /*display:none;*/
+    display:none;
     position: fixed;
     width: 40%;
     height: 200px;
