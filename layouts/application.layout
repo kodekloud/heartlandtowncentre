@@ -284,6 +284,7 @@
             <div class="newsletter_popup">
                 <p class='close_form' onclick="javascript:close_form()">X</p>
                     
+                <p class="newsletter_text">Sign up and Save!</p>
                 
             </div>
             
