@@ -3,7 +3,7 @@
     
     $( "#newsletter_form" ).submit(function( event ) {
       event.preventDefault();
-      $(".newsletter_popup).slideDown()
+      $(".newsletter_popup").slideDown()
     });
         
     
