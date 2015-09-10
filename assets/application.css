@@ -617,7 +617,7 @@ textarea:focus, input:focus{
 }
 
 .map_popover_content p{
-    
+    margin-top:15px;
 }
 
 .map_popover_content a{
