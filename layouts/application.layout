@@ -364,6 +364,7 @@
 
     $("#popup_form").submit(function(e){
         e.preventDefault();
+        console.log($("#agree_terms").attr("value"))
         $("#fieldtydytu").val($("#agree_terms").attr("value"));
         $.getJSON(
             "http://mobilefringe.createsend.com/t/d/s/dljtlh/?callback=?",
