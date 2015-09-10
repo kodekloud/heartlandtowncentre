@@ -56,6 +56,14 @@ a:hover{
 }
 
 
+.form_div{
+    
+}
+.thank_you_div{
+    display:none;
+}
+
+
 /*.small_box{*/
 /*    position:relative;*/
 /*    text-align:center;*/
