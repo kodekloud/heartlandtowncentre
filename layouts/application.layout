@@ -317,8 +317,8 @@
                     <p class="bottom_nav_column_header">Explore</p>
                     <table>
                         <tr>
-                            <td><a href='/stores'>Directory</a></td>
-                            <td>Location</td>
+                            <td><a href='/directory'>Directory</a></td>
+                            <td><a href='/pages/htc-centre-information'>Location</a></td>
                         </tr>
                         <tr>
                             <td>Centre Map</td>
