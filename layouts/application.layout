@@ -363,7 +363,7 @@
 <script>
 
 
-    $('.checkbox').click (function(){
+    $('#agree_terms').click (function(){
       var thisCheck = $(this);
     
       if ( thischeck.is(':checked') ) {
