@@ -1,10 +1,7 @@
 /*Created 2015-08-26  by Andy*/
 
     
-    $( "#newsletter_form" ).submit(function( event ) {
-      event.preventDefault();
-      $(".newsletter_popup").slideDown()
-    });
+    
         
     
     
