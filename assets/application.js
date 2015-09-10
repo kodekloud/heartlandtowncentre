@@ -1,6 +1,15 @@
 /*Created 2015-08-26  by Andy*/
 
     
+    function map_pin(value){
+            map.marksHide();
+            value = value.split('/')
+            drop_pin(value[0]);
+        }
+    
+    
+    
+    
     function drop_pin(id){
 
         var coords = map.get_coords(id);
