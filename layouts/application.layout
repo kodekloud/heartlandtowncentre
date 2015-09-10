@@ -293,7 +293,7 @@
                         <input type="checkbox" class="info_check" id="agree_terms" style="margin-left:-15px; width:15px" required/>&nbsp;I agree to receive emails from Heartland Town Centre.
                         <input type="hidden" id="fieldtydytu" name="cm-f-tydytu" />
                         <br>
-                        <button type='submit' disabled>Submit</button>
+                        <button type='submit' id="form_sub" disabled>Submit</button>
                     </form>
                 </div>    
                 
@@ -367,9 +367,9 @@
       var thisCheck = $(this);
     
       if ( thisCheck.is(':checked') ) {
-        console.log("checked")
+        $("#form_sub").prop('disabled', false);
       } else {
-          
+        $("#form_sub").prop('disabled', true);
       }
     });
 
