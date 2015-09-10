@@ -2,6 +2,17 @@
     .main_content{
         padding-right:15px;
     }
+    
+    
+    @media (max-width: 767px){
+        .main_content {
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+    }
+
 </style>
 <h1>Centre Map</h1>
 
