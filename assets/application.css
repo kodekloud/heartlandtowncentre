@@ -60,6 +60,10 @@ a:hover{
     font-weight:lighter;
 }
 
+#popup_form button:disabled{
+    background:grey;
+}
+
 #popup_form button{
     background: black;
     color: white;
