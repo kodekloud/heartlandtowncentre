@@ -1,3 +1,5 @@
+<h1>Centre Map</h1>
+
 <div class="store_select">
     <select id="store_select_container" onchange="javascript:map_pin(this.value)">
         <script id="store_select_template" type="x-tmpl-mustache/text">
