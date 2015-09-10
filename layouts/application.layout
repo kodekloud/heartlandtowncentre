@@ -373,8 +373,7 @@
                     e.preventDefault();
                     alert("Please try again later.");
                 } else {
-                    // window.location.href="/thank_you"
-                    // submitToMailChimp();
+                    console.log("success")
                 }
         }); 
     });
