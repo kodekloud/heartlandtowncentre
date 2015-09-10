@@ -11,7 +11,7 @@
     }
     
     function validateEmail($email) {
-      var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+      var emailReg = new RegExp (/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/);
       if( !emailReg.test( $email ) ) {
         return false;
       } else {
