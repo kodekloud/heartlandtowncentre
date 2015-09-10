@@ -290,7 +290,6 @@
                         <input id="fieldEmail" name="cm-dljtlh-dljtlh" type="email" required />
                         <br>
                         <br>
-                        <br>
                         <label for="agree_terms" style="display:none">Agree Terms</label>
                         <input type="checkbox" class="info_check" id="agree_terms" style="margin-left:-15px; width:15px" required value='I agree to receive emails from Heartland Town Centre.'/><label for="agree_terms" class="checkbox_lbl">I agree to receive emails from Heartland Town Centre.</label>
                         <input type="hidden" id="fieldtydytu" name="cm-f-tydytu" />
