@@ -362,6 +362,7 @@
 
     $( "#newsletter_form" ).submit(function( e ) {
       e.preventDefault();
+      console.log(check_email(this.id))
       if (check_email(this.id) == true){
         $(".newsletter_popup").slideDown()  
       }
