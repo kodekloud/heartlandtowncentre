@@ -282,9 +282,9 @@
         <div class='page_content'>
             
             <div class="newsletter_popup">
-                <div class="popup_form_div">
+                
                     form div
-                </div>
+                
             </div>
             
             <div class='main_content'>{{yield}}</div>
