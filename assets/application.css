@@ -52,6 +52,7 @@ a:hover{
 
 #popup_form label{
     margin-left:10px;
+    margin-bottom:20px;
 }
 .close_form{
     display:inline-block;
