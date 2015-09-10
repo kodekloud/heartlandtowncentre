@@ -295,7 +295,10 @@
                         <br>
                         <button type='submit' id="form_sub" disabled>Submit</button>
                     </form>
-                </div>    
+                </div>
+                <div class='thank_you_div'>
+                    Thank you for signing up!
+                </div>
                 
                 
             </div>
