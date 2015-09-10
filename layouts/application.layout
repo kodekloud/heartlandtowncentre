@@ -363,7 +363,7 @@
 <script>
 
     $("#popup_form").submit(function(e){
-        
+        e.preventDefault();
     });
 
 
