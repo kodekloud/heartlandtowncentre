@@ -321,7 +321,7 @@
                             <td><a href='/pages/htc-centre-information'>Location</a></td>
                         </tr>
                         <tr>
-                            <td>Centre Map</td>
+                            <td><a href='/map'>Centre Map</a></td>
                             <td>Leasing</td>
                         </tr>
                         <tr>
