@@ -603,6 +603,29 @@ textarea:focus, input:focus{
     padding-top:5px;
     padding-bottom:5px;
 }
+
+.map_popover{
+    
+}
+
+.map_popover_content{
+    text-align:center;
+}
+
+.map_popover_content img{
+    
+}
+
+.map_popover_content p{
+    
+}
+
+.map_popover_content a{
+    
+}
+
+
+
  @media (max-width: 767px) {
     #reg_table, #hol_table{
         width:95%;
