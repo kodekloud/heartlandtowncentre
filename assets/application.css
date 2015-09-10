@@ -693,6 +693,7 @@ textarea:focus, input:focus{
     #agree_terms{
         margin-top: 5px;
         width: 15px;
+        vertical-align:top;
     }
     #reg_table, #hol_table{
         width:95%;
