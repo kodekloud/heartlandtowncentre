@@ -285,7 +285,7 @@
                 <p class='close_form' onclick="javascript:close_form()">X</p>
                 <div class="form_div">
                     <p class="newsletter_text">Sign up and Save!</p>
-                    <form>
+                    <form id='popup_form'>
                         <label for="fieldEmail">Email</label>
                         <input id="fieldEmail" name="cm-dljtlh-dljtlh" type="email" required />
                         <br>
