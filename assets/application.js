@@ -2,6 +2,7 @@
 
     
     function check_email (id){
+        console.log(id)
         var email = $("#"+id).val();
         if( !validateEmail(email)) {
             return false
