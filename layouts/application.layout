@@ -322,11 +322,11 @@
                         </tr>
                         <tr>
                             <td><a href='/map'>Centre Map</a></td>
-                            <td>Leasing</td>
+                            <td><a href='/pages/htc-leasing'>Leasing</a></td>
                         </tr>
                         <tr>
-                            <td>Promotions</td>
-                            <td>Contact</td>
+                            <td><a href='/promotions'>Promotions</a></td>
+                            <td><a href='/pages/htc-contact-us'>Contact</a></td>
                         </tr>
                     </table>
                 </div>
