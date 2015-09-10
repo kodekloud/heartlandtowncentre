@@ -34,7 +34,7 @@
             });
             renderPageData("#store_select_container","#store_select_template",stores, "stores")
             $(".loading_overlay").hide();    
-            // load_map(regions)
+            load_map(regions)
         }
         
         function load_map(reg){
