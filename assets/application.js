@@ -4,7 +4,10 @@
     function map_pin(value){
             map.marksHide();
             value = value.split('/')
-            drop_pin(value[0]);
+            if (value[0] != null){
+                drop_pin(value[0]);    
+            }
+            
         }
     
     
