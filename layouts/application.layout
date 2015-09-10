@@ -366,24 +366,24 @@
         e.preventDefault();
         
         if (check_email("fieldEmail") == true){
-         
+            $("#fieldtydytu").val($("#agree_terms").attr("value"));
+            $.getJSON(
+                "http://mobilefringe.createsend.com/t/d/s/dljtlh/?callback=?",
+              $(this).serialize(),
+                function (data) {
+                    if (data.Status === 400) {
+                        e.preventDefault();
+                        alert("Please try again later.");
+                    } else {
+                        
+                    }
+            }); 
         } else {
-          alert("Please enter a valid email address")
+            alert("Please enter a valid email address")
         }
         
         
-        $("#fieldtydytu").val($("#agree_terms").attr("value"));
-        $.getJSON(
-            "http://mobilefringe.createsend.com/t/d/s/dljtlh/?callback=?",
-          $(this).serialize(),
-            function (data) {
-                if (data.Status === 400) {
-                    e.preventDefault();
-                    alert("Please try again later.");
-                } else {
-                    
-                }
-        }); 
+        
     });
 
 
