@@ -688,6 +688,7 @@ textarea:focus, input:focus{
     }
     #popup_form label{
         width:80%;
+        margin-left:0;
     }
     #reg_table, #hol_table{
         width:95%;
