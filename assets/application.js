@@ -9,7 +9,7 @@
         var x_offset = (parseInt(width) / 2);
         var y_offset = (parseInt(height) /2);
         
-        map.setMarks([{ xy: [coords["x"] - 30 + x_offset, coords["y"] - 65 + y_offset],
+        map.setMarks([{ xy: [coords["x"] - 30 + x_offset, coords["y"] - 0 + y_offset],
                   attrs: {
                             src:  'http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/74651acfd9dc025696c5056ab3a75698/pin.png'     // image for marker
                           }
