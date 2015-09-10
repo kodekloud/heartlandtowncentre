@@ -613,7 +613,7 @@ textarea:focus, input:focus{
 }
 
 .map_popover_content img{
-    
+    height:100px;
 }
 
 .map_popover_content p{
