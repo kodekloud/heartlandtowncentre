@@ -52,6 +52,7 @@ a:hover{
 .close_form{
     display:inline-block;
     float:right;
+    cursor:pointer;
 }
 
 
