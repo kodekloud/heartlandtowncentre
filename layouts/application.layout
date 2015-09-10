@@ -364,7 +364,14 @@
 
     $("#popup_form").submit(function(e){
         e.preventDefault();
-        console.log($("#agree_terms").attr("value"))
+        
+        if (check_email("fieldEmail") == true){
+         
+        } else {
+          alert("Please enter a valid email address")
+        }
+        
+        
         $("#fieldtydytu").val($("#agree_terms").attr("value"));
         $.getJSON(
             "http://mobilefringe.createsend.com/t/d/s/dljtlh/?callback=?",
@@ -374,7 +381,7 @@
                     e.preventDefault();
                     alert("Please try again later.");
                 } else {
-                    console.log("success")
+                    
                 }
         }); 
     });
