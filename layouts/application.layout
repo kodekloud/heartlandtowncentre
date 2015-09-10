@@ -287,7 +287,7 @@
                     <p class="newsletter_text">Sign up and Save!</p>
                     <form>
                         <label for="fieldEmail">Email</label>
-                        <input id="fieldEmail" name="cm-dljtlh-dljtlh" type="email" required 
+                        <input id="fieldEmail" name="cm-dljtlh-dljtlh" type="email" required />
                     </form>
                 </div>    
                 
