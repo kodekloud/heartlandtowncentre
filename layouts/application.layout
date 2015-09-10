@@ -364,6 +364,19 @@
 
     $("#popup_form").submit(function(e){
         e.preventDefault();
+        $("#fieldtydytu").val($("#agree_terms").attr("value"));
+        $.getJSON(
+            "http://mobilefringe.createsend.com/t/d/s/dljtlh/?callback=?",
+          $(this).serialize(),
+            function (data) {
+                if (data.Status === 400) {
+                    e.preventDefault();
+                    alert("Please try again later.");
+                } else {
+                    // window.location.href="/thank_you"
+                    // submitToMailChimp();
+                }
+        }); 
     });
 
 
