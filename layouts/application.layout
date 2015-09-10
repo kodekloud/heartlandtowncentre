@@ -367,7 +367,7 @@
       var thisCheck = $(this);
     
       if ( thischeck.is(':checked') ) {
-        // Do stuff
+        console.log("checked")
       }
     });
 
