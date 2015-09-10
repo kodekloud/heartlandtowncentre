@@ -684,6 +684,7 @@ textarea:focus, input:focus{
      
     .newsletter_popup{
         width:90%;
+        height:230px;
     }
     #reg_table, #hol_table{
         width:95%;
