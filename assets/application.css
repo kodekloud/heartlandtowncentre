@@ -50,6 +50,9 @@ a:hover{
     text-align:center;
 }
 
+#popup_form label{
+    margin-left:10px;
+}
 .close_form{
     display:inline-block;
     float:right;
