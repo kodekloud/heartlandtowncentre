@@ -1,6 +1,23 @@
 /*Created 2015-08-26  by Andy*/
 
     
+    function check_email (id){
+        var email = $("#"+id).val();
+        if( !validateEmail(email)) {
+            return false
+        } else {
+            return true
+        }
+    }
+    
+    function validateEmail($email) {
+      var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+      if( !emailReg.test( $email ) ) {
+        return false;
+      } else {
+        return true;
+      }
+    }
         
     
     
