@@ -54,6 +54,18 @@ a:hover{
     margin-left:10px;
     margin-bottom:10px;
 }
+
+#popup_form button{
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    width: 100%;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 12px;
+}
 .close_form{
     display:inline-block;
     float:right;
