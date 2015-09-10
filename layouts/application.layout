@@ -362,6 +362,10 @@
 
 <script>
 
+    $("#popup_form").submit(function(e){
+        
+    });
+
 
     $('#agree_terms').click (function(){
       var thisCheck = $(this);
