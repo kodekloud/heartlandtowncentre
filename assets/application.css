@@ -49,6 +49,10 @@ a:hover{
     z-index: 999999999999;
 }
 
+.close_form{
+    display:inline-block;
+    float:right;
+}
 
 
 /*.small_box{*/
