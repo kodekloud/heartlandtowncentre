@@ -622,6 +622,7 @@ textarea:focus, input:focus{
     background:#9B9B9B;
     height:40px;
     margin-bottom:10px;
+    width:100%;
 }
 
 
