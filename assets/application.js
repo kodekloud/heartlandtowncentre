@@ -30,7 +30,9 @@
     }
     
     
-    
+    function close_form(){
+        $(".newsletter_popup").slideUp()
+    }
     
     function load_slider(slider){
         $('.'+slider).flexslider({
