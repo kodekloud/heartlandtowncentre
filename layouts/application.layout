@@ -366,7 +366,7 @@
     $('#agree_terms').click (function(){
       var thisCheck = $(this);
     
-      if ( thischeck.is(':checked') ) {
+      if ( thisCheck.is(':checked') ) {
         console.log("checked")
       }
     });
