@@ -281,6 +281,9 @@
         </div>
         <div class='page_content'>
             
+            <div class="newsletter_popup">
+                
+            </div>
             
             <div class='main_content'>{{yield}}</div>
             
