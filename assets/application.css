@@ -681,6 +681,10 @@ textarea:focus, input:focus{
 
 
  @media (max-width: 767px) {
+     
+    .newsletter_popup{
+        width:90%;
+    }
     #reg_table, #hol_table{
         width:95%;
         margin-left:auto;
