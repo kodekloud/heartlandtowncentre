@@ -53,7 +53,7 @@
     
     function close_form(){
         $(".newsletter_popup").slideUp()
-        $("#fieldEmail").val("");
+        $("#desktop_email").val("");
     }
     
     function load_slider(slider){
