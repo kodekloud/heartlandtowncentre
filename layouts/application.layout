@@ -353,6 +353,11 @@
       e.preventDefault();
       $(".newsletter_popup").slideDown()
     });
+    
+    $( "#mobile_newsletter_form" ).submit(function( e ) {
+      e.preventDefault();
+      $(".newsletter_popup").slideDown()
+    });
 
     $('#search_input').keyup(function(e){
         showSearchResults();
