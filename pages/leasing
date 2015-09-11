@@ -1,4 +1,7 @@
-
+<form id="contact_form">
+    <input type="text"/>
+    <button type='submit'>sumbit</button>    
+</form>
 <script>
         $('#contact_form').submit(function(e) {
             values = [];
