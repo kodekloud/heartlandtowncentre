@@ -691,7 +691,15 @@ textarea:focus, input:focus{
 }
 
 .form_section button{
-    
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    width: 200px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 12px;
+    background:gray;
 }
 
 .form_section label{
