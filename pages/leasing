@@ -3,30 +3,34 @@
     <input name="subject" id="subject" class="form-control" type="hidden">
     
     <h1>Business Detail</h1>
+    <div class="form_section">
+        <label for="company_name" >Company Name*</label>
+        <input name="company_name" id="company_name" class="form-control" type="text" value="" required>
+        <label for="company_address" >Company Address*</label>
+        <input name="company_address" id="company_address" class="form-control" type="text" value="" required>
+        <label for="contact_name" >Contact Name*</label>
+        <input name="contact_name" id="contact_name" class="form-control" type="text" value="" required>
+        <label for="telephone" >Telephone*</label>
+        <input name="telephone" id="telephone" class="form-control" type="text" value="" required>
+        <label for="email" >E-mail Address*</label>
+        <input name="email" id="email" class="form-control" type="text" value="" required> 
+        <br>
+        <label for="trade_name" >Trade Name (if different from above): </label>
+        <input name="trade_name" id="trade_name" class="form-control" type="text" value="">
+        <label for="website" >Website</label>
+        <input name="website" id="website" class="form-control" type="text" value="">
+        <label for="principal_use" >Pincipal Use</label>
+        <input name="principal_use" id="principal_use" class="form-control" type="text" value="">
+        <label for="product_price_point" >Product Price Point</label>
+        <input name="product_price_point" id="product_price_point" class="form-control" type="text" value="">
+        <label for="target_customer" >Target Customer (age, gender, income etc.)</label>
+        <input name="target_customer" id="target_customer" class="form-control" type="text" value="">
+    </div>
     
-    <label for="company_name" >Company Name*</label>
-    <input name="company_name" id="company_name" class="form-control" type="text" value="" required>
-    <label for="company_address" >Company Address*</label>
-    <input name="company_address" id="company_address" class="form-control" type="text" value="" required>
-    <label for="contact_name" >Contact Name*</label>
-    <input name="contact_name" id="contact_name" class="form-control" type="text" value="" required>
-    <label for="telephone" >Telephone*</label>
-    <input name="telephone" id="telephone" class="form-control" type="text" value="" required>
-    <label for="email" >E-mail Address*</label>
-    <input name="email" id="email" class="form-control" type="text" value="" required>
     
     
     
-    <label for="trade_name" >Trade Name (if different from above): </label>
-    <input name="trade_name" id="trade_name" class="form-control" type="text" value="">
-    <label for="website" >Website</label>
-    <input name="website" id="website" class="form-control" type="text" value="">
-    <label for="principal_use" >Pincipal Use</label>
-    <input name="principal_use" id="principal_use" class="form-control" type="text" value="">
-    <label for="product_price_point" >Product Price Point</label>
-    <input name="product_price_point" id="product_price_point" class="form-control" type="text" value="">
-    <label for="target_customer" >Target Customer (age, gender, income etc.)</label>
-    <input name="target_customer" id="target_customer" class="form-control" type="text" value="">
+    
     
     
     CURRENT STORES
