@@ -37,20 +37,20 @@
     
     
     REQUIREMENTS
-    <label for="email" >E-mail*</label>
-    <input name="email" id="email" class="form-control" type="text" value="">
-    <label for="email" >E-mail*</label>
-    <input name="email" id="email" class="form-control" type="text" value="">
-    <label for="email" >E-mail*</label>
-    <input name="email" id="email" class="form-control" type="text" value="">
-    <label for="email" >E-mail*</label>
-    <input name="email" id="email" class="form-control" type="text" value="">
-    <label for="email" >E-mail*</label>
-    <input name="email" id="email" class="form-control" type="text" value="">
-    <label for="email" >E-mail*</label>
-    <input name="email" id="email" class="form-control" type="text" value="">
-    <label for="email" >E-mail*</label>
-    <input name="email" id="email" class="form-control" type="text" value="">
+    <label for="store_size" >Store Size Minimum (s.f.)</label>
+    <input name="store_size" id="store_size" class="form-control" type="text" value="">
+    <label for="maximum" >Maximum (s.f.)</label>
+    <input name="maximum" id="maximum" class="form-control" type="text" value="">
+    <label for="desired_move_in_earliest" >Desired Move-in Earliest</label>
+    <input name="desired_move_in_earliest" id="desired_move_in_earliest" class="form-control" type="text" value="">
+    <label for="desired_move_in_latest" >Desired Move in Latest</label>
+    <input name="desired_move_in_latest" id="desired_move_in_latest" class="form-control" type="text" value="">
+    <label for="budget" >Total Budget for Store Construction</label>
+    <input name="budget" id="budget" class="form-control" type="text" value="">
+    <label for="designer" >Name of Retail Store Designer</label>
+    <input name="designer" id="designer" class="form-control" type="text" value="">
+    <label for="menu" >If your application is for a Restaurant, please include a menu</label>
+    <textarea name="menu" id="menu" class="form-control" type="text" value=""></textarea>
     
     SOURCE OF BUSINESS
     <label for="email" >E-mail*</label>
