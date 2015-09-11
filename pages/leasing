@@ -1,8 +1,5 @@
 
 <script>
-        
-      
-        
         $('#contact_form').submit(function(e) {
             values = [];
             values = JSON.stringify($('#contact_form').serializeArray());
@@ -27,13 +24,7 @@
         function renderAll (){
             $("#loading_screen").hide();
         }
-
-       
-
         loadMallData(renderAll);  
-
-    
-  
     });
     
 </script>
