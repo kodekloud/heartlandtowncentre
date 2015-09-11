@@ -682,12 +682,12 @@ textarea:focus, input:focus{
 
 
 .contact_form{
-    margin-top:40px;
+    
     width:95%;
 }
 
 .form_section{
-    
+    margin-top:40px;
 }
 
 .form_section h2{
