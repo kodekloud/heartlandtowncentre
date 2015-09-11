@@ -2,7 +2,7 @@
     
     <input name="subject" id="subject" class="form-control" type="hidden">
     
-    BUSINESS DETAIL
+    <h1>Business Detail</h1>
     
     <label for="company_name" >Company Name*</label>
     <input name="company_name" id="company_name" class="form-control" type="text" value="" required>
