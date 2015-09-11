@@ -1,5 +1,6 @@
 <h1>Leasing</h1>
 
+<p>As part of the application process, we ask that you complete this form as fully as possible.</p>
 <form name="contact_form" id="contact_form" method="post" class="contact_form">
     
     <input name="subject" id="subject" class="form-control" type="hidden">
