@@ -700,6 +700,10 @@ textarea:focus, input:focus{
     line-height: 28px;
     font-size: 12px;
     background:gray;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 40px;
 }
 
 .form_section label{
