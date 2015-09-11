@@ -5,35 +5,35 @@
     BUSINESS DETAIL
     
     <label for="company_name" >Company Name*</label>
-    <input name="company_name" id="company_name" class="form-control" type="text" value="" required>
+    <input name="company_name" id="company_name" type="text" value="" required>
     <label for="company_address" >Company Address*</label>
-    <input name="company_address" id="company_address" class="form-control" type="text" value="" required>
+    <input name="company_address" id="company_address" type="text" value="" required>
     <label for="contact_name" >Contact Name*</label>
-    <input name="contact_name" id="contact_name" class="form-control" type="text" value="" required>
+    <input name="contact_name" id="contact_name" type="text" value="" required>
     <label for="telephone" >Telephone*</label>
-    <input name="telephone" id="telephone" class="form-control" type="text" value="" required>
+    <input name="telephone" id="telephone"  type="text" value="" required>
     <label for="email" >E-mail Address*</label>
-    <input name="email" id="email" class="form-control" type="text" value="" required>
+    <input name="email" id="email"  type="text" value="" required>
     
     
     
     <label for="trade_name" >Trade Name (if different from above): </label>
-    <input name="trade_name" id="trade_name" class="form-control" type="text" value="">
+    <input name="trade_name" id="trade_name"  type="text" value="">
     <label for="website" >Website</label>
-    <input name="website" id="website" class="form-control" type="text" value="">
+    <input name="website" id="website"  type="text" value="">
     <label for="principal_use" >Pincipal Use</label>
-    <input name="principal_use" id="principal_use" class="form-control" type="text" value="">
+    <input name="principal_use" id="principal_use"  type="text" value="">
     <label for="product_price_point" >Product Price Point</label>
-    <input name="product_price_point" id="product_price_point" class="form-control" type="text" value="">
+    <input name="product_price_point" id="product_price_point"  type="text" value="">
     <label for="target_customer" >Target Customer (age, gender, income etc.)</label>
-    <input name="target_customer" id="target_customer" class="form-control" type="text" value="">
+    <input name="target_customer" id="target_customer"  type="text" value="">
     
     
     CURRENT STORES
     <label for="total_stores" >Total Number of Existing Stores</label>
-    <input name="total_stores" id="total_stores" class="form-control" type="text" value="">
+    <input name="total_stores" id="total_stores"  type="text" value="">
     <label for="existing_stores" >List of Existing Locations & YTD Sales (for each)</label>
-    <input name="existing_stores" id="existing_stores" class="form-control" type="textarea" value="">
+    <input name="existing_stores" id="existing_stores"  type="textarea" value="">
     
     
     REQUIREMENTS
