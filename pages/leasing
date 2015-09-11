@@ -1,4 +1,4 @@
-<form id="contact_form">
+<form name="contact_form" id="contact_form" method="post">
     <input type="text"/>
     <button type='submit'>sumbit</button>    
 </form>
