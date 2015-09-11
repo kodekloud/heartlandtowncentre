@@ -695,7 +695,9 @@ textarea:focus, input:focus{
 }
 
 .form_section label{
-    
+    font-size: 12px;
+    font-weight: lighter;
+    margin-top: 15px;
 }
 
 
