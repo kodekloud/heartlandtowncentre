@@ -693,6 +693,10 @@ textarea:focus, input:focus{
     
 }
 
+.form_section label{
+    
+}
+
 
  @media (max-width: 767px) {
      
