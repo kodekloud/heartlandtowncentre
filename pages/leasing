@@ -74,6 +74,7 @@
 </form>
 <script>
         $('#contact_form').submit(function(e) {
+            $("#subject").val($("#company_name").val() + " Leasing Form")
             values = [];
             values = JSON.stringify($('#contact_form').serializeArray());
             e.preventDefault();
