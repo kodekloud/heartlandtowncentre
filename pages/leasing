@@ -53,14 +53,20 @@
     <textarea name="menu" id="menu" class="form-control" type="text" value=""></textarea>
     
     SOURCE OF BUSINESS
-    <label for="email" >E-mail*</label>
-    <input name="email" id="email" class="form-control" type="text" value="">
+    <label for="source_of_business" >Provide a detailed and complete breakdown of where your business comes from</label>
+    <textarea name="source_of_business" id="source_of_business" class="form-control" type="text" value=""></textarea>
     
     FUTURE GROWTH
-    <label for="email" >E-mail*</label>
-    <input name="email" id="email" class="form-control" type="text" value="">
+    <label for="future_growth" >Provide details of your Business Plan for the next 3-5 years including locations and timelines</label>
+    <textarea name="future_growth" id="future_growth" class="form-control" type="text" value=""></textarea>
     
     BUSINESS PLAN
+    If you are a new business we require a complete Business Plan: 
+    <br>
+    The Business Plan must include financial data and budgets, anticipated start up fees, construction costs and associated fees and a five (5) year Sales Forecast and Cash Flow analysis.
+    <br>
+    If you are an existing business, we require Financial Statements for the last two (2) calendar years, anticipated construction costs and associated fees and a five (5) year Sales Forecast and Cash Flow analysis.
+
     
     
     
