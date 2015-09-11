@@ -743,7 +743,7 @@ textarea:focus, input:focus{
         display:none;
     }
     
-    .promo_left_block, .promo_right_block, .leasing_form_div{
+    .promo_left_block, .promo_right_block, .contact_form{
         width:95%;
         margin-left:auto;
         margin-right:auto;
