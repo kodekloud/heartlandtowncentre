@@ -31,40 +31,50 @@
     
     
     
+    <h1>Current Stores</h1>
+    <div class="form_section">
+        <label for="total_stores" >Total Number of Existing Stores</label>
+        <input name="total_stores" id="total_stores" class="form-control" type="text" value="">
+        <label for="existing_stores" >List of Existing Locations & YTD Sales (for each)</label>
+        <textarea name="existing_stores" id="existing_stores" class="form-control " type="text" value=""></textarea>    
+    </div>
     
+
     
-    CURRENT STORES
-    <label for="total_stores" >Total Number of Existing Stores</label>
-    <input name="total_stores" id="total_stores" class="form-control" type="text" value="">
-    <label for="existing_stores" >List of Existing Locations & YTD Sales (for each)</label>
-    <textarea name="existing_stores" id="existing_stores" class="form-control " type="text" value=""></textarea>
+    <h1>Requirements</h1>
+    <div class="form_section">
+        <label for="store_size" >Store Size Minimum (s.f.)</label>
+        <input name="store_size" id="store_size" class="form-control" type="text" value="">
+        <label for="maximum" >Maximum (s.f.)</label>
+        <input name="maximum" id="maximum" class="form-control" type="text" value="">
+        <label for="desired_move_in_earliest" >Desired Move-in Earliest</label>
+        <input name="desired_move_in_earliest" id="desired_move_in_earliest" class="form-control" type="text" value="">
+        <label for="desired_move_in_latest" >Desired Move in Latest</label>
+        <input name="desired_move_in_latest" id="desired_move_in_latest" class="form-control" type="text" value="">
+        <label for="budget" >Total Budget for Store Construction</label>
+        <input name="budget" id="budget" class="form-control" type="text" value="">
+        <label for="designer" >Name of Retail Store Designer</label>
+        <input name="designer" id="designer" class="form-control" type="text" value="">
+        <label for="menu" >If your application is for a Restaurant, please include a menu</label>
+        <textarea name="menu" id="menu" class="form-control" type="text" value=""></textarea>    
+    </div>
     
+
+    <h1>Source of Business</h1>
+    <div class="form_section">
+        <label for="source_of_business" >Provide a detailed and complete breakdown of where your business comes from</label>
+        <textarea name="source_of_business" id="source_of_business" class="form-control" type="text" value=""></textarea>
+    </div>
     
-    REQUIREMENTS
-    <label for="store_size" >Store Size Minimum (s.f.)</label>
-    <input name="store_size" id="store_size" class="form-control" type="text" value="">
-    <label for="maximum" >Maximum (s.f.)</label>
-    <input name="maximum" id="maximum" class="form-control" type="text" value="">
-    <label for="desired_move_in_earliest" >Desired Move-in Earliest</label>
-    <input name="desired_move_in_earliest" id="desired_move_in_earliest" class="form-control" type="text" value="">
-    <label for="desired_move_in_latest" >Desired Move in Latest</label>
-    <input name="desired_move_in_latest" id="desired_move_in_latest" class="form-control" type="text" value="">
-    <label for="budget" >Total Budget for Store Construction</label>
-    <input name="budget" id="budget" class="form-control" type="text" value="">
-    <label for="designer" >Name of Retail Store Designer</label>
-    <input name="designer" id="designer" class="form-control" type="text" value="">
-    <label for="menu" >If your application is for a Restaurant, please include a menu</label>
-    <textarea name="menu" id="menu" class="form-control" type="text" value=""></textarea>
+    <h1>Future Growth</h1>
+    <div class="form_section">
+        <label for="future_growth" >Provide details of your Business Plan for the next 3-5 years including locations and timelines</label>
+        <textarea name="future_growth" id="future_growth" class="form-control" type="text" value=""></textarea>    
+    </div>
     
-    SOURCE OF BUSINESS
-    <label for="source_of_business" >Provide a detailed and complete breakdown of where your business comes from</label>
-    <textarea name="source_of_business" id="source_of_business" class="form-control" type="text" value=""></textarea>
+
     
-    FUTURE GROWTH
-    <label for="future_growth" >Provide details of your Business Plan for the next 3-5 years including locations and timelines</label>
-    <textarea name="future_growth" id="future_growth" class="form-control" type="text" value=""></textarea>
-    
-    BUSINESS PLAN
+    <h1>Business Plan</h1>
     If you are a new business we require a complete Business Plan: 
     <br>
     The Business Plan must include financial data and budgets, anticipated start up fees, construction costs and associated fees and a five (5) year Sales Forecast and Cash Flow analysis.
