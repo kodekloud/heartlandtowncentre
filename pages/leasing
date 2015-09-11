@@ -33,7 +33,7 @@
     <label for="total_stores" >Total Number of Existing Stores</label>
     <input name="total_stores" id="total_stores" class="form-control" type="text" value="">
     <label for="existing_stores" >List of Existing Locations & YTD Sales (for each)</label>
-    <input name="existing_stores" id="existing_stores" class="form-control" type="textarea" value="">
+    <input name="existing_stores" id="existing_stores" class="form-control textarea" type="textarea" value="">
     
     
     REQUIREMENTS
