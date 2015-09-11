@@ -690,7 +690,7 @@ textarea:focus, input:focus{
     margin-top:40px;
 }
 
-.form_section button{
+.contact_form button{
     color: white;
     text-transform: uppercase;
     border: none;
