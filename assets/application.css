@@ -751,6 +751,9 @@ textarea:focus, input:focus{
         height:auto;
         border:none;
     }
+    .contact_form{
+        width:100%;
+    }
     #job_header {
         margin-top: 30px;
     }
