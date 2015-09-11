@@ -682,7 +682,8 @@ textarea:focus, input:focus{
 
 
 .contact_form{
-    margin-top:60px;
+    margin-top:40px;
+    width:95%;
 }
 
 .form_section{
