@@ -65,6 +65,7 @@
                         val.promo_img = 'http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/26b24c22c6eefc98170d368721d95a80/htc_default.png'
                         } else {
                             val.promo_img = store_details.store_front_url
+                            console.log(store_details.store_front_url)
                         }   
                     } else {
                         
