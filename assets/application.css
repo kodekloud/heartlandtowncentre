@@ -106,8 +106,10 @@ a:hover{
     font-size: 12px;
 }
 .close_form{
-    display:inline-block;
-    float:right;
+    position:absolute;
+    right:0;
+    top:10px;
+    right:10px;
     cursor:pointer;
 }
 
