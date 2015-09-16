@@ -87,14 +87,6 @@
                     <label for="total_stores" >Total Number of Existing Stores</label>
                     <input name="total_stores" id="total_stores" class="form-control" type="text" value="">    
                 </div>
-                <div class='three_col_input'>
-                    <label for="total_stores" >Total Number of Existing Stores</label>
-                    <input name="total_stores" id="total_stores" class="form-control" type="text" value="">    
-                </div>
-                <div class='three_col_input'>
-                    <label for="total_stores" >Total Number of Existing Stores</label>
-                    <input name="total_stores" id="total_stores" class="form-control" type="text" value="">    
-                </div>
             </div>
             
             <label for="existing_stores" >List of Existing Locations & YTD Sales (for each)</label>
