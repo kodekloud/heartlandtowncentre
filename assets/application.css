@@ -95,6 +95,7 @@ a:hover{
     margin-left: 5px;
 }
 #agree_terms{
+    vertical-align:top;
     
 }
 #popup_form label{
