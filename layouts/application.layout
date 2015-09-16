@@ -100,6 +100,7 @@
         <script src="/application.js"></script>
     </head>
     <body>
+                    <div class='newsletter_overlay'>&nbsp;</div>    
         <div class="loading_overlay">
             <img alt="loading" src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
         </div>
@@ -281,7 +282,7 @@
         </div>
         <div class='page_content'>
         
-            <div class='newsletter_overlay'>&nbsp;</div>    
+
             <div class="newsletter_popup">
                 <p class='close_form' onclick="javascript:close_form()">X</p>
                 <div class="form_div">
