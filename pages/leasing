@@ -129,13 +129,11 @@
                 </div>
                 
             </div>
-            
-            
-            
-            
-            
+    
             <label for="menu" >If your application is for a Restaurant, please include a menu</label>
             <textarea name="menu" id="menu" class="form-control" type="text" value=""></textarea>    
+            
+            <div class="separator_div">&nbsp;</div>
         </div>
         
     
