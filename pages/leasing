@@ -12,9 +12,9 @@
             <span>
                 
                 <label for="company_name" >Company Name*</label>
-                <input name="company_name" id="company_name" class="form-control" type="text" value="" required>
+                <input name="company_name" id="company_name" class="form-control two_col_input" type="text" value="" required>
                 <label for="company_address" >Company Address*</label>
-                <input name="company_address" id="company_address" class="form-control" type="text" value="" required>
+                <input name="company_address" id="company_address" class="form-control two_col_input" type="text" value="" required>
                 
             </span>
             
