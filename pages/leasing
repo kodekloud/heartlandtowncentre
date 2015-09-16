@@ -165,7 +165,7 @@
 </div>
 <script>
         $(function () {
-                $('#datetimepicker1').datetimepicker();
+                $('#desired_move_in_earliest').datetimepicker();
             });
 
         $('#contact_form').submit(function(e) {
