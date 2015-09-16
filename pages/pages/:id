@@ -3,6 +3,14 @@
         #page_img{
             display:none;
         }  
+        
+        h1 {
+            width: 95%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
     }
 </style>
 <h1 id="custom_page_header"></h1>
