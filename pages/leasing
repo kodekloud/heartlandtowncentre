@@ -102,6 +102,12 @@
         
         <div class="form_section">
             <h2>Requirements</h2>
+            <div class="three_col_container">
+                <div class='three_col_input'>
+                    
+                </div>
+            </div>
+            
             <label for="store_size" >Store Size Minimum (s.f.)</label>
             <input name="store_size" id="store_size" class="form-control" type="text" value="">
             <label for="maximum" >Maximum (s.f.)</label>
