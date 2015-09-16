@@ -12,9 +12,6 @@
             
         }
         
-        .google_map_div{
-            height:auto;
-        }
         #custom_page_img{
             height:auto;
         }
