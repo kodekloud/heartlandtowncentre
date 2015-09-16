@@ -423,7 +423,8 @@
          $("#fieldEmail").val($("#mobile_email").val());
          $(".form_div").show();
          $(".thank_you_div").hide();
-        $(".newsletter_popup").slideDown();  
+         $(".newsletter_overlay").fadeIn();
+         $(".newsletter_container").fadeIn();  
       } else {
           alert("Please enter a valid email address")
       }
