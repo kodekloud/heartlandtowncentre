@@ -64,13 +64,13 @@
         
                         if (val.jobable_type == 'Store'){
                            if(!store_details.store_front_url_abs ||  store_details.store_front_url_abs.indexOf('missing.png') > -1 || store_details.store_front_url_abs.length === 0){
-                            val.promo_img = 'http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/26b24c22c6eefc98170d368721d95a80/htc_default.png'
+                            val.promo_img = 'http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/a22fcf023d728855c6f575ba100806d7/default.jpg'
                             } else {
                                 val.promo_img = store_details.store_front_url_abs
                             }   
                         } else {
                             
-                            val.promo_img = 'http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/26b24c22c6eefc98170d368721d95a80/htc_default.png'
+                            val.promo_img = 'http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/a22fcf023d728855c6f575ba100806d7/default.jpg'
                         }
                            
                
