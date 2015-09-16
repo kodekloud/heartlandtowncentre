@@ -52,8 +52,8 @@
     
     
     function close_form(){
-        $(".newsletter_popup").slideUp()
-        $(".newsletter_overlay").hide()
+        $(".newsletter_container").fadeOut();
+        $(".newsletter_overlay").fadeOut()
         $("#fieldEmail").val("");
         $("#desktop_email").val("");
         $("#mobile_email").val("");
