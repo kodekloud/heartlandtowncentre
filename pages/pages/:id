@@ -11,6 +11,10 @@
             margin-right: auto;
             
         }
+        
+        .google_map_div{
+            height:auto;
+        }
     }
 </style>
 <h1 id="custom_page_header"></h1>
