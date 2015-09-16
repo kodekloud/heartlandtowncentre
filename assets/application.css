@@ -339,7 +339,7 @@ a:hover{
 
 .fb_btn,.tw_btn,.search_btn{
     height:37px;
-    width:34px;
+    width:auto;
     background:#2E2E2E;
     border:none;
 }
