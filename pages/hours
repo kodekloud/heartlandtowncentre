@@ -35,7 +35,7 @@
         <tr>
             <td class='hour_col day_col'>
                 {{holiday_name}}
-                <p>{{hol}}</p>
+                <p class='mobile_hol'>{{hol}}</p>
             </td>
             <td class='hour_col hol_col'>
                 {{hol}}
