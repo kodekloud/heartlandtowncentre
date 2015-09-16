@@ -86,6 +86,7 @@ a:hover{
     padding-left:10px;
     border:1px solid #A9B2BD;
     height:34px;
+    border-radius:3px;
 }
 
 #popup_form label{
