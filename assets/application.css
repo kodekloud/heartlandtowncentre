@@ -48,8 +48,9 @@ a:hover{
 }
 
 .form_div h1{
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 40px;
+    
 }
 
 #popup_form{
@@ -74,7 +75,7 @@ a:hover{
     border: 1px solid #ccc;
     background-color: #fff;
     z-index: 999999999999;
-    text-align:center;
+    /*text-align:center;*/
     margin-top:200px;
 }
 
