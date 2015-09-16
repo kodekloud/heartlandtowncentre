@@ -171,9 +171,7 @@
     </form>
 </div>
 <script>
-        $(function () {
-                $('#desired_move_in_earliest').datetimepicker();
-            });
+
 
         $('#contact_form').submit(function(e) {
             $("#subject").val($("#company_name").val() + " Leasing Form")
