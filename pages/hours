@@ -9,6 +9,9 @@
          .mobile_hol{
              display:block;
          }
+         .hour_col{
+             vertical-align: top;
+         }
      }
 </style>
 
