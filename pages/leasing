@@ -9,7 +9,7 @@
         
         <div class="form_section">
             <h2>Business Detail</h2>
-            <span>
+            <div class='two_col_container'>
                 <div class="two_col_input">
                     <label for="company_name" >Company Name*</label>
                     <input name="company_name" id="company_name" class="form-control" type="text" value="" required>    
@@ -21,7 +21,7 @@
                 
                 
                 
-            </span>
+            </div>
             
             <span>
                 <label for="contact_name" >Contact Name*</label>
