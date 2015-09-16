@@ -117,14 +117,23 @@
                 </div>
             </div>
             
-
+            <div class='two_col_container'>
+                <div class="two_col_input">
+                    <label for="budget" >Total Budget for Store Construction</label>
+                    <input name="budget" id="budget" class="form-control" type="text" value="">
+                </div>
+                
+                <div class="two_col_input">
+                    <label for="designer" >Name of Retail Store Designer</label>
+                    <input name="designer" id="designer" class="form-control" type="text" value="">
+                </div>
+                
+            </div>
             
             
             
-            <label for="budget" >Total Budget for Store Construction</label>
-            <input name="budget" id="budget" class="form-control" type="text" value="">
-            <label for="designer" >Name of Retail Store Designer</label>
-            <input name="designer" id="designer" class="form-control" type="text" value="">
+            
+            
             <label for="menu" >If your application is for a Restaurant, please include a menu</label>
             <textarea name="menu" id="menu" class="form-control" type="text" value=""></textarea>    
         </div>
