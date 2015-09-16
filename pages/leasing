@@ -104,25 +104,23 @@
             <h2>Requirements</h2>
             <div class="three_col_container">
                 <div class='three_col_input'>
-                    
+                    <label for="store_size" >Store Size Minimum (s.f.)</label>
+                    <input name="store_size" id="store_size" class="form-control" type="text" value="">    
                 </div>
                 <div class='three_col_input'>
-                    
+                    <label for="desired_move_in_earliest" >Desired Move-in Earliest</label>
+                    <input name="desired_move_in_earliest" id="desired_move_in_earliest" class="form-control" type="date">    
                 </div>
                 <div class='three_col_input'>
-                    
+                    <label for="desired_move_in_latest" >Desired Move in Latest</label>
+                    <input name="desired_move_in_latest" id="desired_move_in_latest" class="form-control" type="date">    
                 </div>
             </div>
             
-            <label for="store_size" >Store Size Minimum (s.f.)</label>
-            <input name="store_size" id="store_size" class="form-control" type="text" value="">
-            <label for="maximum" >Maximum (s.f.)</label>
-            <input name="maximum" id="maximum" class="form-control" type="text" value="">
-            <label for="desired_move_in_earliest" >Desired Move-in Earliest</label>
-            <input name="desired_move_in_earliest" id="desired_move_in_earliest" class="form-control" type="date">
+
             
-            <label for="desired_move_in_latest" >Desired Move in Latest</label>
-            <input name="desired_move_in_latest" id="desired_move_in_latest" class="form-control" type="text">
+            
+            
             <label for="budget" >Total Budget for Store Construction</label>
             <input name="budget" id="budget" class="form-control" type="text" value="">
             <label for="designer" >Name of Retail Store Designer</label>
