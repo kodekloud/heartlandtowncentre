@@ -1,4 +1,10 @@
-
+<style>
+    @media (max-width: 767px) {
+        #page_img{
+            display:none;
+        }  
+    }
+</style>
 <h1 id="custom_page_header"></h1>
 
 <div class="google_map_div" id='canvas_1'>
