@@ -9,10 +9,15 @@
         
         <div class="form_section">
             <h2>Business Detail</h2>
-            <label for="company_name" >Company Name*</label>
-            <input name="company_name" id="company_name" class="form-control" type="text" value="" required>
-            <label for="company_address" >Company Address*</label>
-            <input name="company_address" id="company_address" class="form-control" type="text" value="" required>
+            <span>
+                
+                <label for="company_name" >Company Name*</label>
+                <input name="company_name" id="company_name" class="form-control" type="text" value="" required>
+                <label for="company_address" >Company Address*</label>
+                <input name="company_address" id="company_address" class="form-control" type="text" value="" required>
+                
+            </span>
+            
             <label for="contact_name" >Contact Name*</label>
             <input name="contact_name" id="contact_name" class="form-control" type="text" value="" required>
             <label for="telephone" >Telephone*</label>
