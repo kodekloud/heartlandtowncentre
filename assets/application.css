@@ -497,7 +497,7 @@ textarea:focus, input:focus{
 }
 
 .google_map_div{
-    height:347px;
+    height:auto;
     width:700px;
     margin-bottom:30px;
 }
