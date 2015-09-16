@@ -119,7 +119,7 @@
             <label for="maximum" >Maximum (s.f.)</label>
             <input name="maximum" id="maximum" class="form-control" type="text" value="">
             <label for="desired_move_in_earliest" >Desired Move-in Earliest</label>
-            <input name="desired_move_in_earliest" id="desired_move_in_earliest" class="form-control" type="date" placeholder='Please select a date'>
+            <input name="desired_move_in_earliest" id="desired_move_in_earliest" class="form-control" type="date">
             
             <label for="desired_move_in_latest" >Desired Move in Latest</label>
             <input name="desired_move_in_latest" id="desired_move_in_latest" class="form-control" type="text">
