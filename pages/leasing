@@ -92,6 +92,9 @@
             
             <label for="existing_stores" >List of Existing Locations & YTD Sales (for each)</label>
             <textarea name="existing_stores" id="existing_stores" class="form-control " type="text" value=""></textarea>    
+            
+            
+            <div class="separator_div">&nbsp;</div>
         </div>
         
     
