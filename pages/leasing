@@ -18,22 +18,28 @@
                     <label for="company_address" >Company Address*</label>
                     <input name="company_address" id="company_address" class="form-control" type="text" value="" required>    
                 </div>
-                
+            </div>
+            
+            <div class='two_col_container'>
+                <div class="two_col_input">
+                    <label for="contact_name" >Contact Name*</label>
+                    <input name="contact_name" id="contact_name" class="form-control" type="text" value="" required>    
+                </div>
+                <div class="two_col_input">
+                    <label for="telephone" >Telephone*</label>
+                    <input name="telephone" id="telephone" class="form-control" type="text" value="" required>        
+                </div>
                 
                 
             </div>
             
-            <span>
-                <label for="contact_name" >Contact Name*</label>
-                <input name="contact_name" id="contact_name" class="form-control" type="text" value="" required>
-                <label for="telephone" >Telephone*</label>
-                <input name="telephone" id="telephone" class="form-control" type="text" value="" required>    
-            </span>
-            
-            <span>
-                <label for="email" >E-mail Address*</label>
-                <input name="email" id="email" class="form-control" type="text" value="" required>     
-            </span>
+            <div class='two_col_container'>
+                <div class="two_col_input">
+                    <label for="email" >E-mail Address*</label>
+                    <input name="email" id="email" class="form-control" type="text" value="" required>        
+                </div>
+                 
+            </div>
             <div class="separator_div">&nbsp;</div>
             
             
