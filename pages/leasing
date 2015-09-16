@@ -171,6 +171,10 @@
     </form>
 </div>
 <script>
+        $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+
         $('#contact_form').submit(function(e) {
             $("#subject").val($("#company_name").val() + " Leasing Form")
             values = [];
