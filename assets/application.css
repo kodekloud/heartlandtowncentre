@@ -352,7 +352,7 @@ textarea:focus, input:focus{
 }
 
 .search_btn,.fb_btn{
-    margin-right: -4px;
+    margin-right: -3px;
 }
 #newsletter_form input{
     vertical-align:middle;
