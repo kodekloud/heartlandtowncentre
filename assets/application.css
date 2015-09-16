@@ -43,6 +43,10 @@ a:hover{
     
 }
 
+.visible_icons button{
+    padding:2px;
+}
+
 .newsletter_overlay{
     display:none;
     position:absolute;
