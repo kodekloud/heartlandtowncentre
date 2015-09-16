@@ -12,22 +12,22 @@
             <span>
                 
                 <label for="company_name" >Company Name*</label>
-                <input name="company_name" id="company_name" class="form-control two_col_input" type="text" value="" required>
+                <input name="company_name" id="company_name" class="form-control" type="text" value="" required>
                 <label for="company_address" >Company Address*</label>
-                <input name="company_address" id="company_address" class="form-control two_col_input" type="text" value="" required>
+                <input name="company_address" id="company_address" class="form-control" type="text" value="" required>
                 
             </span>
             
             <span>
                 <label for="contact_name" >Contact Name*</label>
-                <input name="contact_name" id="contact_name" class="form-control two_col_input" type="text" value="" required>
+                <input name="contact_name" id="contact_name" class="form-control" type="text" value="" required>
                 <label for="telephone" >Telephone*</label>
-                <input name="telephone" id="telephone" class="form-control two_col_input" type="text" value="" required>    
+                <input name="telephone" id="telephone" class="form-control" type="text" value="" required>    
             </span>
             
             <span>
                 <label for="email" >E-mail Address*</label>
-                <input name="email" id="email" class="form-control two_col_input" type="text" value="" required>     
+                <input name="email" id="email" class="form-control" type="text" value="" required>     
             </span>
             <div class="separator_div">&nbsp;</div>
             
