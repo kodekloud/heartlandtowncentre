@@ -30,6 +30,9 @@
                 <input name="email" id="email" class="form-control two_col_input" type="text" value="" required>     
             </span>
             <div class="separator_div">&nbsp;</div>
+            
+            
+            
             <label for="trade_name" >Trade Name (if different from above): </label>
             <input name="trade_name" id="trade_name" class="form-control" type="text" value="">
             <label for="website" >Website</label>
