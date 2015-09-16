@@ -517,6 +517,9 @@ textarea:focus, input:focus{
     margin-left: 20px;
 }
 
+.mobile_hol{
+    display:none;
+}
 
 
 /*STORE DIRECTORY CSS*/
