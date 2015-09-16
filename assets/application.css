@@ -815,6 +815,7 @@ textarea:focus, input:focus{
     
     .two_col_input{
         width:100%;
+        margin-right:0;
     }
     
     .promo_left_block, .promo_right_block, .leasing_form_div{
