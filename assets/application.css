@@ -1045,7 +1045,7 @@ textarea:focus, input:focus{
     }
     
     .mobile_menu_footer_icons img{
-        
+        height:20px;
     }
     #mobile_newsletter_form{
         width:55%;
