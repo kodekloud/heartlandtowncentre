@@ -42,7 +42,9 @@
             </div>
             <div class="separator_div">&nbsp;</div>
             
-            
+            <div class='two_col_container'>
+                <div class="two_col_input"></div>
+            </div>
             
             <label for="trade_name" >Trade Name (if different from above): </label>
             <input name="trade_name" id="trade_name" class="form-control" type="text" value="">
