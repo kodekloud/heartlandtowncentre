@@ -771,7 +771,7 @@ textarea:focus, input:focus{
      
     .newsletter_popup{
         width:90%;
-        height:230px;
+        height:auto;
     }
     #popup_form label{
         width:80%;
