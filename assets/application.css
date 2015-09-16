@@ -93,6 +93,7 @@ a:hover{
     display: inline-block;
     width: 90%;
     margin-left: 5px !important;
+    margin-bottom: 0px !important;
 }
 .aggree_div{
     margin-top:20px;
