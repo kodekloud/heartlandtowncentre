@@ -18,10 +18,14 @@
                 
             </span>
             
-            <label for="contact_name" >Contact Name*</label>
-            <input name="contact_name" id="contact_name" class="form-control" type="text" value="" required>
-            <label for="telephone" >Telephone*</label>
-            <input name="telephone" id="telephone" class="form-control" type="text" value="" required>
+            <span>
+                <label for="contact_name" >Contact Name*</label>
+                <input name="contact_name" id="contact_name" class="form-control" type="text" value="" required>
+                <label for="telephone" >Telephone*</label>
+                <input name="telephone" id="telephone" class="form-control" type="text" value="" required>    
+            </span>
+            
+            
             <label for="email" >E-mail Address*</label>
             <input name="email" id="email" class="form-control" type="text" value="" required> 
             <br>
