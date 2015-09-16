@@ -147,7 +147,9 @@ a:hover{
 
 
 .two_col_input{
-    
+    display: inline-block;
+    width: 45%;
+    margin-right: 30px;
 }
 
 .two_col_container .two_col_container:nth-child(2){
