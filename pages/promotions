@@ -1,4 +1,10 @@
 <style>
+
+    .promo_name{
+        border-bottom: 1px solid black;
+        padding-bottom: 2px;
+    }
+
      @media (max-width: 767px) {
          #promo_header{
              width:95%;
