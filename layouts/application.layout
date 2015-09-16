@@ -101,24 +101,26 @@
     </head>
     <body>
         <div class='newsletter_overlay'>&nbsp;</div>    
-        <div class="newsletter_popup">
-            <p class='close_form' onclick="javascript:close_form()">X</p>
-            <div class="form_div">
-                <p class="newsletter_text">Sign up and Save!</p>
-                <form id='popup_form'>
-                    <label for="fieldEmail">Please confirm your email</label><br>
-                    <input id="fieldEmail" name="cm-dljtlh-dljtlh" type="email" required />
-                    <br>
-                    <br>
-                    <label for="agree_terms" style="display:none">Agree Terms</label>
-                    <input type="checkbox" class="info_check" id="agree_terms" style="margin-left:-15px; width:15px" required value='I agree to receive emails from Heartland Town Centre.'/><label for="agree_terms" class="checkbox_lbl">I agree to receive emails from Heartland Town Centre.</label>
-                    <input type="hidden" id="fieldtydytu" name="cm-f-tydytu" />
-                    <br>
-                    <button type='submit' id="form_sub" disabled>Submit</button>
-                </form>
-            </div>
-            <div class='thank_you_div'>
-                Thank you for signing up!
+        <div class="newsletter_container">
+            <div class="newsletter_popup">
+                <p class='close_form' onclick="javascript:close_form()">X</p>
+                <div class="form_div">
+                    <p class="newsletter_text">Sign up and Save!</p>
+                    <form id='popup_form'>
+                        <label for="fieldEmail">Please confirm your email</label><br>
+                        <input id="fieldEmail" name="cm-dljtlh-dljtlh" type="email" required />
+                        <br>
+                        <br>
+                        <label for="agree_terms" style="display:none">Agree Terms</label>
+                        <input type="checkbox" class="info_check" id="agree_terms" style="margin-left:-15px; width:15px" required value='I agree to receive emails from Heartland Town Centre.'/><label for="agree_terms" class="checkbox_lbl">I agree to receive emails from Heartland Town Centre.</label>
+                        <input type="hidden" id="fieldtydytu" name="cm-f-tydytu" />
+                        <br>
+                        <button type='submit' id="form_sub" disabled>Submit</button>
+                    </form>
+                </div>
+                <div class='thank_you_div'>
+                    Thank you for signing up!
+                </div>
             </div>
         </div>
         <div class="loading_overlay">
@@ -408,7 +410,7 @@
          $(".form_div").show();
          $(".thank_you_div").hide();
          $(".newsletter_overlay").fadeIn();
-         $(".newsletter_popup").slideDown();  
+         $(".newsletter_container").fadeIn();  
       } else {
           alert("Please enter a valid email address")
       }
