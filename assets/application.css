@@ -37,6 +37,10 @@ a:hover{
     text-decoration:none;
 }
 
+.newsletter_overlay{
+    
+}
+
 .newsletter_popup{
     display:none;
     position: fixed;
