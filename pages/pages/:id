@@ -13,7 +13,7 @@
         }
         
         .google_map_div{
-            height:auto !important;
+            height:auto;
         }
     }
 </style>
