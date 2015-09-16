@@ -1044,6 +1044,9 @@ textarea:focus, input:focus{
         margin-right: auto;
     }
     
+    .mobile_menu_footer_icons img{
+        
+    }
     #mobile_newsletter_form{
         width:55%;
         display:inline-block;
