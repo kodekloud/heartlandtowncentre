@@ -152,7 +152,7 @@ a:hover{
     margin-right: 30px;
 }
 
-.two_col_container .two_col_container:nth-child(2){
+.two_col_container .two_col_input:nth-child(2){
     margin-right:0;
 }
 .separator_div{
