@@ -5,6 +5,10 @@
              margin-left:auto;
              margin-right:auto;
          }
+         
+         .mobile_hol{
+             display:block;
+         }
      }
 </style>
 
