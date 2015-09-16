@@ -47,7 +47,7 @@ a:hover{
     display:none;
     position: fixed;
     width: 40%;
-    height: 200px;
+    height: auto;
     margin: 5%;
     padding: 10px;
     border: 1px solid #ccc;
