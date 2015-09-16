@@ -39,6 +39,7 @@ a:hover{
 
 .visible_icons img{
         height: 20px;
+        text-align:center;
 }
 
 .newsletter_overlay{
