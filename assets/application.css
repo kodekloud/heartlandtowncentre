@@ -84,6 +84,7 @@ a:hover{
 #fieldEmail{
     width:100%;
     padding-left:10px;
+    border:1px solid #A9B2BD;
 }
 
 #popup_form label{
