@@ -156,7 +156,9 @@ a:hover{
     margin-right:0;
 }
 .separator_div{
-    
+    margin-top: 5px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
 }
 
 /*.small_box{*/
