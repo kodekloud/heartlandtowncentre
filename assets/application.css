@@ -813,6 +813,10 @@ textarea:focus, input:focus{
         display:none;
     }
     
+    .two_col_input{
+        width:100%;
+    }
+    
     .promo_left_block, .promo_right_block, .leasing_form_div{
         width:95%;
         margin-left:auto;
