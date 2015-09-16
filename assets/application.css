@@ -37,6 +37,10 @@ a:hover{
     text-decoration:none;
 }
 
+.visible_icons img{
+    
+}
+
 .newsletter_overlay{
     display:none;
     position:absolute;
