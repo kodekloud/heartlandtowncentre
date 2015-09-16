@@ -47,6 +47,15 @@ a:hover{
     opacity: 0.8;
 }
 
+.newsletter_container{
+     display:none;
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-color: transparent;
+    z-index: 11;
+}
+
 .newsletter_popup{
     display:block;
     width: auto;
