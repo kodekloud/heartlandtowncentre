@@ -92,7 +92,7 @@ a:hover{
 .checkbox_lbl{
     display: inline-block;
     width: 90%;
-    margin-left: 5px;
+    margin-left: 5px !important;
 }
 #agree_terms{
     vertical-align:top;
