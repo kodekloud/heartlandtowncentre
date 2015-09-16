@@ -142,13 +142,15 @@
             <h2>Source of Business</h2>
             <label for="source_of_business" >Provide a detailed and complete breakdown of where your business comes from</label>
             <textarea name="source_of_business" id="source_of_business" class="form-control" type="text" value=""></textarea>
+            <div class="separator_div">&nbsp;</div>
         </div>
         
         
         <div class="form_section">
             <h2>Future Growth</h2>
             <label for="future_growth" >Provide details of your Business Plan for the next 3-5 years including locations and timelines</label>
-            <textarea name="future_growth" id="future_growth" class="form-control" type="text" value=""></textarea>    
+            <textarea name="future_growth" id="future_growth" class="form-control" type="text" value=""></textarea>   
+            <div class="separator_div">&nbsp;</div>
         </div>
         
     
