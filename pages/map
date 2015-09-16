@@ -45,7 +45,7 @@
             $.each( stores , function( key, val ) {
                 if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
                     if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
-                        val.store_front_url = 'http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/26b24c22c6eefc98170d368721d95a80/htc_default.png'
+                        val.store_front_url = 'http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/a22fcf023d728855c6f575ba100806d7/default.jpg'
                     } 
                     obj = {};
                     obj["popover"] = "<img src='"+val.store_front_url+"'/><p class='tooltip_name'>"+val.name+"</p> <a href='/directory/"+val.slug+"'>View Details</a>"
