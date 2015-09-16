@@ -406,6 +406,7 @@
          $("#fieldEmail").val($("#desktop_email").val());
          $(".form_div").show();
          $(".thank_you_div").hide();
+         $(".newsletter_overlay").fadeIn();
          $(".newsletter_popup").slideDown();  
       } else {
           alert("Please enter a valid email address")
