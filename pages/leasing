@@ -38,6 +38,11 @@
                     <label for="email" >E-mail Address*</label>
                     <input name="email" id="email" class="form-control" type="text" value="" required>        
                 </div>
+                
+                <div class="two_col_input">
+                    <label for="website" >Website</label>
+                    <input name="website" id="website" class="form-control" type="text" value="">
+                </div>
                  
             </div>
             <!--<div class="separator_div">&nbsp;</div>-->
@@ -47,10 +52,12 @@
                     <label for="trade_name" >Trade Name (if different from above): </label>
                     <input name="trade_name" id="trade_name" class="form-control" type="text" value="">
                 </div>
+                
                 <div class="two_col_input">
-                    <label for="website" >Website</label>
-                    <input name="website" id="website" class="form-control" type="text" value="">
+                    <label for="product_price_point" >Product Price Point</label>
+                    <input name="product_price_point" id="product_price_point" class="form-control" type="text" value="">
                 </div>
+                
             </div>
             
             <div class='two_col_container'>
@@ -58,13 +65,7 @@
                     <label for="principal_use" >Pincipal Use</label>
                     <input name="principal_use" id="principal_use" class="form-control" type="text" value="">
                 </div>
-                <div class="two_col_input">
-                    <label for="product_price_point" >Product Price Point</label>
-                    <input name="product_price_point" id="product_price_point" class="form-control" type="text" value="">
-                </div>
-            </div>
-            
-            <div class='two_col_container'>
+                
                 <div class="two_col_input">
                     <label for="target_customer" >Target Customer (age, gender, income etc.)</label>
                     <input name="target_customer" id="target_customer" class="form-control" type="text" value="">
