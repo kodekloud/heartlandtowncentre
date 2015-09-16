@@ -150,6 +150,9 @@ a:hover{
     
 }
 
+.two_col_container .two_col_container:nth-child(2){
+    margin-right:0;
+}
 .separator_div{
     
 }
