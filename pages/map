@@ -11,6 +11,10 @@
             margin-right: auto;
             display: block;
         }
+        
+        #btnZoomIn{
+            height:40px;
+        }
     }
 
 </style>
