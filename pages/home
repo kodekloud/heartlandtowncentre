@@ -37,7 +37,7 @@
             
             $.each( banners , function( key, val ){
                 if (val.url == null){
-                    
+                    val.item = '<img class="banner_slide_img" src="'+val.image_url+'" alt="banner"/>'
                 } else {
                     
                 }
