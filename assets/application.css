@@ -1072,7 +1072,7 @@ textarea:focus, input:focus{
         height:20px;
     }
     #mobile_newsletter_form{
-        width:55%;
+        width:61%;
         display:inline-block;
         margin-bottom:10px;
     }
@@ -1080,7 +1080,7 @@ textarea:focus, input:focus{
     #mobile_newsletter_form input{
         background:#2E2E2E;
         border:none;
-        width:72%;
+        width:79%;
         height:40px;
         font-size:12px;
         padding-left:10px;
