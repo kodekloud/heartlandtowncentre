@@ -1086,6 +1086,7 @@ textarea:focus, input:focus{
         padding-left:10px;
     }
     .mobile_menu_footer_icons button{
+        text-align:center;
         height: 40px;
         width: 40px;
         display: inline-block;
