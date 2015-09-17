@@ -12,7 +12,7 @@
             display: block;
         }
         
-        #btnZoomIn{
+        #btnZoomIn, #btnZoomOut{
             height:40px;
         }
     }
