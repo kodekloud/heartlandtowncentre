@@ -377,7 +377,7 @@
         e.preventDefault();
         
         if (check_email("fieldEmail") == true){
-            console.log ("#agree_terms").is(':checked')
+            console.log ($("#agree_terms").is(':checked'))
             $("#fieldtydytu").val($("#agree_terms").attr("value"));
             $.getJSON(
                 "http://mobilefringe.createsend.com/t/d/s/dljtlh/?callback=?",
