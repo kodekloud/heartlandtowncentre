@@ -136,6 +136,8 @@
             <div class="separator_div">&nbsp;</div>
         </div>
         
+        
+        Attachment: <INPUT TYPE="file" NAME="attachedfile" MAXLENGTH=50 ALLOW="text/*" > 
     
         
         <div class="form_section">
