@@ -114,7 +114,7 @@
                         <input type="hidden" id="fieldtydytu" name="cm-f-tydytu" />
                         </div>
                         
-                        <button type='submit' id="form_sub" disabled>Submit</button>
+                        <button type='submit' id="form_sub">Submit</button>
                     </form>
                 </div>
                 <div class='thank_you_div'>
