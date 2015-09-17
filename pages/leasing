@@ -62,7 +62,7 @@
             
             <div class='two_col_container'>
                 <div class="two_col_input">
-                    <label for="principal_use" >Pincipal Use</label>
+                    <label for="principal_use" >Principal Use</label>
                     <input name="principal_use" id="principal_use" class="form-control" type="text" value="">
                 </div>
                 
