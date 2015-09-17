@@ -377,24 +377,19 @@
         e.preventDefault();
         
         if (check_email("fieldEmail") == true){
-            if ($("#agree_terms").is(':checked') == true){
-                $("#fieldtydytu").val($("#agree_terms").attr("value"));
-                $.getJSON(
-                    "http://mobilefringe.createsend.com/t/d/s/dljtlh/?callback=?",
-                  $(this).serialize(),
-                    function (data) {
-                        if (data.Status === 400) {
-                            e.preventDefault();
-                            alert("Please try again later.");
-                        } else {
-                            $(".form_div").hide();
-                            $(".thank_you_div").fadeIn();
-                        }
-                });     
-            } else {
-                alert("Please agree to receive emails from Heartland Town Centre").
-            }
-            
+            $("#fieldtydytu").val($("#agree_terms").attr("value"));
+            $.getJSON(
+                "http://mobilefringe.createsend.com/t/d/s/dljtlh/?callback=?",
+              $(this).serialize(),
+                function (data) {
+                    if (data.Status === 400) {
+                        e.preventDefault();
+                        alert("Please try again later.");
+                    } else {
+                        $(".form_div").hide();
+                        $(".thank_you_div").fadeIn();
+                    }
+            }); 
         } else {
             alert("Please enter a valid email address")
         }
@@ -402,6 +397,14 @@
     });
 
 
+    $('#agree_terms').click (function(){
+      var thisCheck = $(this);
+      if ( thisCheck.is(':checked') ) {
+        $("#form_sub").prop('disabled', false);
+      } else {
+        $("#form_sub").prop('disabled', true);
+      }
+    });
 
 
     $( "#newsletter_form" ).submit(function( e ) {
