@@ -377,20 +377,24 @@
         e.preventDefault();
         
         if (check_email("fieldEmail") == true){
-            console.log ($("#agree_terms").is(':checked'))
-            $("#fieldtydytu").val($("#agree_terms").attr("value"));
-            $.getJSON(
-                "http://mobilefringe.createsend.com/t/d/s/dljtlh/?callback=?",
-              $(this).serialize(),
-                function (data) {
-                    if (data.Status === 400) {
-                        e.preventDefault();
-                        alert("Please try again later.");
-                    } else {
-                        $(".form_div").hide();
-                        $(".thank_you_div").fadeIn();
-                    }
-            }); 
+            if ($("#agree_terms").is(':checked') == true){
+                $("#fieldtydytu").val($("#agree_terms").attr("value"));
+                $.getJSON(
+                    "http://mobilefringe.createsend.com/t/d/s/dljtlh/?callback=?",
+                  $(this).serialize(),
+                    function (data) {
+                        if (data.Status === 400) {
+                            e.preventDefault();
+                            alert("Please try again later.");
+                        } else {
+                            $(".form_div").hide();
+                            $(".thank_you_div").fadeIn();
+                        }
+                });     
+            } else {
+                alert("Please agree to receive emails from Heartland Town Centre").
+            }
+            
         } else {
             alert("Please enter a valid email address")
         }
