@@ -398,14 +398,6 @@
     });
 
 
-    $('#agree_terms').click (function(){
-      var thisCheck = $(this);
-      if ( thisCheck.is(':checked') ) {
-        $("#form_sub").prop('disabled', false);
-      } else {
-        $("#form_sub").prop('disabled', true);
-      }
-    });
 
 
     $( "#newsletter_form" ).submit(function( e ) {
