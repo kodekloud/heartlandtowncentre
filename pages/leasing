@@ -184,11 +184,11 @@
                 form_data:values},
                 success: function(data, textStatus, jqXHR)
                 {
-                    console.log(data)
+                    window.location.href="/thank_you"
                 },
                 error: function (jqXHR, textStatus, errorThrown)
                 {
-                    console.log(jqXHR)
+                    window.location.href="/thank_you"
                 }
             });
     	});
