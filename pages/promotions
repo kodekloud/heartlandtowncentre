@@ -5,7 +5,9 @@
         padding-bottom: 4px;
         display:table;
     }
-
+    .promo_name{
+        font-weight:bold;
+    }
      @media (max-width: 767px) {
          #promo_header{
              width:95%;
