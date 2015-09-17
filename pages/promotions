@@ -2,7 +2,6 @@
 
     .promotionable_name{
         border-bottom: 1px solid black;
-        padding-bottom: 4px;
         display:table;
     }
     .promo_name{
