@@ -160,6 +160,13 @@ a:hover{
     font-size:14px;
 }
 
+.back_btn{
+    font-size:14px;
+    height:34px;
+    width:220px;
+    background:#4A4A4A;
+}
+
 
 .three_col_input{
     display:inline-block;
