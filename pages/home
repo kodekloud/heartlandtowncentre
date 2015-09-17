@@ -34,6 +34,11 @@
     $(document).ready(function() {
         function render_page_details(){
             var banners = getBanners();
+            
+            $.each( banners , function( key, val ){
+                console.log(val.url)
+            });
+            
             renderPageData("#banner_slider_ul", "#banner_slider_template", banners, "banners")
             load_slider("flexslider");
             
