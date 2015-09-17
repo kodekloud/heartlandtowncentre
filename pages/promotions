@@ -24,7 +24,7 @@
         <div class='promo_div'>
             <div class='promo_left_block'>
                
-                <img alt="photo_{{name}}" src="{{promo_img}}"/>
+                <a href='/promotions/{{slug}}'><img alt="photo_{{name}}" src="{{promo_img}}"/></a>
              
             </div>
             <div class="promo_right_block">
