@@ -3,6 +3,10 @@
         padding-right:15px;
     }
     
+    #btnZoomIn, #btnZoomOut{
+            height:40px;
+        }
+    
     
     @media (max-width: 767px){
         .main_content {
@@ -12,9 +16,7 @@
             display: block;
         }
         
-        #btnZoomIn, #btnZoomOut{
-            height:40px;
-        }
+        
     }
 
 </style>
