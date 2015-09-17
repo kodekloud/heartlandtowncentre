@@ -61,8 +61,8 @@
             renderPageData("#store_select_container","#store_select_template",stores, "stores")
             $(".loading_overlay").hide();    
             load_map(regions)
-            $("#btnZoomIn").attr("src","")
-            $("#btnZoomOut").attr("src","")
+            // $("#btnZoomIn").attr("src","")
+            // $("#btnZoomOut").attr("src","")
         }
         
         function load_map(reg){
