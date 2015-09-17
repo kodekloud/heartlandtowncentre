@@ -62,6 +62,7 @@
             $(".loading_overlay").hide();    
             load_map(regions)
             $("#btnZoomIn").attr("src","")
+            $("#btnZoomOut").attr("src","")
         }
         
         function load_map(reg){
