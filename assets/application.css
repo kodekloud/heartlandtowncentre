@@ -1093,6 +1093,7 @@ textarea:focus, input:focus{
         background-color: #2E2E2E;
         border: none;
         vertical-align:top;
+        padding:2px;
     }
     .basic_content_box img{
         display:none;
