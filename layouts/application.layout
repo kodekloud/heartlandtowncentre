@@ -376,10 +376,6 @@
     $("#popup_form").submit(function(e){
         e.preventDefault();
         if ($("#agree_terms").is(":checked")){
-            
-        } else {
-            alert("Please aggree to receive emails from Heartland Town Centre.")
-        }
             if (check_email("fieldEmail") == true){
                 $("#fieldtydytu").val($("#agree_terms").attr("value"));
                 $.getJSON(
@@ -397,6 +393,10 @@
             } else {
                 alert("Please enter a valid email address")
             }
+        } else {
+            alert("Please aggree to receive emails from Heartland Town Centre.")
+        }
+            
 
     });
 
