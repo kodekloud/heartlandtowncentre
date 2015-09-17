@@ -1,4 +1,9 @@
 <style>
+    .basic_content_right{
+        width:100%;
+        margin-left:0;
+    }
+
     @media (max-width: 767px) {
         #page_img{
             display:none;
