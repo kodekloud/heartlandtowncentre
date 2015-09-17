@@ -207,7 +207,7 @@
                             <button class="search_btn" onclick="toggle_search()"><img src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/ca1169dc611d37b7f705509f3b934a89/search.png" class="" alt=""></button>
                             <form id="newsletter_form">
                                 <button class="news_btn" type="submit"><img src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/ca1169dc611d37b7f705509f3b934a89/subscribe.png" class="" alt=""></button>
-                                <input id='desktop_email' type="text" placeholder="Enter to Subscribe" required/>
+                                <input id='desktop_email' type="text" placeholder="Subscribe to Newsletter" required/>
                             </form>
                         </div>
                         
