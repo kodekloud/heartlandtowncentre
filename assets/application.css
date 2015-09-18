@@ -509,6 +509,10 @@ textarea:focus, input:focus{
     pointer-events: none;
 }
 
+.bottom_block_img{
+    margin-right:0;
+}
+
 .bottom_block_img:first-child{
     margin-right:16px;
 }
