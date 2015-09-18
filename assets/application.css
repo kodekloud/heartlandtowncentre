@@ -1013,6 +1013,7 @@ textarea:focus, input:focus{
     .site_logo{
         margin-top:0;
         margin-left:10px;
+        height:60px;
     }
      
     .visible_icons, .desktop_menu, .bottom_nav{
