@@ -166,7 +166,7 @@
         
         
         
-        <button type='submit'>sumbit</button>    
+        <button type='submit'>submit</button>    
     </form>
 </div>
 <script>
