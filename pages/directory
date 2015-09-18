@@ -5,13 +5,13 @@
     }
 </style>
 <div class="tabs" id='top'>
-    <div class="tab_title" id="alpha_tab" onclick="javascript:toggle_tabs('alpha')">
+    <div class="tab_title" id="alpha_tab" onclick="javascript:toggle_tabs('alpha')" tabindex='1' onkeypress='javascript:toggle_tabs("alpha")'>
         Alphabetical
     </div>
     <div class="tab_triangle" id="alpha_triangle">
         &nbsp;
     </div>
-    <div class="tab_title" id="cat_tab" onclick="javascript:toggle_tabs('cat')">
+    <div class="tab_title" id="cat_tab" onclick="javascript:toggle_tabs('cat')" tabindex='2' onkeypress='javascript:toggle_tabs("cat")'>
         Categories
     </div>
     <div class="tab_triangle" id="cat_triangle">
