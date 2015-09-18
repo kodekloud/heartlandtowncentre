@@ -43,6 +43,9 @@ a:hover{
     
 }
 
+.accessible{
+    display:none;
+}
 .visible_icons button{
     padding:2px;
 }
