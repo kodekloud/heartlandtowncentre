@@ -345,7 +345,7 @@
                 
                 <div class='bottom_nav_column'>
                     <p class="bottom_nav_column_header">Explore</p>
-                    <table>
+                    <table role='presentation'>
                         <tr>
                             <td><a href='/directory'>Directory</a></td>
                             <td><a href='/pages/htc-centre-information'>Location</a></td>
