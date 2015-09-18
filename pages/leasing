@@ -166,7 +166,7 @@
         
         
         
-        <button type='submit'>submit</button>    
+        <button type='submit' class='leasing_submit'>submit</button>    
     </form>
 </div>
 <script>
