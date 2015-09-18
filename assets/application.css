@@ -807,15 +807,15 @@ textarea:focus, input:focus{
 }
 
 .contact_form button{
-    color: white;
     text-transform: uppercase;
     border: none;
-    width: 200px;
-    height: 28px;
     text-align: center;
     line-height: 28px;
-    font-size: 12px;
-    background:gray;
+    font-size: 14px;
+    height: 34px;
+    width: 220px;
+    background: #4A4A4A;
+    color: white;
     margin-left: auto;
     margin-right: auto;
     display: block;
