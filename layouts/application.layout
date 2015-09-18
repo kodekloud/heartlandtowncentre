@@ -137,6 +137,7 @@
                 
                     <div class='top_links'>
                         <div class='hidden_search'>
+                        <label for='search_input' style='display:none'>search input</label>
                             <input type='text' id='search_input' placeholder='Type here to search'/>
                             <button onclick="toggle_search()">X</button>
                             
