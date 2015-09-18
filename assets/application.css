@@ -49,6 +49,7 @@ a:hover{
 }
 .visible_icons button{
     padding:2px;
+    margin-right:-3px;
 }
 
 .newsletter_overlay{
