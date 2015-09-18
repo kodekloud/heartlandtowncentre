@@ -513,7 +513,7 @@ textarea:focus, input:focus{
     margin-right:0;
 }
 
-.bottom_block_img:first-child{
+.bottom_block .bottom_block_img:first-child{
     margin-right:16px;
 }
 
