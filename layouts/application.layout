@@ -104,7 +104,7 @@
         <div class='newsletter_overlay'>&nbsp;</div>    
         <div class="newsletter_container">
             <div class="newsletter_popup">
-                <p class='close_form' onclick="javascript:close_form()">X</p>
+                <p class='close_form' onclick="javascript:close_form()" onkeypress="javascript:close_form()" >X</p>
                 <div class="form_div">
                     <h1 class="newsletter_text">Sign up and Save!</h1>
                     <form id='popup_form'>
