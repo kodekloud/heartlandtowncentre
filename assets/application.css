@@ -43,20 +43,6 @@ a:hover{
     
 }
 
-.leasing_submit{
-    text-transform: uppercase;
-    border: none;
-    text-align: center;
-    line-height: 28px;
-    font-size: 14px;
-    height: 34px;
-    width: 220px;
-    background: #4A4A4A;
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
 
 .accessible{
     display:none;
