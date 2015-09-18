@@ -513,7 +513,7 @@ textarea:focus, input:focus{
     margin-right:0;
 }
 
-.bottom_block .bottom_block_img:nth-child(1){
+.bottom_block a:nth-child(1) img{
     margin-right:16px;
 }
 
