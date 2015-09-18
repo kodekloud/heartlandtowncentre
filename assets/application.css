@@ -371,7 +371,7 @@ a:hover{
 }
 
 .tw_btn{
-    margin-right: -5px;
+    /*margin-right: -5px;*/
 }
 
 textarea:focus, input:focus{
@@ -379,11 +379,11 @@ textarea:focus, input:focus{
 }
 
 .fb_btn{
-    margin-right:-4px;
+    /*margin-right:-4px;*/
 }
 
 .search_btn{
-    margin-right: -3px;
+    /*margin-right: -3px;*/
 }
 #newsletter_form input{
     vertical-align:middle;
