@@ -209,6 +209,7 @@
                             <button class="search_btn" onclick="toggle_search()"><img alt='search' src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/ca1169dc611d37b7f705509f3b934a89/search.png" class="" alt=""></button>
                             <form id="newsletter_form">
                                 <button class="news_btn" type="submit"><img alt='newsletter' src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/ca1169dc611d37b7f705509f3b934a89/subscribe.png" class="" alt=""></button>
+                                <label for='desktop_email' style="display:none">Email</label>
                                 <input id='desktop_email' type="text" placeholder="Enter to Subscribe" required/>
                             </form>
                         </div>
@@ -292,6 +293,7 @@
                             <button><img alt='search' src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/ca1169dc611d37b7f705509f3b934a89/search.png" ></button>
                             <form id="mobile_newsletter_form">
                                 <button type="submit"><img src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/ca1169dc611d37b7f705509f3b934a89/subscribe.png" class="" alt="newsletter"></button>
+                                <label for='mobile_email' style="display:none">Email</label>
                                 <input type="text" id='mobile_email' placeholder="Subscribe to Newsletter" required/>
                             </form>
                         </div>
