@@ -256,10 +256,7 @@
                     <div class='mobile_menu'>
                         <ul class='mobile_menu_ul'>
                             <li>
-                                <button onclick='toggle_mobile_submenu("directory")'>directory <i id='directory_icon' class="fa fa-plus"></i></button>
-                                <ul class="mobile_submenu" id='directory'>
-                                    <a href='/directory'><li>store directory</li></a>
-                                </ul>
+                                <button onclick="window.location.href='/directory'">directory</button>
                             </li>
                             <li>
                                 <button onclick="window.location.href='/map'">centre map</button>
