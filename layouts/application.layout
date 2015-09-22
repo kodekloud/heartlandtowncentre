@@ -225,10 +225,7 @@
                     <div class="desktop_menu">
                         <ul class="desktop_menu_ul">
                             <li>
-                                <button onclick='toggle_menu("dir")'>directory</button>
-                                <ul class="submenu" id='dir'>
-                                    <a href='/directory'><li>store directory</li></a>
-                                </ul>
+                                <button onclick="window.location.href='/directory'">Directory </button>
                             </li>
                             <li>
                                 <button onclick="window.location.href='/map'">centre map</button>
