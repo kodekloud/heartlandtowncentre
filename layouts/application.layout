@@ -204,7 +204,7 @@
                             
                         </div>
                         <div class="visible_icons">
-                        <button onclick="window.open('https://www.facebook.com/heartlandtowncentre')" class="inst_btn"><img alt='instagram' src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/c2a94e71bb95d9d0362b66407da795cd/instagram.png"></button>
+                        
                             <button onclick="window.open('https://www.facebook.com/heartlandtowncentre')" class="fb_btn"><img alt='facebook' src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/ca1169dc611d37b7f705509f3b934a89/facebook.png"></button>
                             <button onclick="window.open('https://twitter.com/Heartland_TC')" class="tw_btn"><img alt='twitter' src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/ca1169dc611d37b7f705509f3b934a89/twitter.png"/></button>
                             <button class="search_btn" onclick="toggle_search()"><img alt='search' src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/ca1169dc611d37b7f705509f3b934a89/search.png"></button>
