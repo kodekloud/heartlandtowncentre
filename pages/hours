@@ -17,7 +17,7 @@
 
 <h1>Shopping Hours</h1>
 <br>
-<p>Due to the nature of the Heartland Town Centre being a non-enclosed Shopping Centre the hours of operation vary. Please check the store's specific web page for their designated hours.  Please be advised that the Landlord observes holidays according to the Retail Business Holidays Act and our offices will be closed. We ask that the Retailers observe these holidays and remain closed as well. </p>
+<p>Due to the nature of the Heartland Town Centre being a non-enclosed Shopping Centre the hours of operation vary. Please check the store's specific web page for their designated hours.  Please be advised that the Landlord observes holidays according to the Retail Business Holidays Act and our offices will be closed. We ask that the Retailers observe these holidays and remain closed as well. </p><br>
 <h2>Regular Hours</h2>
 <table id="reg_table">
     <script id="reg_template" type="x-tmpl-mustache/text">
