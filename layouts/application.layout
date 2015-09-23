@@ -284,6 +284,9 @@
                                     <a href='/pages/htc-contact-us'><li>Contact Us</li></a>
                                 </ul>
                             </li>
+                            <li>
+                                <button onclick="window.location.href='/search'">search </button>
+                            </li>
                         </ul>
                         <div class='mobile_menu_footer_icons'>
                             <button onclick="window.open('https://www.facebook.com/heartlandtowncentre')"><img alt='facebook' src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/ca1169dc611d37b7f705509f3b934a89/facebook.png" ></button>
@@ -295,8 +298,6 @@
                                 <label for='mobile_email' style="display:none">Email</label>
                                 <input type="text" id='mobile_email' placeholder="Subscribe to Newsletter" required/>
                             </form>
-                            
-                            <button><img alt='search' src="http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/ca1169dc611d37b7f705509f3b934a89/search.png" ></button>
                         </div>
                        
                         
