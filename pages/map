@@ -69,7 +69,7 @@
         
         
         
-        function loadStoreSelect (stores){
+        function loadStoreSelect (){
             $("#store_select_container").append("<option default selected>test</option>")
         }
         
