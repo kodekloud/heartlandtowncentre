@@ -67,6 +67,12 @@
             $("#btnZoomOut").attr("src","http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/d265a41a593cf1363245cc6f49efd06b/zoom out.png")
         }
         
+        
+        
+        function loadStoreSelect (stores){
+            $("#store_select_container").append("<option default selected>test</option>")
+        }
+        
         function load_map(reg){
             map = $('#mapsvg').mapSvg({
                 source: getSVGMapURL(),    // Path to SVG map
