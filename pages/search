@@ -1,3 +1,9 @@
+<style>
+    .list-group{
+        background:black;
+    }
+</style>
+ 
  <div class='mobile_search'>
     <label for='mobile_search_input'>Search Terms:</label><br>
     <input type='text' id='mobile_search_input' placeholder='Type here to search'/>
