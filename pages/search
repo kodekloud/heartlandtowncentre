@@ -1,5 +1,5 @@
  <div class='mobile_search'>
-    <label for='mobile_search_input'>Search Terms:</br></label>
+    <label for='mobile_search_input'>Search Terms:</label><br>
     <input type='text' id='mobile_search_input' placeholder='Type here to search'/>
         <div class="search-results" id="mobile_search_results" style="display:none">
             <!-- START MUSTACHE TEMPLATE FOR EVENT ITEM WITH AN IMAGE-->
