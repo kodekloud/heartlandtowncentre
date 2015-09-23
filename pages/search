@@ -93,6 +93,7 @@
                     }
                     
                 } else {
+                    console.log("no stores")
                     $("#mobile_store_results_header").hide();
                 }
                 if (search_results["promotions"]){
