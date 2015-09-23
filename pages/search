@@ -5,6 +5,9 @@
     }
     
     @media (max-width: 767px){
+        .mobile_search{
+            display:block;
+        }
         .list-group{
             background:black;
         }
