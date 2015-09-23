@@ -341,7 +341,7 @@ a:hover{
 }
 .hidden_search{
     display:none;
-    width:314px;
+    width:331px;
     background:#2E2E2E;
     padding-left:15px;
     padding-right:15px;
@@ -360,7 +360,7 @@ a:hover{
 }
 
 .visible_icons{
-    width:355px;
+    width:auto;
 }
 
 .fb_btn,.tw_btn,.search_btn{
