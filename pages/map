@@ -61,7 +61,7 @@
                 }
             });
             renderPageData("#store_select_container","#store_select_template",stores, "stores")
-            loadStoreSelect()
+            prependDefaultToStoreSelect()
             $(".loading_overlay").hide();    
             load_map(regions)
             $("#btnZoomIn").attr("src","http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/d265a41a593cf1363245cc6f49efd06b/zoom in.png")
@@ -70,7 +70,7 @@
         
         
         
-        function loadStoreSelect (){
+        function prependDefaultToStoreSelect (){
             $("#store_select_container").prepend("<option default selected disabled>Please Select a Store</option>")
         }
         
