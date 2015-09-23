@@ -71,7 +71,7 @@
         
         
         function loadStoreSelect (){
-            $("#store_select_container").append("<option default selected>test</option>")
+            $("#store_select_container").prepend("<option default selected disabled>Please Select a Store</option>")
         }
         
         function load_map(reg){
