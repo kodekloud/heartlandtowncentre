@@ -10,7 +10,7 @@
         <div class="search-results" id="mobile_search_results" style="display:none">
             <!-- START MUSTACHE TEMPLATE FOR EVENT ITEM WITH AN IMAGE-->
             <script id="mobile_search_results_template" type="x-tmpl-mustache/text">
-                <h4 class="list-group-item search-results-count" id="mobile_stores_results_header" style="display:none;" data-i18n="nav.stores" onclick="javascript:show_results('mobile_store')">Stores</h4>
+                <h4 class="list-group-item search-results-count" id="mobile_stores_results_header" style="display:none;" data-i18n="nav.stores" onclick="javascript:show_results('mobile_store')"></h4>
                 <div class="results_div" id="mobile_store_results">
                     {{#stores}}
                     <a href="/directory/{{slug}}" class="list-group-item">
@@ -93,7 +93,6 @@
                     }
                     
                 } else {
-                    console.log("no stores")
                     $("#mobile_store_results_header").hide();
                 }
                 if (search_results["promotions"]){
