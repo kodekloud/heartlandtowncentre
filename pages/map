@@ -71,7 +71,7 @@
         
         
         function prependDefaultToStoreSelect (){
-            $("#store_select_container").prepend("<option default selected disabled>Please Select a Store</option>")
+            $("#store_select_container").prepend("<option default selected disabled>Select a Store</option>")
         }
         
         function load_map(reg){
