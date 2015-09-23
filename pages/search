@@ -5,7 +5,7 @@
             <!-- START MUSTACHE TEMPLATE FOR EVENT ITEM WITH AN IMAGE-->
             <script id="mobile_search_results_template" type="x-tmpl-mustache/text">
                 <small><h4 class="list-group-item search-results-count" id="mobile_stores_results_header" style="display:none;" data-i18n="nav.stores" onclick="javascript:show_mobile_results('store')"></h4></small>
-                <div class="results_div" id="mobile_store_results">
+                <div class="results_div" id="store_results">
                     {{#stores}}
                     <a href="/directory/{{slug}}" class="list-group-item">
                     <div class="result_container">
@@ -17,7 +17,7 @@
                     {{/stores}}
                     </div>
                     <h4 class="list-group-item search-results-count" id="mobie_promotions_results_header" style="display:none" data-i18n="nav.promotions" onclick="javascript:show_mobie_results('promo')"></h4>
-                    <div class="results_div" id="mobie_promo_results">
+                    <div class="results_div" id="promo_results">
                     {{#promotions}}
                     <a href="/promotions/{{slug}}" class="list-group-item">
                     <div class="result_container">
@@ -28,7 +28,7 @@
                     {{/promotions}}
                     </div>
                     <h4 class="list-group-item search-results-count" id="mobie_events_results_header" data-i18n="nav.events" onclick="javascript:show_mobie_results('event')"></h4>
-                    <div class="results_div" id="mobie_event_results">
+                    <div class="results_div" id="event_results">
                     {{#events}}
                     <a href="/events/{{slug}}" class="list-group-item">
                     <div class="result_container">
@@ -79,7 +79,7 @@
             }else{
                 var search_results = getSearchResults($('#mobile_search_input').val(),10,100);
                 $('.search-results-count').html("Total Results : "+search_results.summary.count);
-                renderSearchResultsTemplate('#mobile_search_results_template','#mobile_search_results_items',search_results);
+                renderSearchResultsTemplate('#mobile_search_results_template','#mobie_search_results_items',search_results);
                 if (search_results["stores"]){
                     if (search_results["stores"].length > 0){
                         $("#mobile_store_results_header").html(search_results["stores"].length+" Stores <i id='store_arrow' class='fa fa-chevron-right pull-right search_arrow'></i>") ;
