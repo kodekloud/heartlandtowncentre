@@ -88,8 +88,8 @@
                 renderSearchResultsTemplate('#mobile_search_results_template','#mobie_search_results_items',search_results);
                 if (search_results["stores"]){
                     if (search_results["stores"].length > 0){
-                        $("#mobile_store_results_header").html(search_results["stores"].length+" Stores <i id='mobile_store_arrow' class='fa fa-chevron-right pull-right search_arrow'></i>") ;
-                        $("#mobile_store_results_header").show();
+                        $("#mobile_stores_results_header").html(search_results["stores"].length+" Stores <i id='mobile_store_arrow' class='fa fa-chevron-right pull-right search_arrow'></i>") ;
+                        $("#mobile_stores_results_header").show();
                     }
                     
                 } else {
