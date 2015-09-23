@@ -3,7 +3,7 @@
     <input type='text' id='mobile_search_input' placeholder='Type here to search'/>
         <div class="search-results" id="mobile_search_results" style="display:none">
             <!-- START MUSTACHE TEMPLATE FOR EVENT ITEM WITH AN IMAGE-->
-            <script id="mobile_search_results_template" type="x-tmpl-mustache/text">{% raw %}
+            <script id="mobile_search_results_template" type="x-tmpl-mustache/text">
                 <small><h4 class="list-group-item search-results-count" id="mobile_stores_results_header" style="display:none;" data-i18n="nav.stores" onclick="javascript:show_mobile_results('store')"></h4></small>
                 <div class="results_div" id="mobile_store_results">
                     {{#stores}}
@@ -38,7 +38,7 @@
                     </a>
                     {{/events}}
                 </div>
-            </script>{% endraw %}
+            </script>
             
             <ul class="list-group" >
             
