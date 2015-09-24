@@ -3,7 +3,7 @@
         width:230px;
     }
     #page_img{
-        width:169px;
+        width:162px;
     }
     @media (max-width: 767px) {
         #page_img{
