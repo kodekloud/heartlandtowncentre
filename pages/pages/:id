@@ -71,6 +71,15 @@ $(document).ready(function() {
         } else if (slug == 'htc-leasing'){
             $("#custom_page_header").html("Leasing")
             $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpg");
+        } else if (slug == 'htc-accessibility'){
+            $("#custom_page_header").html("Accessibility")
+            $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpg");
+        } else if (slug == 'htc-terms-and-conditions'){
+            $("#custom_page_header").html("Terms & Conditions")
+            $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpg");
+        } else if (slug == 'htc-privacy-policy'){
+            $("#custom_page_header").html("Privacy Policy")
+            $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpg");
         } else if (slug == 'htc-services'){
             $("#custom_page_header").html("Guest Services")
             $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpg");
