@@ -72,6 +72,7 @@ $(document).ready(function() {
             $("#custom_page_header").html("Leasing")
             $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpg");
             $("#page_img").attr("src","")
+            // $("#page_img").hide();
         } else if (slug == 'htc-accessibility'){
             $("#custom_page_header").html("Accessibility")
             $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpg");
