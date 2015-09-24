@@ -71,27 +71,35 @@ $(document).ready(function() {
         } else if (slug == 'htc-leasing'){
             $("#custom_page_header").html("Leasing")
             $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpg");
+            $("#page_img").attr("src","")
         } else if (slug == 'htc-accessibility'){
             $("#custom_page_header").html("Accessibility")
             $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpg");
+            $("#page_img").attr("src","")
         } else if (slug == 'htc-terms-and-conditions'){
             $("#custom_page_header").html("Terms & Conditions")
             $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpg");
+            $("#page_img").attr("src","")
         } else if (slug == 'htc-privacy-policy'){
             $("#custom_page_header").html("Privacy P")
             $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpg");
+            $("#page_img").attr("src","")
         } else if (slug == 'htc-services'){
             $("#custom_page_header").html("Guest Services")
             $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpg");
+            $("#page_img").attr("src","")
         } else if (slug == 'htc-gift-cards'){
             $("#custom_page_header").html("Gift Cards")
             $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpg");
+            $("#page_img").attr("src","")
         } else if (slug == 'htc-contact-us'){
             $("#custom_page_header").html("Contact Us")
             $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpg");
+            $("#page_img").attr("src","")
         } else {
             $("#custom_page_header").html("Default")
             $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpgg");
+            $("#page_img").attr("src","")
         }
 
 
@@ -99,7 +107,7 @@ $(document).ready(function() {
             document.title = data.title;
             $("#page_title").html(data.title)
             $('#page_body').html(data.body);
-            $("#page_img").attr("src",data.image_url)
+            
         }).fail(function(jqXHR) {
             if (jqXHR.status == 404) {
                 $("#404_msg").fadeIn("fast");
