@@ -1107,7 +1107,7 @@ textarea:focus, input:focus{
         padding:2px;
     }
     .basic_content_box img{
-        display:none;
+        /*display:none;*/
     }
     .google_map_div, .basic_content_right, #page_img{
         width:95%;
