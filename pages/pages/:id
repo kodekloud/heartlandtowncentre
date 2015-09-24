@@ -1,6 +1,6 @@
 <style>
     .uploaded-img-responsive{
-        
+        width:230px;
     }
     @media (max-width: 767px) {
         #page_img{
