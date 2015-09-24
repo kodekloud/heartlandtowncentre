@@ -102,7 +102,7 @@ $(document).ready(function() {
         } else if (slug == 'htc-gift-cards'){
             $("#custom_page_header").html("Gift Cards")
             $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpg");
-            $("#page_img").hide()
+            $("#page_img").attr("src","http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/df4ca5d08c4181ab1efb76fa1dee30b0/default_pages.jpg")
         } else if (slug == 'htc-contact-us'){
             $("#custom_page_header").html("Contact Us")
             $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpg");
