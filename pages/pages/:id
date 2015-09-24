@@ -7,6 +7,10 @@
             /*display:none;*/
         }  
         
+        .uploaded-img-responsive{
+            
+        }
+        
         h1 {
             width: 95%;
             display: block;
