@@ -1,7 +1,7 @@
 <style>
     @media (max-width: 767px) {
         #page_img{
-            
+            display:none;
         }  
         
         h1 {
