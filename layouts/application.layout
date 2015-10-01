@@ -227,6 +227,9 @@
                     <div class="desktop_menu">
                         <ul class="desktop_menu_ul">
                             <li>
+                                <button onclick="window.location.href='/home'">Home</button>
+                            </li>
+                            <li>
                                 <button onclick="window.location.href='/directory'">Directory </button>
                             </li>
                             <li>
@@ -258,6 +261,9 @@
                     
                     <div class='mobile_menu'>
                         <ul class='mobile_menu_ul'>
+                            <li>
+                                <button onclick="window.location.href='/home'">Home</button>
+                            </li>
                             <li>
                                 <button onclick="window.location.href='/directory'">directory</button>
                             </li>
