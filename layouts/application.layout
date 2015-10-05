@@ -301,6 +301,9 @@
                                 </ul>
                             </li>
                             <li>
+                                <button onclick="window.location.href='/'">Download App</button>
+                            </li>
+                            <li>
                                 <button onclick="window.location.href='/search'">search </button>
                             </li>
                         </ul>
