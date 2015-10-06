@@ -284,14 +284,9 @@
                                 <button onclick="window.location.href='/promotions'">promotions </button>
                             </li>
                             <li>
-                                <button onclick='toggle_mobile_submenu("location")'>location <i id='location_icon' class="fa fa-plus"></i></button>
-                                <ul class="mobile_submenu" id='location'>
-                                    <!--<a href='/pages/htc-gift-cards'><li>Gift Cards</li></a>-->
-                                    <!--<a href='/pages/htc-services'><li>services</li></a>-->
-                                    
-                                    <a href='/pages/htc-centre-information'><li>location</li></a>
-                                </ul>
+                                <button onclick="window.location.href='/pages/htc-centre-information'">location </button>
                             </li>
+                            
                             <li>
                                 <button onclick='toggle_mobile_submenu("about2")'>about us <i id='about2_icon' class="fa fa-plus"></i></button>
                                 <ul class="mobile_submenu" id='about2'>
