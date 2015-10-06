@@ -251,8 +251,8 @@
                             <li>
                                 <button onclick='toggle_menu("loc")'>location</button>
                                 <ul class="submenu" id='loc'>
-                                    <a href='/pages/htc-gift-cards'><li>Gift Cards</li></a>
-                                    <a href='/pages/htc-services'><li>services</li></a>
+                                    <!--<a href='/pages/htc-gift-cards'><li>Gift Cards</li></a>-->
+                                    <!--<a href='/pages/htc-services'><li>services</li></a>-->
                                     
                                     <a href='/pages/htc-centre-information'><li>location</li></a>
                                 </ul>
@@ -286,8 +286,8 @@
                             <li>
                                 <button onclick='toggle_mobile_submenu("location")'>location <i id='location_icon' class="fa fa-plus"></i></button>
                                 <ul class="mobile_submenu" id='location'>
-                                    <a href='/pages/htc-gift-cards'><li>Gift Cards</li></a>
-                                    <a href='/pages/htc-services'><li>services</li></a>
+                                    <!--<a href='/pages/htc-gift-cards'><li>Gift Cards</li></a>-->
+                                    <!--<a href='/pages/htc-services'><li>services</li></a>-->
                                     
                                     <a href='/pages/htc-centre-information'><li>location</li></a>
                                 </ul>
