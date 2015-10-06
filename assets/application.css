@@ -833,6 +833,10 @@ textarea:focus, input:focus{
 
  @media (max-width: 767px) {
      
+    .header_container{
+        height:90px;
+    }
+     
     .newsletter_popup{
         width:90%;
         height:auto;
