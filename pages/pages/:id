@@ -85,27 +85,27 @@ $(document).ready(function() {
             // $("#page_img").hide();
         } else if (slug == 'htc-accessibility'){
             $("#custom_page_header").html("Accessibility")
-            $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpg");
+            $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/image/jpeg/1444148732000/Banner_Accessibility.jpg");
             $("#page_img").attr("src","http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/df4ca5d08c4181ab1efb76fa1dee30b0/default_pages.jpg")
         } else if (slug == 'htc-terms-and-conditions'){
             $("#custom_page_header").html("Terms & Conditions")
-            $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpg");
+            $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/image/jpeg/1444148712000/Banner_Terms.jpg");
             $("#page_img").attr("src","http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/df4ca5d08c4181ab1efb76fa1dee30b0/default_pages.jpg")
         } else if (slug == 'htc-privacy-policy'){
             $("#custom_page_header").html("Privacy Policy")
-            $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpg");
+            $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/image/jpeg/1444148748000/Banner_Privacy.jpg");
             $("#page_img").attr("src","http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/df4ca5d08c4181ab1efb76fa1dee30b0/default_pages.jpg")
         } else if (slug == 'htc-services'){
             $("#custom_page_header").html("Guest Services")
-            $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpg");
+            $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/image/jpeg/1444149882000/Banner_gift_and_services.jpg");
             $("#page_img").attr("src","http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/df4ca5d08c4181ab1efb76fa1dee30b0/default_pages.jpg")
         } else if (slug == 'htc-gift-cards'){
             $("#custom_page_header").html("Gift Cards")
-            $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpg");
+            $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/image/jpeg/1444149882000/Banner_gift_and_services.jpg");
             $("#page_img").attr("src","http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/df4ca5d08c4181ab1efb76fa1dee30b0/default_pages.jpg")
         } else if (slug == 'htc-contact-us'){
             $("#custom_page_header").html("Contact Us")
-            $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/14dae680c402975cb3909282b7f8b424/default.jpg");
+            $("#custom_page_img").attr("src", "http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/image/jpeg/1444148784000/Banner_Contact.jpg");
             $("#page_img").attr("src","http://assets.kodekloud.io/sites/55ddf3f86e6f640775000000/df4ca5d08c4181ab1efb76fa1dee30b0/default_pages.jpg")
         } else if (slug == 'htc-hours'){
             $("#custom_page_header").html("Shopping Hours")
